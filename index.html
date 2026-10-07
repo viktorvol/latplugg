@@ -251,6 +251,11 @@ dialog::backdrop{background:rgba(10,14,24,.7)}
     </ol>
     <button class="secondary" id="copySnippet" style="width:100%">Kopiera koden</button>
 
+    <h3>Felsökning</h3>
+    <p>Testar om telefonen når Apples låtsök.</p>
+    <button class="secondary" id="netTest" style="width:100%">Testa anslutningen till Apple</button>
+    <p id="netResult" style="margin-top:10px"></p>
+
     <h3>Framsteg</h3>
     <p>Framstegen sparas i den här webbläsaren. Exportera en backup om du vill flytta dem till en annan enhet.</p>
     <div class="stack">
@@ -406,6 +411,16 @@ function jsonp(url){
     document.head.append(s);
   });
 }
+let lastNetErr="";
+async function itunes(url){
+  try{
+    const r=await fetch(url,{mode:"cors",cache:"no-store"});
+    if(r.ok){ lastNetErr=""; return await r.json(); }
+    lastNetErr="Apple svarade med felkod "+r.status;
+  }catch(e){ lastNetErr="Direktanrop misslyckades ("+(e.message||e)+")"; }
+  try{ const d=await jsonp(url); lastNetErr=""; return d; }
+  catch(e){ lastNetErr+=(lastNetErr?". ":"")+"Reservanrop misslyckades ("+e.message+")"; throw e; }
+}
 function scoreHit(s,h){
   let sc=0;
   if(artistMatch(h.artistName||"",s.artist) || artistMatch(s.artist,h.artistName||"")) sc+=4;
@@ -417,7 +432,7 @@ function scoreHit(s,h){
 }
 async function searchHits(s, limit=10){
   const term=encodeURIComponent(`${s.artist} ${s.title}`);
-  const d=await jsonp(`https://itunes.apple.com/search?term=${term}&country=${COUNTRY}&media=music&entity=song&limit=${limit}`);
+  const d=await itunes(`https://itunes.apple.com/search?term=${term}&country=${COUNTRY}&media=music&entity=song&limit=${limit}`);
   return (d.results||[]).filter(h=>h.previewUrl);
 }
 async function resolveSongs(list){
@@ -427,7 +442,7 @@ async function resolveSongs(list){
   for(let i=0;i<withId.length;i+=150){
     const chunk=withId.slice(i,i+150);
     try{
-      const d=await jsonp(`https://itunes.apple.com/lookup?id=${chunk.map(s=>s.trackId).join(",")}&country=${COUNTRY}&entity=song`);
+      const d=await itunes(`https://itunes.apple.com/lookup?id=${chunk.map(s=>s.trackId).join(",")}&country=${COUNTRY}&entity=song`);
       const map={}; (d.results||[]).forEach(h=>{ if(h.previewUrl) map[h.trackId]=h; });
       chunk.forEach(s=>{ const h=map[s.trackId]; if(h) R[s.key]={tid:h.trackId,url:h.previewUrl}; });
     }catch(e){}
@@ -560,7 +575,7 @@ async function startRound(){
   try{ await resolveSongs(songs); } finally { btn.disabled=again.disabled=false; btn.textContent=old; again.textContent="Ny runda"; }
   const playable=songs.filter(s=>R[s.key]&&R[s.key].url);
   const missing=songs.length-playable.length;
-  if(!playable.length){ toast("Kunde inte hämta några ljudklipp. Kontrollera nätet och försök igen."); return; }
+  if(!playable.length){ toast("Kunde inte hämta några ljudklipp."+(lastNetErr?" "+lastNetErr+".":"")); return; }
   if(missing) toast(`${missing} låtar saknade klipp och togs bort ur rundan.`);
   round={queue:playable.map(s=>({s,retry:false})), i:0, firstCount:playable.length, results:[]};
   show("play"); nextCard(true);
@@ -731,6 +746,16 @@ $("copySnippet").onclick=async()=>{
   catch(e){ $("songsIn").value=code; $("songsIn").select(); toast("Kopiera koden från rutan och töm den sedan."); }
 };
 $("importSongs").onclick=importSongs;
+$("netTest").onclick=async()=>{
+  const out=$("netResult"); out.textContent="Testar…";
+  const url="https://itunes.apple.com/search?term=queen%20bohemian%20rhapsody&country="+COUNTRY+"&media=music&entity=song&limit=3";
+  const lines=[];
+  try{ const r=await fetch(url,{mode:"cors",cache:"no-store"}); lines.push("Direktanrop: "+(r.ok?"fungerar ("+((await r.json()).resultCount)+" träffar)":"felkod "+r.status)); }
+  catch(e){ lines.push("Direktanrop: misslyckades ("+(e.message||e)+")"); }
+  try{ const d=await jsonp(url); lines.push("Reservanrop: fungerar ("+d.resultCount+" träffar)"); }
+  catch(e){ lines.push("Reservanrop: misslyckades ("+e.message+")"); }
+  out.textContent=lines.join(" · ");
+};
 $("clearSongs").onclick=clearSongs;
 $("exportBtn").onclick=exportBackup;
 $("importBtn").onclick=()=>$("importFile").click();
