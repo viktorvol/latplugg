@@ -81,7 +81,7 @@ async function run(){
   }
 
   /* 2. Låtar helt utan ljud: sök en i taget */
-  const todo=songs.filter(s=>!info(s).url);
+  const todo=songs.filter(s=>!info(s).url || !info(s).art);
   for(let i=0;i<todo.length && running;i++){
     const s=todo[i];
     st.textContent=`Söker ${i+1} av ${todo.length}: ${s.artist} - ${s.title}`;
@@ -89,7 +89,7 @@ async function run(){
     let h=null;
     try{ h=await bestHit(s); }
     catch(e){ st.textContent="Apple svarar inte. Väntar en minut och försöker igen…"; await sleep(60000); try{ h=await bestHit(s); }catch(e2){} }
-    if(h) setInfo(s,hitToRes(h));
+    if(h){ const had=info(s); setInfo(s, had.url && had.tid ? {art:bigArt(h.artworkUrl100)} : hitToRes(h)); }
     await sleep(3200);
   }
   bar.style.width="100%";
