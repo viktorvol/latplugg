@@ -189,7 +189,7 @@ header{display:flex;align-items:center;justify-content:space-between;padding:6px
         <ul class="ac hidden" id="titleAc" role="listbox"></ul>
       </div>
       <div class="answerrow">
-        <button class="primary" id="submitBtn">Svara</button>
+        <button class="primary" id="submitBtn">Gissa</button>
         <button class="secondary" id="dunnoBtn">Vet inte</button>
       </div>
     </div>
@@ -264,6 +264,9 @@ async function resolveSongs(list){
 function uniqSorted(arr){ const m=new Map(); arr.forEach(x=>{ const k=fold(x).trim(); if(k && !m.has(k)) m.set(k,x); }); return [...m.values()].sort((a,b)=>a.localeCompare(b,"sv")); }
 let artistOptions=[], titleOptions=[];
 function rebuildOptions(){ artistOptions=uniqSorted(SONGS.map(s=>s.artist)); titleOptions=uniqSorted(SONGS.map(s=>s.title)); }
+/* Spärr så att ett tryck i förslagslistan aldrig räknas som ett tryck på knappen under den */
+let submitLockedUntil=0;
+function lockSubmit(){ submitLockedUntil=Date.now()+600; }
 function setupAC(input, list, getOpts){
   let items=[], idx=-1;
   function hide(){ list.classList.add("hidden"); input.setAttribute("aria-expanded","false"); idx=-1; }
@@ -282,15 +285,17 @@ function setupAC(input, list, getOpts){
       li.append(it.o.slice(0,it.pos));
       const mk=document.createElement("mark"); mk.textContent=it.o.slice(it.pos,it.pos+q.length); li.append(mk);
       li.append(it.o.slice(it.pos+q.length));
-      li.addEventListener("pointerdown",e=>{ e.preventDefault(); pick(i); });
+      li.addEventListener("pointerdown",e=>{ e.preventDefault(); lockSubmit(); });
+      li.addEventListener("mousedown",e=>e.preventDefault());
+      li.addEventListener("click",e=>{ e.preventDefault(); e.stopPropagation(); pick(i); });
       list.append(li);
     });
     idx=-1; list.classList.remove("hidden"); input.setAttribute("aria-expanded","true");
   }
   function hl(){ [...list.children].forEach((li,i)=>li.classList.toggle("on",i===idx)); if(idx>=0) list.children[idx].scrollIntoView({block:"nearest"}); }
-  function pick(i){ input.value=items[i].o; hide(); }
+  function pick(i){ lockSubmit(); input.value=items[i].o; hide(); }
   input.addEventListener("input",render);
-  input.addEventListener("blur",()=>setTimeout(hide,120));
+  input.addEventListener("blur",()=>setTimeout(hide,350));
   input.addEventListener("keydown",e=>{
     const open=!list.classList.contains("hidden");
     if(e.key==="ArrowDown"&&open){ e.preventDefault(); idx=Math.min(idx+1,items.length-1); hl(); }
@@ -407,7 +412,7 @@ function revealCover(){
   img.src=art;
 }
 function submit(dunno){
-  if(answered) return; answered=true; acA.hide(); acT.hide();
+  if(answered || Date.now()<submitLockedUntil) return; answered=true; acA.hide(); acT.hide();
   const s=current.s, aIn=dunno?"":$("artistIn").value.trim(), tIn=dunno?"":$("titleIn").value.trim();
   const aOk=artistMatch(aIn,s.artist), tOk=isMatch(tIn,s.title);
   if(!current.retry){ grade(s,aOk,tOk); round.results.push({s,aOk,tOk}); if(!(aOk&&tOk)) round.queue.push({s,retry:true}); }
