@@ -251,6 +251,15 @@ dialog::backdrop{background:rgba(10,14,24,.7)}
     </ol>
     <button class="secondary" id="copySnippet" style="width:100%">Kopiera koden</button>
 
+    <h3>Ljudlänkar till songs.txt</h3>
+    <p>Gör det här på en dator. Appen letar upp ljudklippen hos Apple och skapar en ny songs.txt där varje låt har sin ljudlänk. Då behöver telefonen aldrig söka själv. Apple tillåter ungefär 20 sökningar i minuten, så det tar några sekunder per ny låt. Låtar som redan har en länk går fort.</p>
+    <div class="stack">
+      <button class="secondary" id="buildLinks">Skapa songs.txt med ljudlänkar</button>
+      <p id="buildStatus" style="margin:0"></p>
+      <textarea id="buildOut" class="hidden" readonly></textarea>
+      <button class="primary hidden" id="copyOut">Kopiera den nya songs.txt</button>
+    </div>
+
     <h3>Felsökning</h3>
     <p>Testar om telefonen når Apples låtsök.</p>
     <button class="secondary" id="netTest" style="width:100%">Testa anslutningen till Apple</button>
@@ -357,7 +366,7 @@ function norm(s){
   return fold(s).replace(/\s*[(\[].*?[)\]]/g,"").replace(/\s(feat|ft|featuring|with)\.?\s.*$/,"")
     .replace(/&/g," and ").replace(/^the\s+/,"").replace(/[^a-z0-9]/g,"");
 }
-function songKey(s){ return s.trackId ? "t"+s.trackId : "n"+norm(s.artist)+"|"+norm(s.title); }
+function songKey(s){ return "n"+norm(s.artist)+"|"+norm(s.title); }
 function lev(a,b){
   const m=a.length,n=b.length; if(!m) return n; if(!n) return m;
   let prev=Array.from({length:n+1},(_,i)=>i);
@@ -377,11 +386,13 @@ function prepSongs(list){
     if(!x || !x.artist || !x.title) continue;
     const s={artist:String(x.artist).trim(), title:cleanTitle(String(x.title))};
     if(x.trackId && /^\d+$/.test(String(x.trackId))) s.trackId=Number(x.trackId);
+    if(x.preview && /^https:\/\//.test(x.preview)) s.preview=String(x.preview);
     s.key=songKey(s);
     if(seen.has(s.key)) continue; seen.add(s.key); out.push(s);
   }
   return out;
 }
+var R = null;
 let stored = load(K_SONGS);
 let LOCAL_RAW = Array.isArray(stored) ? stored : [];
 let REMOTE_RAW = load("latplugg_remote_cache") || [];
@@ -391,10 +402,16 @@ function combineSongs(){
   SONGS = prepSongs([...BUILTIN_SONGS, ...REMOTE_RAW, ...LOCAL_RAW]);
   usingDemo = !SONGS.length;
   if(usingDemo) SONGS = prepSongs(DEMO_SONGS);
+  if(R) seedAudio();
+}
+/* Ljudlänkar som står i songs.txt används direkt, utan sökning hos Apple */
+function seedAudio(){
+  for(const s of SONGS) if(s.preview && !(R[s.key] && R[s.key].manual)) R[s.key]={tid:s.trackId,url:s.preview};
 }
 combineSongs();
 let P = load(K_PROG) || {}; P.cards=P.cards||{}; P.skip=P.skip||{};
-let R = load(K_RES) || {};
+var R = load(K_RES) || {};
+seedAudio();
 const saveProg = () => save(K_PROG,P);
 const saveRes = () => save(K_RES,R);
 
@@ -632,14 +649,14 @@ async function showAlternatives(){
   const li0=document.createElement("li"); li0.textContent="Söker…"; li0.style.color="var(--muted)"; ul.append(li0);
   let hits=[]; try{ hits=await searchHits(current.s,8); }catch(e){}
   ul.textContent="";
-  if(!hits.length){ const li=document.createElement("li"); li.textContent="Hittade inga andra versioner."; li.style.color="var(--muted)"; ul.append(li); return; }
+  if(!hits.length){ const li=document.createElement("li"); li.textContent= lastNetErr ? "Kan inte söka hos Apple från den här enheten. Byt version på datorn i stället." : "Hittade inga andra versioner."; li.style.color="var(--muted)"; ul.append(li); return; }
   const s=current.s;
   hits.forEach(h=>{
     const li=document.createElement("li"), b=document.createElement("button");
     b.textContent=`${h.trackName} – ${h.artistName}`;
     const sm=document.createElement("small"); sm.textContent=h.collectionName||""; b.append(sm);
     if(R[s.key]&&R[s.key].tid===h.trackId) b.classList.add("cur");
-    b.onclick=()=>{ R[s.key]={tid:h.trackId,url:h.previewUrl}; saveRes(); [...ul.querySelectorAll("button")].forEach(x=>x.classList.remove("cur")); b.classList.add("cur"); loadAudio(h.previewUrl); audio.play().catch(()=>{}); toast("Versionen är sparad för låten."); };
+    b.onclick=()=>{ R[s.key]={tid:h.trackId,url:h.previewUrl,manual:true}; saveRes(); [...ul.querySelectorAll("button")].forEach(x=>x.classList.remove("cur")); b.classList.add("cur"); loadAudio(h.previewUrl); audio.play().catch(()=>{}); toast("Versionen är sparad för låten."); };
     li.append(b); ul.append(li);
   });
 }
@@ -674,9 +691,14 @@ function renderSettings(){
 function parseSongInput(text){
   text=text.trim(); if(!text) return [];
   if(text.startsWith("[")){ try{ return JSON.parse(text); }catch(e){ return null; } }
-  return text.split(/\r?\n/).map(l=>{
+  return text.split(/\r?\n/).map(line=>{
+    const parts=line.split(/\s+\|\s+/), l=parts[0];
     const m=l.trim().match(/^(.+?)\s+[-–—]\s+(.+)$/) || l.split("\t").length>1 && [0,...l.split("\t")];
-    return m ? {artist:m[1],title:m[2]} : null;
+    if(!m) return null;
+    const o={artist:m[1],title:m[2]};
+    if(parts[1] && /^\d+$/.test(parts[1].trim())) o.trackId=parts[1].trim();
+    if(parts[2] && /^https:\/\//.test(parts[2].trim())) o.preview=parts[2].trim();
+    return o;
   }).filter(Boolean);
 }
 function importSongs(){
@@ -746,6 +768,36 @@ $("copySnippet").onclick=async()=>{
   catch(e){ $("songsIn").value=code; $("songsIn").select(); toast("Kopiera koden från rutan och töm den sedan."); }
 };
 $("importSongs").onclick=importSongs;
+let building=false;
+$("buildLinks").onclick=async()=>{
+  if(building){ building=false; return; }
+  building=true; const btn=$("buildLinks"), st=$("buildStatus"); btn.textContent="Avbryt";
+  const list=SONGS.slice(); let done=0, found=0, missing=[];
+  for(const s of list){
+    if(!building) break;
+    let r=R[s.key];
+    if(!(r && r.url)){
+      st.textContent=`Söker ${done+1} av ${list.length}: ${s.artist} - ${s.title}`;
+      try{
+        const hits=await searchHits(s);
+        const best=hits.map(h=>({h,sc:scoreHit(s,h)})).sort((a,b)=>b.sc-a.sc)[0];
+        if(best && best.sc>=4){ R[s.key]={tid:best.h.trackId,url:best.h.previewUrl}; saveRes(); }
+      }catch(e){ st.textContent="Apple svarar inte just nu. Väntar en minut och försöker igen…"; await sleep(60000); try{ const hits=await searchHits(s); const best=hits.map(h=>({h,sc:scoreHit(s,h)})).sort((a,b)=>b.sc-a.sc)[0]; if(best&&best.sc>=4){ R[s.key]={tid:best.h.trackId,url:best.h.previewUrl}; saveRes(); } }catch(e2){} }
+      await sleep(3200);
+      r=R[s.key];
+    }
+    if(r && r.url) found++; else missing.push(`${s.artist} - ${s.title}`);
+    done++;
+  }
+  const lines=SONGS.map(s=>{ const r=R[s.key]; return r&&r.url ? `${s.artist} - ${s.title} | ${r.tid||""} | ${r.url}` : `${s.artist} - ${s.title}`; });
+  $("buildOut").value=lines.join("\n"); $("buildOut").classList.remove("hidden"); $("copyOut").classList.remove("hidden");
+  st.textContent = (building?"Klart. ":"Avbrutet. ") + `${found} låtar har ljudlänk.` + (missing.length?` Utan klipp: ${missing.slice(0,8).join(", ")}${missing.length>8?" med flera":""}.`:"");
+  building=false; btn.textContent="Skapa songs.txt med ljudlänkar";
+};
+$("copyOut").onclick=async()=>{
+  try{ await navigator.clipboard.writeText($("buildOut").value); toast("Kopierat. Ersätt innehållet i songs.txt på GitHub."); }
+  catch(e){ $("buildOut").select(); toast("Markera texten och kopiera den."); }
+};
 $("netTest").onclick=async()=>{
   const out=$("netResult"); out.textContent="Testar…";
   const url="https://itunes.apple.com/search?term=queen%20bohemian%20rhapsody&country="+COUNTRY+"&media=music&entity=song&limit=3";
