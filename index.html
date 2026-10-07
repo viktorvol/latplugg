@@ -360,7 +360,8 @@ function lev(a,b){
   return prev[n];
 }
 function close(a,b){ if(!a) return false; if(a===b) return true; const tol=b.length>12?2:b.length>5?1:0; return lev(a,b)<=tol; }
-function isMatch(input, answer){ return close(norm(input), norm(answer)); }
+function normKeep(s){ return fold(s).replace(/\s(feat|ft|featuring|with)\.?\s.*$/,"").replace(/&/g," and ").replace(/^the\s+/,"").replace(/[^a-z0-9]/g,""); }
+function isMatch(input, answer){ return close(norm(input), norm(answer)) || close(normKeep(input), normKeep(answer)); }
 function artistParts(a){ return [a, ...a.split(/\s*(?:,|&|\band\b|\bx\b|\bfeat\.?|\bft\.?|\bwith\b)\s*/i)].map(x=>x.trim()).filter(Boolean); }
 function artistMatch(input, answer){ const n=norm(input); return artistParts(answer).some(p=>close(n,norm(p))); }
 
@@ -377,9 +378,16 @@ function prepSongs(list){
   return out;
 }
 let stored = load(K_SONGS);
+let LOCAL_RAW = Array.isArray(stored) ? stored : [];
+let REMOTE_RAW = load("latplugg_remote_cache") || [];
 let usingDemo = false;
-let SONGS = prepSongs(Array.isArray(stored) && stored.length ? stored : BUILTIN_SONGS);
-if(!SONGS.length){ SONGS = prepSongs(DEMO_SONGS); usingDemo = true; }
+let SONGS = [];
+function combineSongs(){
+  SONGS = prepSongs([...BUILTIN_SONGS, ...REMOTE_RAW, ...LOCAL_RAW]);
+  usingDemo = !SONGS.length;
+  if(usingDemo) SONGS = prepSongs(DEMO_SONGS);
+}
+combineSongs();
 let P = load(K_PROG) || {}; P.cards=P.cards||{}; P.skip=P.skip||{};
 let R = load(K_RES) || {};
 const saveProg = () => save(K_PROG,P);
@@ -645,7 +653,8 @@ function finishRound(){
 /* ---------- Settings ---------- */
 function toast(msg){ const t=document.createElement("div"); t.className="toast"; t.textContent=msg; document.body.append(t); setTimeout(()=>t.remove(),2800); }
 function renderSettings(){
-  $("listInfo").textContent = usingDemo ? `Just nu används en demolista med ${SONGS.length} låtar.` : `Listan innehåller ${SONGS.length} låtar.`;
+  $("listInfo").textContent = usingDemo ? `Just nu används en demolista med ${SONGS.length} låtar.` :
+    `Listan innehåller ${SONGS.length} låtar: ${prepSongs(REMOTE_RAW).length} från songs.txt och ${prepSongs(LOCAL_RAW).length} tillagda på den här enheten.`;
 }
 function parseSongInput(text){
   text=text.trim(); if(!text) return [];
@@ -660,23 +669,21 @@ function importSongs(){
   if(parsed===null){ toast("Listan gick inte att läsa. Klistra in hela resultatet från koden."); return; }
   const add=prepSongs(parsed);
   if(!add.length){ toast("Hittade inga låtar. Skriv en per rad som Artist - Titel."); return; }
-  const base=usingDemo?[]:SONGS, keys=new Set(base.map(s=>s.key));
+  const keys=new Set((usingDemo?[]:SONGS).map(s=>s.key));
   const fresh=add.filter(s=>!keys.has(s.key));
-  SONGS=[...base,...fresh]; usingDemo=false;
-  save(K_SONGS,SONGS.map(({key,...s})=>s)); rebuildOptions();
+  LOCAL_RAW=[...LOCAL_RAW, ...fresh.map(({key,...s})=>s)];
+  save(K_SONGS,LOCAL_RAW); combineSongs(); rebuildOptions();
   $("songsIn").value=""; renderSettings(); renderHome();
   toast(`${fresh.length} nya låtar tillagda.`);
   resolveSongs(fresh.filter(s=>s.trackId)).catch(()=>{});
 }
 function clearSongs(){
-  if(!confirm("Tömma låtlistan? Dina framsteg sparas om du lägger in samma låtar igen.")) return;
+  if(!confirm("Ta bort låtarna du har lagt in på den här enheten? Låtarna i songs.txt ligger kvar, och framstegen sparas.")) return;
   try{ localStorage.removeItem(K_SONGS); }catch(e){}
-  SONGS=prepSongs(BUILTIN_SONGS); usingDemo=false;
-  if(!SONGS.length){ SONGS=prepSongs(DEMO_SONGS); usingDemo=true; }
-  rebuildOptions(); renderSettings(); renderHome();
+  LOCAL_RAW=[]; combineSongs(); rebuildOptions(); renderSettings(); renderHome();
 }
 function exportBackup(){
-  const data={app:"latplugg",v:2,exported:new Date().toISOString(),progress:P,audio:R,songs:usingDemo?null:SONGS.map(({key,...s})=>s)};
+  const data={app:"latplugg",v:2,exported:new Date().toISOString(),progress:P,audio:R,songs:LOCAL_RAW.length?LOCAL_RAW:null};
   const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([JSON.stringify(data)],{type:"application/json"}));
   a.download=`latplugg-backup-${new Date().toISOString().slice(0,10)}.json`;
   document.body.append(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href),5000);
@@ -689,7 +696,7 @@ function importBackup(file){
       if(!confirm("Det här ersätter dina nuvarande framsteg. Fortsätta?")) return;
       P=d.progress; P.cards=P.cards||{}; P.skip=P.skip||{}; saveProg();
       if(d.audio){ R=d.audio; saveRes(); }
-      if(Array.isArray(d.songs)&&d.songs.length){ SONGS=prepSongs(d.songs); usingDemo=false; save(K_SONGS,d.songs); rebuildOptions(); }
+      if(Array.isArray(d.songs)&&d.songs.length){ LOCAL_RAW=d.songs; save(K_SONGS,LOCAL_RAW); combineSongs(); rebuildOptions(); }
       renderSettings(); renderHome(); toast("Backupen är inläst.");
     }catch(e){ toast("Filen är ingen Låtplugg-backup."); }
   };
@@ -733,7 +740,28 @@ $("resetBtn").onclick=()=>{ if(confirm("Nollställa alla framsteg? Låtlistan be
 document.addEventListener("keydown",e=>{
   if(e.key===" " && !$("play").classList.contains("hidden") && !["INPUT","TEXTAREA","BUTTON"].includes(document.activeElement.tagName)){ e.preventDefault(); togglePlay(); }
 });
+/* ---------- songs.txt (delad lista på webbservern) ---------- */
+let remoteBusy=false;
+async function loadRemote(){
+  if(remoteBusy || !location.protocol.startsWith("http")) return;
+  remoteBusy=true;
+  try{
+    const r=await fetch("songs.txt",{cache:"no-store"});
+    if(!r.ok) return;
+    const parsed=parseSongInput(await r.text());
+    if(!Array.isArray(parsed)) return;
+    const before=SONGS.length, wasDemo=usingDemo;
+    REMOTE_RAW=parsed; save("latplugg_remote_cache",REMOTE_RAW);
+    combineSongs(); rebuildOptions();
+    if($("home").classList.contains("hidden")===false) renderHome();
+    const diff=SONGS.length-(wasDemo?0:before);
+    if(diff>0 && !wasDemo) toast(`${diff} nya låtar från songs.txt.`);
+  }catch(e){} finally { remoteBusy=false; }
+}
+document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible") loadRemote(); });
+
 renderHome();
+loadRemote();
 </script>
 </body>
 </html>
