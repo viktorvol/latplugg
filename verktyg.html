@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Låtplugg – verktyg</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔧</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#23324A;--surf:#2E4060;--line:#4D6390;--amber:#FFB347;--ink:#F4EFE6;--muted:#A9B5C8;--no:#FF7A6B}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.5 Figtree,system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 20px 60px}
+h1{font:800 2rem/1.1 "Bricolage Grotesque","Arial Black",sans-serif;margin:0 0 12px}
+p{color:var(--muted);margin:0 0 14px}
+button{font:inherit;font-weight:700;border:0;border-radius:12px;padding:13px 18px;cursor:pointer}
+.primary{background:var(--amber);color:#2A1A05}
+.secondary{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.bar{height:8px;border-radius:4px;background:var(--surf);overflow:hidden;margin:6px 0 10px}
+.bar span{display:block;height:100%;width:0;background:var(--amber);transition:width .3s}
+textarea{width:100%;min-height:260px;background:var(--surf);color:var(--ink);border:1.5px solid var(--line);border-radius:12px;padding:12px;font:13px/1.5 ui-monospace,Menlo,Consolas,monospace}
+#missing{color:var(--no)}
+a{color:var(--amber)}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<main>
+  <h1>Ljudlänkar och omslag</h1>
+  <p>Kör det här på en dator. Sidan läser songs.txt, letar upp ljudklipp och skivomslag hos Apple för de låtar som saknar dem, och skapar en ny songs.txt som du ersätter den gamla med på GitHub. Låtar som redan har allt hoppas över.</p>
+  <p>Apple tillåter ungefär 20 sökningar i minuten, så varje låt som saknar ljud tar några sekunder. Omslag till låtar som redan har ljud hämtas i stora klumpar och går snabbt. Låt fliken vara öppen tills den är klar.</p>
+  <p id="status">Läser songs.txt…</p>
+  <div class="bar"><span id="bar"></span></div>
+  <div class="row">
+    <button class="primary" id="run" disabled>Hämta ljud och omslag</button>
+    <button class="secondary hidden" id="copy">Kopiera den nya songs.txt</button>
+  </div>
+  <p id="missing"></p>
+  <textarea id="out" class="hidden" readonly></textarea>
+  <p style="margin-top:20px"><a href="./">Tillbaka till appen</a></p>
+</main>
+<script src="common.js"></script>
+<script>
+let songs=[], R=load(K_RES)||{}, running=false;
+
+async function init(){
+  try{
+    const r=await fetch("songs.txt",{cache:"no-store"});
+    if(!r.ok) throw new Error(r.status);
+    songs=prepSongs(parseSongInput(await r.text())||[]);
+  }catch(e){ $("status").textContent="Kunde inte läsa songs.txt. Ligger den i samma mapp som den här sidan?"; return; }
+  const noAudio=songs.filter(s=>!info(s).url).length, noArt=songs.filter(s=>!info(s).art).length;
+  $("status").textContent=`${songs.length} låtar i songs.txt. ${noAudio} saknar ljud och ${noArt} saknar omslag.`;
+  $("run").disabled=false;
+}
+/* Ett manuellt versionsval (från appen på den här datorn) går före det som står i songs.txt */
+function info(s){
+  const r=R[s.key];
+  if(r && r.manual) return r;
+  return {tid:s.trackId||(r&&r.tid), url:s.preview||(r&&r.url), art:s.art||(r&&r.art)};
+}
+function setInfo(s,o){ const keepManual=R[s.key]&&R[s.key].manual; R[s.key]=Object.assign({},info(s),o,keepManual?{manual:true}:{}); save(K_RES,R); }
+
+async function run(){
+  if(running){ running=false; return; }
+  running=true; $("run").textContent="Avbryt";
+  const st=$("status"), bar=$("bar");
+
+  /* 1. Låtar med låt-id men utan omslag eller ljud: slå upp i klumpar om 150 */
+  const byId=songs.filter(s=>info(s).tid && (!info(s).art || !info(s).url));
+  for(let i=0;i<byId.length && running;i+=150){
+    const chunk=byId.slice(i,i+150);
+    st.textContent=`Hämtar omslag ${i+1}–${i+chunk.length} av ${byId.length}…`;
+    try{
+      const d=await itunes(`https://itunes.apple.com/lookup?id=${chunk.map(s=>info(s).tid).join(",")}&country=${COUNTRY}&entity=song`);
+      const map={}; (d.results||[]).forEach(h=>map[h.trackId]=h);
+      chunk.forEach(s=>{ const h=map[info(s).tid]; if(h) setInfo(s,{art:bigArt(h.artworkUrl100), url:info(s).url||h.previewUrl}); });
+    }catch(e){ st.textContent="Apple svarar inte just nu. Försök igen om en stund."; }
+    await sleep(3200);
+  }
+
+  /* 2. Låtar helt utan ljud: sök en i taget */
+  const todo=songs.filter(s=>!info(s).url);
+  for(let i=0;i<todo.length && running;i++){
+    const s=todo[i];
+    st.textContent=`Söker ${i+1} av ${todo.length}: ${s.artist} - ${s.title}`;
+    bar.style.width=((i+1)/todo.length*100)+"%";
+    let h=null;
+    try{ h=await bestHit(s); }
+    catch(e){ st.textContent="Apple svarar inte. Väntar en minut och försöker igen…"; await sleep(60000); try{ h=await bestHit(s); }catch(e2){} }
+    if(h) setInfo(s,hitToRes(h));
+    await sleep(3200);
+  }
+  bar.style.width="100%";
+
+  /* 3. Skriv ut den nya filen */
+  const lines=songs.map(s=>{ const r=info(s); return r.url ? `${s.artist} - ${s.title} | ${r.tid||""} | ${r.url} | ${r.art||""}` : `${s.artist} - ${s.title}`; });
+  $("out").value=lines.join("\n"); $("out").classList.remove("hidden"); $("copy").classList.remove("hidden");
+  const missing=songs.filter(s=>!info(s).url);
+  st.textContent=(running?"Klart. ":"Avbrutet. ")+`${songs.length-missing.length} av ${songs.length} låtar har ljud. Kopiera texten och ersätt innehållet i songs.txt på GitHub.`;
+  $("missing").textContent = missing.length ? `Hittade inget klipp för: ${missing.map(s=>s.artist+" - "+s.title).join(", ")}. Prova att skriva namnen som Apple gör.` : "";
+  running=false; $("run").textContent="Hämta ljud och omslag";
+}
+$("run").onclick=run;
+$("copy").onclick=async()=>{
+  try{ await navigator.clipboard.writeText($("out").value); $("copy").textContent="Kopierat!"; setTimeout(()=>$("copy").textContent="Kopiera den nya songs.txt",2000); }
+  catch(e){ $("out").select(); }
+};
+init();
+</script>
+</body>
+</html>
