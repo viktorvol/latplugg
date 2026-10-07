@@ -1,509 +1,500 @@
-Bob Dylan - Like a Rolling Stone
-The Rolling Stones - Satisfaction
-John Lennon - Imagine
-Marvin Gaye - What’s Going on
-Aretha Franklin - Respect
-The Beach Boys - Good Vibrations
-Chuck Berry - Johnny B. Goode
-The Beatles - Hey Jude
-Nirvana - Smells Like Teen Spirit
-Ray Charles - What'd I Say
-The Who - My Generation
-Sam Cooke - A Change is Gonna Come
-The Beatles - Yesterday
-Bob Dylan - Blowin' in the Wind
-The Clash - London Calling
-The Beatles - I Want zo Hold Your Hand
-Jimmy Hendrix - Purple Haze
-Chuck Berry - Maybellene
-Elvis Presley - Hound Dog
-The Beatles - Let It Be
-Bruce Springsteen - Born to Run
-The Ronettes - Be My Baby
-The Beatles - In my Life
-The Impressions - People Get Ready
-The Beach Boys - God Only Knows
-The Beatles - A day in a life
-Derek and the Dominos - Layla
-Otis Redding - Sitting on the Dock of the Bay
-The Beatles - Help
-Johnny Cash - I Walk the Line
-Led Zeppelin - Stairway to Heaven
-The Rolling Stones - Sympathy for the Devil
-Tina Turner - River Deep - Mountain High
-The Righteous Brothers - You've Lost that Lovin' Feelin'
-The Doors - Light my Fire
-U2 - One
-Bob Marley - No Woman No Cry
-The Rolling Stones - Gimme Shelter
-Holly, Buddy - That'll be the Day
-Martha & The Vandellas - Dancing in the Street
-The Band - The Weight
-The Kinks - Waterloo Sunset
-Little Richard - Tutti Frutti
-Ray Charles - Georgia On My Mind
-Elvis Presley - Heartbreak Hotel
-David Bowie - Heroes
-Simon and Garfunkel - Bridge over Troubled Water
+Bob Dylan - Like a Rolling Stone | 201281527 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/68/b1/a568b1af-ff36-c4c4-f8b4-f1ffe5484c3a/mzaf_7213634674974695928.plus.aac.p.m4a
+The Rolling Stones - Satisfaction | 1469560209 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c6/26/61/c626617b-9a14-8927-bdc6-474af8da997c/mzaf_4072050462770591631.plus.aac.p.m4a
+John Lennon - Imagine | 1428576683 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3c/82/94/3c829405-0ba0-c96a-54b4-f090274e23f9/mzaf_9632073034487915789.plus.aac.p.m4a
+Marvin Gaye - What’s Going on | 1538081594 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/f3/f4/08f3f452-b24f-e25b-92bc-15850f1bdc6a/mzaf_14002930736666872327.plus.aac.p.m4a
+Aretha Franklin - Respect | 878000348 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/db/e2/93/dbe2937a-f85b-ee1d-9a29-db95be5498f3/mzaf_13347005897562275360.plus.aac.p.m4a
+The Beach Boys - Good Vibrations | 1442865074 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4f/a1/b2/4fa1b2fe-7f99-8a4c-72a9-0804c77f2b58/mzaf_7135940363914090298.plus.aac.p.m4a
+Chuck Berry - Johnny B. Goode | 1425230917 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/e3/7d/e5e37d79-825b-5412-c7d3-17e0c0858e97/mzaf_2407643628638675650.plus.aac.p.m4a
+The Beatles - Hey Jude | 1441133277 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/08/f5/3d08f5d7-1e0a-99d9-1085-d50ecc972bb9/mzaf_1689604474306790314.plus.aac.p.m4a
+Nirvana - Smells Like Teen Spirit | 1413921155 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2d/62/33/2d62330f-6c10-dc3a-3ac5-b995e40e111e/mzaf_14207912607352697560.plus.aac.p.m4a
+Ray Charles - What'd I Say | 869487986 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a9/69/73/a9697395-fb85-7430-c992-96260be09892/mzaf_3887825238588706335.plus.aac.p.m4a
+The Who - My Generation | 1443123602 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3f/6d/8d/3f6d8d12-5473-a1f6-a4ab-7a18169041c9/mzaf_13951848847045562425.plus.aac.p.m4a
+Sam Cooke - A Change is Gonna Come | 1440495265 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/ff/87/d4ff8724-2cd8-c5d4-3894-9fef2968177a/mzaf_17538140509361254142.plus.aac.p.m4a
+The Beatles - Yesterday | 1441164805 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/69/2d/d1692d74-fe32-c676-7a1d-00deacae1644/mzaf_11316115358642175957.plus.aac.p.m4a
+Bob Dylan - Blowin' in the Wind | 190758932 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/c4/33/98c433b9-46f7-e554-6089-14558c7d8175/mzaf_16805051007550467902.plus.aac.p.m4a
+The Clash - London Calling | 684811768 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/43/69/0f4369ad-dbc9-b0a1-dd89-a07b3085c45b/mzaf_13600915992817971714.plus.aac.p.m4a
+The Beatles - I Want zo Hold Your Hand | 1441133632 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/f2/52/acf2524f-9f07-933f-e099-42a8d0f45c64/mzaf_16527119621893589884.plus.aac.p.m4a
+Jimmy Hendrix - Purple Haze | 359540151 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/84/b6/1e84b643-21da-77dd-78e0-ea088862fb8c/mzaf_8170213678898931277.plus.aac.p.m4a
+Chuck Berry - Maybellene | 1287074756 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/d4/35/53d4359d-7496-a8c4-7696-44b33329cdc5/mzaf_17340935954866938550.plus.aac.p.m4a
+Elvis Presley - Hound Dog | 388127880 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d1/25/e3/d125e3dc-f4cb-bc06-fc03-4121555be419/mzaf_11003219462409672929.plus.aac.p.m4a
+The Beatles - Let It Be | 1441164738 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/60/76/fd/6076fd8f-422a-d5e3-7b02-5953bc93cfbd/mzaf_3945462995290301839.plus.aac.p.m4a
+Bruce Springsteen - Born to Run | 310730214 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/64/14/0e641426-f2ba-95fd-c61d-bc03168a5a1c/mzaf_15664454903423188652.plus.aac.p.m4a
+The Ronettes - Be My Baby | 420123652 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/54/d7/d554d723-0518-a447-603b-a8fd52b70d8d/mzaf_1392428010167942483.plus.aac.p.m4a
+The Beatles - In my Life | 6818182239 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/17/b0/7317b0ce-5f84-5578-f366-5305b95fd144/mzaf_3414327991122890138.plus.aac.p.m4a
+The Impressions - People Get Ready | 1445667713 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/8a/ea/ce8aeac6-abda-1199-3587-14d764e19568/mzaf_14433053252347282936.plus.aac.p.m4a
+The Beach Boys - God Only Knows | 1440841258 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/d0/40/a6d040a3-40f1-c2cf-c6c1-3e9fd3f484aa/mzaf_11838690916794001351.plus.aac.p.m4a
+The Beatles - A day in a life | 1573252107 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/75/00/7a/75007a0c-9498-d62b-fba1-5644f4ec1b01/mzaf_13168075680193383374.plus.aac.p.m4a
+Derek and the Dominos - Layla | 1440663520 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/95/8b/71/958b71b3-8695-936f-1eb8-22b8b30d841a/mzaf_2262255654225312842.plus.aac.p.m4a
+Otis Redding - Sitting on the Dock of the Bay | 995809798 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/20/7f/14/207f141a-f7e5-26c1-9e5a-b4556444e467/mzaf_18196714768063505974.plus.aac.p.m4a
+The Beatles - Help | 1441164536 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/90/c1/c1/90c1c133-02e3-255d-3a0d-e70c5a404bc5/mzaf_14127376946151186172.plus.aac.p.m4a
+Johnny Cash - I Walk the Line | 561708983 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/71/98/11/719811e7-47ff-8bcf-5e88-e8651ee06f77/mzaf_14727778808607347273.plus.aac.p.m4a
+Led Zeppelin - Stairway to Heaven | 580708180 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a2/e9/c8/a2e9c8fb-e282-9e9d-b5f9-d44fadb07e1e/mzaf_13939222705716798166.plus.aac.p.m4a
+The Rolling Stones - Sympathy for the Devil | 1500643398 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/f7/73/1bf77304-235f-3f02-c126-fac9a5aa9917/mzaf_4625747673195165829.plus.aac.p.m4a
+Tina Turner - River Deep - Mountain High | 1443844658 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9f/f0/1c/9ff01c5b-44ef-92f5-c77a-8cc7b66f0c2d/mzaf_11013347127098198484.plus.aac.p.m4a
+The Righteous Brothers - You've Lost that Lovin' Feelin' | 1428758750 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/74/30/96/74309690-6a4c-61e9-7f8c-653d5534152f/mzaf_16501552273061560810.plus.aac.p.m4a
+The Doors - Light my Fire | 1622368633 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dd/61/8b/dd618b9b-c388-7ebc-458e-d2c214f196e5/mzaf_10866651626943461182.plus.aac.p.m4a
+U2 - One | 1440809274 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/52/c4/6b52c439-8c2d-951e-560e-c18021267ac1/mzaf_5624277994579076441.plus.aac.p.m4a
+Bob Marley - No Woman No Cry | 1440861526 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/72/17/c07217c9-c2ff-8f96-abc9-5a6c42464d69/mzaf_5036872155813968561.plus.aac.p.m4a
+The Rolling Stones - Gimme Shelter | 1500642840 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/53/1a/df531ac5-2aa6-ba5c-842a-4fccbe1aa250/mzaf_11977102568325806534.plus.aac.p.m4a
+Holly, Buddy - That'll be the Day | 1434879232 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e2/d1/79/e2d17994-3384-dd8e-f026-63d2ea43fee5/mzaf_3163611089629443049.plus.aac.p.m4a
+Martha & The Vandellas - Dancing in the Street | 533770639 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ea/b7/31/eab73119-31da-8737-0c21-ca99677ad941/mzaf_10094189564660138611.plus.aac.p.m4a
+The Band - The Weight | 1173536631 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2c/86/99/2c8699ea-d1c4-ac39-ff60-56aa82dbe802/mzaf_13457747743780330606.plus.aac.p.m4a
+The Kinks - Waterloo Sunset | 1439440588 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/95/02/3c/95023cef-9397-32e5-1ea3-e6fe654b0b67/mzaf_18190181370305848236.plus.aac.p.m4a
+Little Richard - Tutti Frutti | 18453439 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/e6/8f/93e68f7b-ed4a-b957-bf17-7c97a949a838/mzaf_11086504116267308911.plus.aac.p.m4a
+Ray Charles - Georgia On My Mind | 6796751746 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/21/56/76/215676ad-17ee-00cc-5bfa-47c161253df1/mzaf_12538635504043700720.plus.aac.p.m4a
+Elvis Presley - Heartbreak Hotel | 388127857 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/29/48/54/294854a7-c268-ef20-1d01-fdc80b23f0eb/mzaf_12849498679262522244.plus.aac.p.m4a
+David Bowie - Heroes | 1347894092 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/f3/12/1ff3122a-eb3e-373d-d524-cfe00de9b19a/mzaf_8446634475827049231.plus.aac.p.m4a
+Simon and Garfunkel - Bridge over Troubled Water | 324127934 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/9b/60/e79b60c4-4971-aed9-92aa-db57d453cd42/mzaf_12057489393656620288.plus.aac.p.m4a
 Column2 - Column3
-Jimi Hendrix - All Along the Watchtower
-The Eagles - Hotel California
-Smokey Robinson & The Miracles - The Tracks of my Tears
-Grandmaster Flash - The Message
-Prince - When Doves Cry
-Sex Pistols - Anarchy in the U.K.
-Percy Sledge - When a man loves a woman
-The Kingsmen - Louie Louie
-Little Richard - Long Tall Sally
-Procol Harum - A Whiter Shade of Pale
-Michael Jackson - Billie Jean
-Bob Dylan - The times they are a changin'
-Al Green - Let's Stay together
-Jerry Lee Lewis - Whole Lotta Shakin' Going on
-Bo Diddley - Bo Diddley
-Buffalo Springfield - For what it's Worth
-The Beatles - She Loves you
-Cream - Sunshine of your Love
-Bob Marley - Redemption Song
-Elvis Presley - Jailhouse Rock
-Bob Dylan - Tangled up in Blue
-Roy Orbison - Crying
-Dionne Warwick - Walk on By
-The Beach Boys - California Girls
-James Brown - Papa's Got a Brand New Bag
-Eddie Cochran - Summertime Blues
-Stevie Wonder - Superstition
-Led Zeppelin - Whole Lotta Love
-The Beatles - Strawberry Fields Forever
-Elvis Presley - Mystery Train
-James Brown - I Got You (I Feel Good)
-The Byrds - Mr. Tambourine Man
-Marvin Gaye - I Heard it through the Grapevine
-Fats Domino - Blueberry Hill
-The Kinks - You Really Got me
-The Beatles - Norwegian Wood
-The Police - Every Breath you Take
-Patsy Cline - Crazy
-Bruce Springsteen - Thunder Road
-Johnny Cash - Ring of Fire
-The Temptations - My Girl
-The Mamas and the Papas - California Dreamin'
-The Five Satins - In the Still of the Night
-Elvis Presley - Suspicious Minds
-The Ramones - Blitzkrieg Bop
-U2 - I Still Haven't Found what I Am Looking
-Little Richard - Good Golly Miss Molly
-Carl Perkins - Blue Suede Shoes
-Jerry Lee Lewis - Great Balls of Fire
-Chuck Berry - Roll over Beethoven
-Al Green - Love and Happiness
-Column2 - Column3
-CCR - Fortunate Son
-Rolling Stones - You Can’t Always Get What you Want
-Jimi Hendrix - Voodoo Child
-Gene Vincent and his Blue Caps - Be Bop A Lula
-Donna Summer - Hot Stuff
-Stevie Wonder - Living for the City
-Simon and Garfunkel - The Boxer
-Bob Dylan - Mr. Tambourine Man
-Buddy Holly - Not Fade Away
-Prince - Little Red Corvette
-Van Morrison - Brown Eyed Girl
-Otis Redding - I've Been Loving you too Long
-Hank Williams, Sr. - I'm so Lonesome I Could Cry
-Elvis Presley - That's All Right
-The Drifters - Up on the Roof
-The Crystals - Da doo ron ron
-Sam Cooke - You Send me
-Rolling Stones - Honky Tonk Woman
-Al Green - Take me to the River
-The Isley Brothers - Shout
-Fleetwood Mac - Go your Own Way
-The Jackson 5 - I Want you Back
-Ben E. King - Stand by me
-The Animals - House of the Rising Sun
-James Brown - It's a Man's Man's World
-Rolling Stones - Jumpin' Jack Flash
-The Shirelles - Will you Love me Tomorrow
-Big Joe Turner - Shake, Rattle and Roll
-David Bowie - Changes
-Chuck Berry - Rock and Roll Music
-Steppenwolf - Born to Be Wild
-Rod Stewart - Maggie May
-U2 - With or without you
-Bo Diddley - Who Do you Love
-The Who - Won't Get Fooled Again
-Wilson Picket - In the Midnight Hour
-The Beatles - While My Guitar Gently Weeps
-Elton John - Your Song
-The Beatles - Eleanor Rigby
-Sly and the Family Stone - Family Affair
-The Beatles - I Saw her Standing there
-Led Zeppelin - Kashmir
-The Everly Brothers - All I Have to Do is Dream
-James Brown - Please, Please, Please
-Prince - Purple Rain
-The Ramones - I Wanna Be Sedated
-Sly & Family Stone - Everyday People
-The B-52's - Rock Lobster
-Iggy Pop - Lust for Life
-Janis Joplin - Me and Bobby McGee
-The Everly Brothers - Cathy's Clown
-Column2 - Column3
-The Byrds - Eight Miles High
-The Penguins - Earth Angel
-Jimi Hendrix - Foxy Lady
-The Beatles - Hard Day's Night
-Buddy Holly - Rave On
-CCR - Proud Mary
-Simon & Garfunkel - The Sound of Silence
-The Flamingos - I Only Have Eyes for you
-Bill Haley - Rock around the clock
-Lou Reed The Velvet Underground - I'm Waiting for the Man
-Public Enemy ft. Anthrax - Bring the Noise
-Ray Charles - I Can't Stop Loving you
-Sinead O'Connor - Nothing Compares 2 U
-Queen - Bohemian Rhapsody
-Johnny Cash - Folsom Prison Blues
-Tracy Chapman - Fast Car
-Eminem - Lose yourself
-Marvin Gaye - Let’s Get it on
-The Temptations - Papa Was a Rollin' Stone
-R.E.M. - Losing my Religion
-Joni Mitchell - Both Sides Now
-Abba - Dancing Queen
-Aerosmith - Dream on
-The Sex Pistols - God Save the Queen
-Rolling Stones - Paint it Black
-Bobby Fuller Four - I Fought the Law
-The Beach Boys - Don't Worry Baby
-Tom Petty - Free Fallin'
+Jimi Hendrix - All Along the Watchtower | 344803162 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/04/1a/cb/041acb6d-1e35-72f4-7c1c-685862b0eb68/mzaf_1357691911560037603.plus.aac.p.m4a
+The Eagles - Hotel California | 1293903289 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a9/be/ba/a9bebaab-3eb5-d185-a5af-c75d122ba892/mzaf_15660694999198133668.plus.aac.p.m4a
+Smokey Robinson & The Miracles - The Tracks of my Tears | 1469579659 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/57/a0/31/57a03111-3867-a5f3-b399-dfebc0757f70/mzaf_9719772009389567917.plus.aac.p.m4a
+Grandmaster Flash - The Message | 1648467623 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/20/ad/ba/20adbaff-5841-2293-c95e-4341a4ddb47c/mzaf_10866929726698813697.plus.aac.p.m4a
+Prince - When Doves Cry | 322848565 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/4b/79/1e4b79e0-2d92-2868-c8a8-00161664c06f/mzaf_9729272109056604540.plus.aac.p.m4a
+Sex Pistols - Anarchy in the U.K. | 1614242226 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/9d/3e/ce9d3e0e-9434-61b0-c1de-3514e592bb35/mzaf_7617796607189473813.plus.aac.p.m4a
+Percy Sledge - When a man loves a woman | 329942646 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6f/fe/8d/6ffe8d36-0b20-8c43-a17b-112e678ab5ff/mzaf_12239701222418691273.plus.aac.p.m4a
+The Kingsmen - Louie Louie | 121695005 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/63/9c/19/639c19ef-5abe-9291-5a9e-063f3dbff474/mzaf_6815945080907603361.plus.aac.p.m4a
+Little Richard - Long Tall Sally | 1440936752 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/e0/cf/87e0cf38-7ad9-709f-cf56-4c3aa8003fe8/mzaf_9479577432665620147.plus.aac.p.m4a
+Procol Harum - A Whiter Shade of Pale | 1682051688 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/8e/ba/e08ebab8-b084-03c6-f6ba-3769f82a87cd/mzaf_11261740043524231344.plus.aac.p.m4a
+Michael Jackson - Billie Jean | 336644237 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a0/20/1b/a0201bf3-e6a7-f2fc-a836-a536593c3e51/mzaf_3717140176449046337.plus.aac.p.m4a
+Bob Dylan - The times they are a changin' | 159476284 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/31/36/c231361e-c1dd-0ab4-12e4-924a987edef0/mzaf_17662030631269339357.plus.aac.p.m4a
+Al Green - Let's Stay together | 976362823 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/cc/b3/a1ccb365-d4a7-f371-7e6c-c4b745b41acc/mzaf_2282300440028225493.plus.aac.p.m4a
+Jerry Lee Lewis - Whole Lotta Shakin' Going on | 1890339804 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/c8/b7/b9c8b7ce-798a-3778-9712-3593be15b7d6/mzaf_11987767019544303766.plus.aac.p.m4a
+Bo Diddley - Bo Diddley | 1434777021 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/eb/1b/1f/eb1b1f6b-270d-1913-de32-69927fda9031/mzaf_10416196144357395824.plus.aac.p.m4a
+Buffalo Springfield - For what it's Worth | 265611986 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ae/6e/c9/ae6ec9db-d9c8-0289-db31-91aff3701e7a/mzaf_7242538544562715281.plus.aac.p.m4a
+The Beatles - She Loves you | 1441133611 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/61/e2/17/61e21729-ed12-48f9-4ae7-07e6d59ada9a/mzaf_7974996827786664690.plus.aac.p.m4a
+Cream - Sunshine of your Love | 1440817744 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/aa/b3/6c/aab36c7f-c119-7ac9-0efb-71816b55652f/mzaf_14195930874658131713.plus.aac.p.m4a
+Bob Marley - Redemption Song | 1469576035 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ee/b8/08/eeb8085a-89ab-21e2-0a2a-2699706cca25/mzaf_17798312681077359081.plus.aac.p.m4a
+Elvis Presley - Jailhouse Rock | 388127937 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c6/ec/2a/c6ec2a92-ffe4-2c99-a7fe-7184ad6c422e/mzaf_18174769531383869947.plus.aac.p.m4a
+Bob Dylan - Tangled up in Blue | 158320843 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/8e/ec/708eec4c-079e-fac8-5210-28257ce306b1/mzaf_1200789325963087621.plus.aac.p.m4a
+Roy Orbison - Crying | 997480336 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/8a/97/558a9721-c572-e432-7fa3-0b10958a0edb/mzaf_17570167759246368621.plus.aac.p.m4a
+Dionne Warwick - Walk on By | 41688511 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f3/8b/60/f38b606e-5a08-5c2d-5de7-bbba71aeee14/mzaf_2850816078703588102.plus.aac.p.m4a
+The Beach Boys - California Girls | 1443106708 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/6c/d3/3b6cd363-095d-fcb1-2cfb-7496867d3bf3/mzaf_3581105646514903617.plus.aac.p.m4a
+James Brown - Papa's Got a Brand New Bag | 1434917792 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/7f/b9/c17fb9ce-10fb-86e5-2182-f91c54343768/mzaf_4818584645666103091.plus.aac.p.m4a
+Eddie Cochran - Summertime Blues | 1444123142 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c5/71/c3/c571c374-d817-9025-5413-ea0022bde28b/mzaf_13650734549736096741.plus.aac.p.m4a
+Stevie Wonder - Superstition | 1440808985 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/4b/88/594b880c-4744-0510-775c-73d8b06567e8/mzaf_14855748840810986812.plus.aac.p.m4a
+Led Zeppelin - Whole Lotta Love | 580708471 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8a/15/37/8a1537e5-9d18-7e44-4ca8-3295942263b6/mzaf_2401048427177636441.plus.aac.p.m4a
+The Beatles - Strawberry Fields Forever | 1441163771 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/dc/3e/50dc3ea7-0c12-3a54-cbfa-874c8e1e9730/mzaf_8056056744713597418.plus.aac.p.m4a
+Elvis Presley - Mystery Train | 217633857 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6c/f6/d2/6cf6d2a2-4980-f007-50e5-9a76dedd9b47/mzaf_1618689580186397826.plus.aac.p.m4a
+James Brown - I Got You (I Feel Good) | 1469581184 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dc/ff/de/dcffde38-c5a2-c805-970f-3185ba3e34b7/mzaf_16971202068365311173.plus.aac.p.m4a
+The Byrds - Mr. Tambourine Man | 153421332 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fa/12/d0/fa12d074-a5ed-1b7a-a4c0-284ddd262607/mzaf_4080848081330245947.plus.aac.p.m4a
+Marvin Gaye - I Heard it through the Grapevine | 1444106658 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/8c/ef/878cefad-12ce-69e0-8551-b0aec462f266/mzaf_6893042827099943735.plus.aac.p.m4a
+Fats Domino - Blueberry Hill | 724345591 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/23/81/ab238119-96aa-177a-e288-1834ff7e05f8/mzaf_2525887710064786382.plus.aac.p.m4a
+The Kinks - You Really Got me | 1436281753 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/c1/e7/fbc1e7ac-2336-092a-8df9-08e27162894f/mzaf_4505609599697887179.plus.aac.p.m4a
+The Beatles - Norwegian Wood | 6790866927 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fe/48/13/fe481328-dcf0-8109-e8a8-62c25d1d4349/mzaf_1014627048276081644.plus.aac.p.m4a
+The Police - Every Breath you Take | 1440674160 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/e4/66/fee46681-9bbc-358a-ba0f-51d39feabf8b/mzaf_16980938720718099101.plus.aac.p.m4a
+Patsy Cline - Crazy | 1440826094 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/31/42/f83142e0-91b6-af99-215a-454dfff8450b/mzaf_90827311763690093.plus.aac.p.m4a
+Bruce Springsteen - Thunder Road | 310730206 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/18/b5/3918b543-6684-d355-3bba-20d53961d33c/mzaf_16542914008395016473.plus.aac.p.m4a
+Johnny Cash - Ring of Fire | 251002253 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2c/12/68/2c126894-fd6b-b37c-d556-6d91bd8c0875/mzaf_17832761364720403968.plus.aac.p.m4a
+The Temptations - My Girl | 1423301921 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/b3/ef/99b3ef00-3e74-5dfa-0d2e-4128ef5a9f0c/mzaf_12879689053309664622.plus.aac.p.m4a
+The Mamas and the Papas - California Dreamin' | 1440796325 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/21/30/9a/21309af6-0458-39c9-f420-22bb0f0ac11b/mzaf_5048935370131739463.plus.aac.p.m4a
+The Five Satins - In the Still of the Night | 325634350 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e0/3c/5b/e03c5b8b-1126-a4cd-a58d-bd0020bed1ec/mzaf_15173401478883281001.plus.aac.p.m4a
+Elvis Presley - Suspicious Minds | 388128567 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/69/80/35/69803593-60c5-51c3-572f-b7c3f0f0dc77/mzaf_9945991278826753290.plus.aac.p.m4a
+The Ramones - Blitzkrieg Bop | 1127410268 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/66/3f/07663f2e-8f1a-c22f-a688-a8599002214c/mzaf_1731743994284736681.plus.aac.p.m4a
+U2 - I Still Haven't Found what I Am Looking | 1442950019 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/e9/c8/52e9c8f2-bc0a-45a1-118c-dafabe629c63/mzaf_6690642936878497483.plus.aac.p.m4a
+Little Richard - Good Golly Miss Molly | 1581688902 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/b7/4c/bab74cbf-ed14-800d-1b7b-8f42c527909d/mzaf_7230472435305986424.plus.aac.p.m4a
+Carl Perkins - Blue Suede Shoes | 1890336779 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/e2/1a/dae21acc-2402-53c1-512c-0d23ac4722ca/mzaf_12804174570330248784.plus.aac.p.m4a
+Jerry Lee Lewis - Great Balls of Fire | 1890334978 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6e/a8/37/6ea837ab-2a0e-5630-d6d1-ab0aeb606d9c/mzaf_2847959104357510098.plus.aac.p.m4a
+Chuck Berry - Roll over Beethoven | 1483868773 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a4/4f/3a/a44f3a93-79cc-8557-21d1-e606ce05cf33/mzaf_4123633301969986676.plus.aac.p.m4a
+Al Green - Love and Happiness | 1133378696 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/63/e8/ba/63e8baf4-6c41-f9fb-c44c-78481999b17f/mzaf_146101932458334693.plus.aac.p.m4a
+CCR - Fortunate Son | 1440950725 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/88/cf/9b/88cf9b97-7928-2224-fe4d-50a547f11108/mzaf_12339983999995871857.plus.aac.p.m4a
+Rolling Stones - You Can’t Always Get What you Want | 1500643065 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/11/54/43115496-b126-b6fb-1fb6-6c833b5f1a7c/mzaf_15844463664300841496.plus.aac.p.m4a
+Jimi Hendrix - Voodoo Child | 344748031 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5e/c5/09/5ec50952-b41d-e7b3-2cd6-a90aa07b3b0d/mzaf_6208467733368526465.plus.aac.p.m4a
+Gene Vincent and his Blue Caps - Be Bop A Lula | 1444096857 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/89/aa/b189aa81-7582-a0c2-4e50-c75455a979ee/mzaf_14676014578453168788.plus.aac.p.m4a
+Donna Summer - Hot Stuff | 1425179373 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/95/3a/3e/953a3e7e-72ca-25df-9122-20820f06c806/mzaf_1555464119560609521.plus.aac.p.m4a
+Stevie Wonder - Living for the City | 1444967521 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/78/d4/4778d45e-d93a-b391-7fb6-d81e14e97a09/mzaf_17967377173597509750.plus.aac.p.m4a
+Simon and Garfunkel - The Boxer | 324127939 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/9d/22/c89d2235-9eb3-f645-b12c-de9b6c19a98a/mzaf_18183859400959118213.plus.aac.p.m4a
+Bob Dylan - Mr. Tambourine Man | 177965612 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f7/d8/60/f7d8608d-660e-3821-5a7f-2084644b1796/mzaf_13292324568480672430.plus.aac.p.m4a
+Buddy Holly - Not Fade Away | 1429160746 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/01/6e/85016ef6-862b-829b-913c-8c4653a25af4/mzaf_6643337552712702517.plus.aac.p.m4a
+Prince - Little Red Corvette | 322848612 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/23/53/98/2353983c-1190-1465-7b3a-0b15f539f92c/mzaf_13163092307696962262.plus.aac.p.m4a
+Van Morrison - Brown Eyed Girl | 1838782096 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/5e/01/b85e0137-21d0-a265-b2e1-40d3c67a5d94/mzaf_1618708767076233365.plus.aac.p.m4a
+Otis Redding - I've Been Loving you too Long | 213596057 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/6b/79/726b7914-d608-bf1e-9e7f-039610591cf6/mzaf_379116405487371812.plus.aac.p.m4a
+Hank Williams, Sr. - I'm so Lonesome I Could Cry | 1434905508 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/47/1e/c4/471ec4fd-5061-3f9b-d048-df02720189dc/mzaf_7432858445526993959.plus.aac.p.m4a
+Elvis Presley - That's All Right | 1866789522 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/4e/46/d74e4647-10ef-ebe9-dedb-4daefb3eb751/mzaf_15133781070731223133.plus.aac.p.m4a
+The Drifters - Up on the Roof | 1052487871 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/16/db/50/16db50af-f40b-84ba-0453-d5f912ed2c58/mzaf_1596836301760910751.plus.aac.p.m4a
+The Crystals - Da doo ron ron | 420136963 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/7b/94/4b7b94e0-b2dd-6692-cea5-2341a1119fde/mzaf_15115112212666799195.plus.aac.p.m4a
+Sam Cooke - You Send me | 1088172910 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/02/1a/8c/021a8c5e-d9c7-8533-5382-07aac5468cb7/mzaf_11841796277717656892.plus.aac.p.m4a
+Rolling Stones - Honky Tonk Woman | 1440765871 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/b1/33/81b133ef-cb9a-10da-6e51-a64d6108c38f/mzaf_2988773462439004684.plus.aac.p.m4a
+Al Green - Take me to the River | 1344850595 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/ce/14/80ce14c6-1f9b-d2a8-bbb7-8c714d9f4604/mzaf_15859910547681101647.plus.aac.p.m4a
+The Isley Brothers - Shout | 169741843 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/aa/95/84/aa958442-0f95-410d-145c-8b2ecb2b29d0/mzaf_17065388363510256109.plus.aac.p.m4a
+Fleetwood Mac - Go your Own Way | 594061859 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/37/68/d1376853-ec1e-cce0-4ac9-2e98fc9d9c51/mzaf_7672022765745493173.plus.aac.p.m4a
+The Jackson 5 - I Want you Back | 1443222051 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/51/c5/27/51c527f5-c9fd-8fc7-175b-53c365c13664/mzaf_7763659600534750503.plus.aac.p.m4a
+Ben E. King - Stand by me | 738196409 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/18/ad/fb/18adfbac-3fbd-756c-d259-6daf41f902f2/mzaf_12768986125082088263.plus.aac.p.m4a
+The Animals - House of the Rising Sun | 697238871 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c6/2e/32/c62e32d8-a99b-9e52-d2f0-7b8c7fc4f434/mzaf_1935037424955701543.plus.aac.p.m4a
+James Brown - It's a Man's Man's World | 151142201 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f1/54/5a/f1545a99-e650-a431-5dcb-a0b9ea960303/mzaf_249612367468080265.plus.aac.p.m4a
+Rolling Stones - Jumpin' Jack Flash | 1440765744 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/26/72/cb2672da-28e5-b64b-28f4-7c6e71a0f2f3/mzaf_14657456849189019642.plus.aac.p.m4a
+The Shirelles - Will you Love me Tomorrow | 1000646245 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a7/99/83/a7998391-2a8b-c5a5-0e89-65dd680d4300/mzaf_3642978387082227798.plus.aac.p.m4a
+Big Joe Turner - Shake, Rattle and Roll | 63606905 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/eb/e5/b5/ebe5b570-6c5c-696c-ee93-8e06e6cf95ae/mzaf_17364212962699127451.plus.aac.p.m4a
+David Bowie - Changes | 1039798010 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/85/21/fd/8521fdb8-4a46-2efa-8e9a-7a1e6474c1ae/mzaf_15506151901672267484.plus.aac.p.m4a
+Chuck Berry - Rock and Roll Music | 1738562565 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/97/da/ac/97daac85-9383-eb93-8415-e23b10eaebc4/mzaf_15740655461942875287.plus.aac.p.m4a
+Steppenwolf - Born to Be Wild | 1440860171 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/33/6d/71336d1f-e008-d0f8-5dff-25fa0974ef8d/mzaf_13245098132834526016.plus.aac.p.m4a
+Rod Stewart - Maggie May | 1469581280 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/e1/65/18e1658d-5aa7-e8f5-cc8d-201352614a3e/mzaf_833947314586663659.plus.aac.p.m4a
+U2 - With or without you | 1440894770 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/cb/02/b6cb0267-96c3-142c-3233-10646593b794/mzaf_658842018918002246.plus.aac.p.m4a
+Bo Diddley - Who Do you Love | 1469574718 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/81/3e/f2813e71-91ab-3633-74d8-410f30f00245/mzaf_11148550836176876144.plus.aac.p.m4a
+The Who - Won't Get Fooled Again | 1434897604 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6d/d9/7c/6dd97c48-dcae-182f-14f8-2ef44b7be3a7/mzaf_6983020023320553074.plus.aac.p.m4a
+Wilson Picket - In the Midnight Hour | 537029676 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/44/90/cb4490e9-d977-2828-41cc-d8a7ca887371/mzaf_18290555520455487896.plus.aac.p.m4a
+The Beatles - While My Guitar Gently Weeps | 6818178978 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/39/59/d739592e-992e-b3ba-9122-d005f588183e/mzaf_14580553156081398746.plus.aac.p.m4a
+Elton John - Your Song | 1440754861 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/dd/5b/68dd5bf3-4474-d3ac-9a72-b2bcc56e1ade/mzaf_13501855654982730835.plus.aac.p.m4a
+The Beatles - Eleanor Rigby | 1441164806 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/09/83/99098388-9516-8d3b-df47-594bf758d1c2/mzaf_1133000424273343422.plus.aac.p.m4a
+Sly and the Family Stone - Family Affair | 216547171 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/3e/2c/fb3e2c8b-ae15-8d56-985c-3551f4e86e82/mzaf_11164114108942811775.plus.aac.p.m4a
+The Beatles - I Saw her Standing there | 1441164819 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2b/ca/ee/2bcaeeb4-6172-57e2-ffb8-cb1932a1ece3/mzaf_13691895688485550309.plus.aac.p.m4a
+Led Zeppelin - Kashmir | 1052497464 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/28/93/e72893eb-e824-0ee4-4a3b-d56f1819682f/mzaf_8578091119090348.plus.aac.p.m4a
+The Everly Brothers - All I Have to Do is Dream | 6814817007 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/03/e0/6503e019-5085-6b8d-038e-5a476a117f5c/mzaf_8310540929789104049.plus.aac.p.m4a
+James Brown - Please, Please, Please | 1443909222 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3a/37/98/3a3798d2-25d1-5e2a-dabc-306863b3a607/mzaf_17659287856962727097.plus.aac.p.m4a
+Prince - Purple Rain | 1746833484 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/09/30/1109307b-cdbd-20b1-aebc-c39c632a73a4/mzaf_11384520489297938238.plus.aac.p.m4a
+The Ramones - I Wanna Be Sedated | 77817249 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/14/03/6b/14036bf1-f0fd-b193-026b-292487dd5694/mzaf_7444445225701709397.plus.aac.p.m4a
+Sly & Family Stone - Everyday People | 216553760 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/0b/00/0e0b00b0-d1e4-701e-fe70-72b93701508f/mzaf_15061493742592181996.plus.aac.p.m4a
+The B-52's - Rock Lobster | 1440817038 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/11/b3/65/11b3651e-9c33-a390-8af8-286af93ff95b/mzaf_7856278200349484745.plus.aac.p.m4a
+Iggy Pop - Lust for Life | 1440882903 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/2d/6f/f92d6f27-1d12-0f58-20dd-be6e85f2bfd7/mzaf_7936117502874238455.plus.aac.p.m4a
+Janis Joplin - Me and Bobby McGee | 917030915 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/1f/7d/d71f7d99-814a-e9c4-2093-26227915d01a/mzaf_3099168616896303081.plus.aac.p.m4a
+The Everly Brothers - Cathy's Clown | 805218187 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/32/2d/33/322d332f-6926-3601-a8f3-4850dcb5d015/mzaf_2032351442643090685.plus.aac.p.m4a
+The Byrds - Eight Miles High | 293281656 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1a/ed/cf/1aedcff8-0b1a-113b-1881-abec4f0eb3a9/mzaf_8552929417045108277.plus.aac.p.m4a
+The Penguins - Earth Angel | 1272687835 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/96/5e/13/965e13ab-3b29-3e1c-180b-eb017aa9e048/mzaf_14850121696955535309.plus.aac.p.m4a
+Jimi Hendrix - Foxy Lady | 344800071 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/98/bd/c0/98bdc048-6f48-3a8c-4ed3-dd1a6917122c/mzaf_2112186706600726127.plus.aac.p.m4a
+The Beatles - Hard Day's Night | 1441164417 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ff/fc/b6/fffcb61c-6eae-4bfc-0aeb-2c108e37daa5/mzaf_8090789301194267540.plus.aac.p.m4a
+Buddy Holly - Rave On | 1478937704 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/82/6d/9d/826d9d61-5c6f-438e-d766-02e2f429c94a/mzaf_5173657963870324683.plus.aac.p.m4a
+CCR - Proud Mary | 1440946827 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a3/26/a4/a326a431-d71a-f3ce-7b5e-87dfea60859f/mzaf_10622825217218642309.plus.aac.p.m4a
+Simon & Garfunkel - The Sound of Silence | 192480260 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/69/cf/2e/69cf2e60-9b83-7273-e40a-011ef7d43b19/mzaf_6567197042111663365.plus.aac.p.m4a
+The Flamingos - I Only Have Eyes for you | 1388986917 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/78/23/9e/78239ec4-7c14-e338-b6b7-54b0f6768600/mzaf_9567317907051722029.plus.aac.p.m4a
+Bill Haley - Rock around the clock | 924296901 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c9/54/d6/c954d65a-ea8a-7200-b532-a60416b0e48b/mzaf_17276127321249074130.plus.aac.p.m4a
+Lou Reed The Velvet Underground - I'm Waiting for the Man | 1440851895 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9c/ed/de/9cedde1d-a9b6-4d7d-a2ac-94e91542928b/mzaf_1995824065008107804.plus.aac.p.m4a
+Public Enemy ft. Anthrax - Bring the Noise | 1434919021 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/78/cc/a9/78cca983-2a7f-f9c2-e3a6-8cec4e3e89b9/mzaf_4742169889352709042.plus.aac.p.m4a
+Ray Charles - I Can't Stop Loving you | 899170793 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3a/79/f4/3a79f465-5d79-a766-bcb1-bbf44a446efe/mzaf_10348342160149587742.plus.aac.p.m4a
+Sinead O'Connor - Nothing Compares 2 U | 1629185307 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/ea/d0/1fead06e-6edf-4415-61a9-f1a2cd7bd4aa/mzaf_8555394426401719010.plus.aac.p.m4a
+Queen - Bohemian Rhapsody | 6781027645 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/9f/c5/cd9fc5f8-4979-d79e-abf4-883e54f717d1/mzaf_15408639854395137008.plus.aac.p.m4a
+Johnny Cash - Folsom Prison Blues | 1890336495 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/26/b9/65/26b965d4-fb05-09d3-8e7f-202d7fdf636e/mzaf_1763746802651362620.plus.aac.p.m4a
+Tracy Chapman - Fast Car | 79565507 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6f/52/41/6f5241a2-3e98-3c1f-3cda-11f34da680aa/mzaf_3951335061988287211.plus.aac.p.m4a
+Eminem - Lose yourself | 1440723561 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/95/76/45/95764596-6f90-42f2-0774-779630f3f12c/mzaf_5806962935002333030.plus.aac.p.m4a
+Marvin Gaye - Let’s Get it on | 1442835454 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/17/3c/d0/173cd03c-2ae0-b8e8-89f9-50213c96cbf4/mzaf_3565466558011941045.plus.aac.p.m4a
+The Temptations - Papa Was a Rollin' Stone | 1471565777 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/01/4e/b4014ef9-356b-14ab-6e91-7af10ba08fa8/mzaf_5389976477103756577.plus.aac.p.m4a
+R.E.M. - Losing my Religion | 1440945283 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4f/14/45/4f1445c7-c1e3-ef07-878c-f016839cef6b/mzaf_15501181977794875858.plus.aac.p.m4a
+Joni Mitchell - Both Sides Now | 541488105 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/31/e2/6531e209-4a87-583e-f3ed-24b87a91b443/mzaf_7139891475603500190.plus.aac.p.m4a
+Abba - Dancing Queen | 1440816837 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9a/c1/a4/9ac1a457-6b2d-91f2-a74a-5e2ee7241d69/mzaf_15132640738584640960.plus.aac.p.m4a
+Aerosmith - Dream on | 1658644941 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/96/43/f89643b7-3efa-9f43-0a78-394abf12864b/mzaf_3399344087154345151.plus.aac.p.m4a
+The Sex Pistols - God Save the Queen | 1739636658 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/df/7a/6a/df7a6a54-f26f-9a8b-d312-ee072e372a76/mzaf_1125639964365685863.plus.aac.p.m4a
+Rolling Stones - Paint it Black | 1440745782 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/f5/ec/daf5ece2-6853-c6a4-d481-389001453f75/mzaf_3869995397273029315.plus.aac.p.m4a
+Bobby Fuller Four - I Fought the Law | 1374260405 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a7/00/0b/a7000bab-9a44-c204-3ee5-9d5137d7f091/mzaf_81254827958019004.plus.aac.p.m4a
+The Beach Boys - Don't Worry Baby | 1567705732 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/f9/4c/d7f94ccd-e10b-54a6-a090-c8965ba047d6/mzaf_11420194697428144895.plus.aac.p.m4a
+Tom Petty - Free Fallin' | 1440825619 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/0b/18/f00b184f-c4db-2aa9-00e0-d771062d0b5d/mzaf_15118337854910868086.plus.aac.p.m4a
 Big Star - September Girls
-Joy Division - Love Will Tear us Apart
-Outkast - Hey ya
-Booker T & MGs - Green Onions
-Drifters - Save the Last Dance for Me
-BB King - The Thrill is Gone
-The Beatles - Please, Please me
-Bob Dylan - Desolation Row
-Aretha Franklin - Never Loved a Man (the Way I Love you)
-AC/DC - Back in Black
-CCR - Who'll Stop the Rain
-The Bee Gees - Stayin' Alive
-Bob Dylan - Knocking on Heavens Door
-Lynyrd Skynyrd - Free bird
-Glen Campbell - Wichita Lineman
-The Drifters - There Goes my Baby
-Buddy Holly - Peggy Sue
-The Chantels - Maybe
-Guns n Roses - Sweet Child o Mine
-Elvis Presley - Don't Be Cruel
-Jimi Hendrix - Hey Joe
-Parliament Funkadelic - Flashlight
-Beck - Loser
-Column2 - Column3
-New Order - Bizarre Love Triangle
-The Beatles - Come Together
+Joy Division - Love Will Tear us Apart | 275971042 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/19/46/0e19465d-c451-6a72-4310-15e6d37bb87e/mzaf_10253765062666607052.plus.aac.p.m4a
+Outkast - Hey ya | 1774799818 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7b/90/59/7b9059ba-a8f2-2540-5bbb-d63a178bd8ce/mzaf_1797078659976130902.plus.aac.p.m4a
+Booker T & MGs - Green Onions | 159363080 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/e4/2b/99e42b56-bea5-ec56-ccf8-6187e00fb1fd/mzaf_13596210360837261359.plus.aac.p.m4a
+Drifters - Save the Last Dance for Me | 159362636 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/47/c9/8e47c903-2293-8d26-bb23-8cfce88f0184/mzaf_14176362125526491860.plus.aac.p.m4a
+BB King - The Thrill is Gone | 1469584492 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/4e/64/be4e6468-8e92-2e6e-2110-bd37f6dbadfc/mzaf_250364790696050311.plus.aac.p.m4a
+The Beatles - Please, Please me | 1441165126 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/eb/a3/81eba328-af34-074b-42e4-282347200e52/mzaf_16859398385869441809.plus.aac.p.m4a
+Bob Dylan - Desolation Row | 201284648 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/f4/d7/2df4d7c0-3850-868b-2cbf-2c3a3e5c4b9e/mzaf_12493131428144553133.plus.aac.p.m4a
+Aretha Franklin - Never Loved a Man (the Way I Love you) | 878000350 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/92/0f/b7/920fb7f6-3dff-ac0b-cae7-315ab50aec71/mzaf_17889926618036836629.plus.aac.p.m4a
+AC/DC - Back in Black | 575998660 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/56/b3/5656b31c-1370-6061-2fae-d5310bcd5f12/mzaf_4847538512996886203.plus.aac.p.m4a
+CCR - Who'll Stop the Rain | 1440949341 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/c0/bb/04c0bb3f-3379-256c-4b0b-78bb2b575bb1/mzaf_5447190104148202413.plus.aac.p.m4a
+The Bee Gees - Stayin' Alive | 1442259185 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/75/b7/30/75b730e8-541d-980d-54d4-f111ae9aece8/mzaf_732787148297582194.plus.aac.p.m4a
+Bob Dylan - Knocking on Heavens Door | 717157149 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/98/9a/a5989a67-426b-5fad-7234-339fd2d08488/mzaf_11743263021663924501.plus.aac.p.m4a
+Lynyrd Skynyrd - Free bird | 1440838661 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/25/bb/58/25bb5849-deb7-2b1a-ab72-8199b379b212/mzaf_9601740831220848134.plus.aac.p.m4a
+Glen Campbell - Wichita Lineman | 714826784 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/51/4f/48/514f4872-7ed4-dd09-71b7-26ff42bbc727/mzaf_883785367189317325.plus.aac.p.m4a
+The Drifters - There Goes my Baby | 738196401 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/1d/7d/a41d7d2c-c956-c5cc-42f4-056e021c36a9/mzaf_3195087867051186585.plus.aac.p.m4a
+Buddy Holly - Peggy Sue | 1434877718 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/bc/29/e8bc29e2-5add-f15f-624d-edfbb6572bc0/mzaf_8437869219317018534.plus.aac.p.m4a
+The Chantels - Maybe | 380994010 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/30/e3/a630e31f-4446-e742-324b-92aba216ed11/mzaf_10916443547133620991.plus.aac.p.m4a
+Guns n Roses - Sweet Child o Mine | 1377813701 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/82/2d/a5822d67-2e65-fe95-511e-1f785d23e5cc/mzaf_8619467974951398014.plus.aac.p.m4a
+Elvis Presley - Don't Be Cruel | 388127877 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/c5/d6/ecc5d6d3-955b-b9a1-44fc-8881a4d03e90/mzaf_15065283062422070286.plus.aac.p.m4a
+Jimi Hendrix - Hey Joe | 344803593 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/a5/30/13a530c2-95ae-57e3-497c-f18cc548c165/mzaf_10700606665366885271.plus.aac.p.m4a
+Parliament Funkadelic - Flashlight | 1440925757 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9e/eb/11/9eeb11d1-12cc-e5a6-f565-07ba6cd08501/mzaf_3246573942242893978.plus.aac.p.m4a
+Beck - Loser | 1440636710 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/e6/ec/87e6ec2d-9802-62e6-887e-5732a6182cf6/mzaf_2989360577881139213.plus.aac.p.m4a
+New Order - Bizarre Love Triangle | 1040972132 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/1d/62/fe1d62bd-f1f0-6293-20f0-a20d436e0e69/mzaf_4982129497529076018.plus.aac.p.m4a
+The Beatles - Come Together | 1474815799 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/97/b5/e4/97b5e459-d7e7-9806-2a87-96a760eca8ea/mzaf_16460868857902969803.plus.aac.p.m4a
 Bob Dylan - Positively 4^{th} Street
-Otis Redding - Try a Little Tenderness
-Bill Withers - Lean on Me
-The Four Tops - Reach out I'll Be There
-The Everly Brothers - Bye Bye Love
-Them - Gloria
-The Beach Boys - In my Room
-Question Mark and the Mysterians - 96 Tears
-The Beach Boys - Caroline No
-Prince - 1999
-Hank Williams Sr. - Your Cheating Heart
-Neil Young - Rockin' In The Free World
-The Chords - Sh-boom
-The Lovin' Spoonful - Do you Believe in Magic
-Dolly Parton - Jolene
-John Lee Hooker - Boom Boom
-Howlin' Wolf - Spoonful
-The Left banke - Walk away Renee
-Lou Reed - Walk on the Wild Side
-Roy Orbison - Oh Pretty Woman
-Sly & The Family Stone - Dance to the Music
-Chic - Good Times
-Muddy Waters - Hoochie Coochie Man
-Van Morrison - Moondance
-James Taylor - Fire and Rain
-The Clash - Should I Stay or Should I Go
-Muddy Waters - Mannish Boy
-Bob Dylan - Just Like a Woman
-Marvin Gaye - Sexual Healing
-Roy Orbison - Only the Lonely
-The Animals - We`ve Gotta Get out of this Place
-The Byrds - I'll Feel a Whole Lot Better
-Ray Charles - I Got a Woman
-Buddy Holly - Everyday
-Afrika Bambaataa - Planet Rock
-Patsy Cline - I Fall to Pieces
-Dion - The Wanderer
-Dusty Springfield - Son of a Preacher Man
-Sly & The Family Stone - Stand!
-Elton John - Rocket Man
-The B 52s - Love Shack
-The Spencer Davis Group - Gimme Some Lovin'
-The Band - The Night they Drove Old Dixie Down
-Jackie Wilson - Higher and Higher
-Sly and the Family Stone - Hot Fun in the Summertime
-Sugarhill Gang - Rappers Delight
-Aretha Franklin - Chain of Fools
-Black Sabbath - Paranoid
-Bobby Darin - Mack the Knife
-Column2 - Column3
-The Drifters - Money Honey
-Mott the Hoople - All the Young Dudes
-AC/DC - Highway to Hell
-Blondie - Heart of Glass
-Radiohead - Paranoid Android
-The Troggs - Wild Thing
-The Who - I Can See for Miles
-Jeff Buckley - Hallelujah
-The Dells - Oh, what a Night
-Stevie Wonder - Higher Ground
-Smokey Robinson & The Miracles - Ooo Baby Baby
-The Crystals - He's a Rebel
-Randy Newman - Sail Away
-Archie Bell - Tighten' up
-The Ronettes - Walking in the Rain
-New York Dolls - Personality Crisis
-U2 - Sunday Bloody Sunday
-The Modern Lovers - Roadrunner
-George Jones - He Stopped Loving her Today
-The Beach Boys - Sloop John B
-Chuck Berry - Sweet Little Sixteen
-The Beatles - Something
-Jefferson Airplane - Somebody to Love
-Bruce Springsteen - Born in the USA
-The Staple Singers - I'll Take you there
-David Bowie - Ziggy Stardust
-The Cure - Pictures of you
-The Dixie Cups - Chapel of Love
-Bill Withers - Ain’t no Sunshine
-Stevie Wonder - You Are the Sunshine of my Life
-Joni Mitchell - Help me
-Blondie - Call Me
-Elvis Costello - What's so Funny about Peace, Love & …
-Howlin' Wolf - Smoke stack Lightnin'
-Pavement - Summer Babe
-Run DMC - Walk this Way
-Barrett Strong - Money (That's What I Want)
-The Beatles - Can't Buy me Love
-Eminem feat. Dido - Stan
-The Zombies - She's Not There
-The Clash - Train in Vain
-Al Green - Tired of Being Alone
-Led Zeppelin - Black Dog
-The Rolling Stones - Street Fighting Man
-Bob Marley - Get Up, Stand Up
-Neil Young - Heart of Gold
-Blondie - One Way or Another
-Prince - Sign 'O' the Times
-Madonna - Like a Prayer
-Rod Stewart - Da Ya Think I'm Sexy
-Willie Nelson - Blue Eyes Crying in the Rain
-Column2 - Column3
-The Rolling Stones - Ruby Tuesday
-The Beatles - With a Little Help from my Friends
-James Brown - Say It Loud I'm Black and I'm Proud
-The Jam - That's Entertainment
-Franky Lymon - Why Do Fools Fall in Love
-Jackie Wilson - Lonely Teardrops
-Tina Turner - What's Love Got to Do with it
-Black Sabbath - Iron Man
-The Everly Brothers - Wake Up Little Susie
-Roy Orbison - In Dreams
-Screamin' Jay Hawkins - I Put a Spell on You
-Pink Floyd - Comfortably Numb
-The Animals - Don't Let Me Be Misunderstood
-Pink Floyd - Wish you Were Here
-Jimmy Cliff - Many Rivers to Cross
-Elvis Costello - Alison
-Alice Cooper - Schools out
-Led Zeppelin - Heartbreaker
-Neil Young - Cortez the Killer
-Public Enemy - Fight the Power
-Patti Smith - Dancing Barefoot
-Diana Ross & The Supremes - Baby Love
-The Rascals - Good Lovin
-James Brown - Get Up (I Feel Like Being A) Sex Machine
-Jerry Butler - For your Precious Love
-The Doors - The End
-Earth, Wind & Fire - That's the Way of the World
-The Queen - We Will Rock you
-Bonnie Raitt - I Can't Make you Love me
-Bob Dylan - Subterranean Homesick Blues
-Norman Greenbaum - Spirit in the sky
-The Rolling Stones - Wild Horses
-Column2 - Column3
-Aerosmith & Run DMC - Walk this Way
-Michael Jackson - Beat it
-Paul McCartney - Maybe I'm Amazed
-Diana Ross & The Supremes - You Keep me Hangin' on
-The Who - Baba O'Riley
-Jimmy Cliff - The Harder they Come
-Dion & The Belmonts - Runaround Sue
-Lavern Baker - Jim Dandy
-Janis Joplin - Piece of my heart
-Ritchie Valens - La Bamba
-Tupac Shakur - California Love
-Elton John - Candle in the Wind
-The Isley Brothers - Who's that Lady
-Ben E. King - Spanish Harlem
-Little Eva - The Loco-Motion
-The Platters - The Great Pretender
-Elvis Presley - All Shook up
-Eric Clapton - Tears in Heaven
-Column2 - Column3
-Elvis Costello - Watching the Detectives
-CCR - Bad Moon Rising
-Eurythmics - Sweet Dreams
-Jimi Hendrix - Little Wing
-Martha Reeves and the Vandellas - Nowhere to Run
-Muddy Waters - Got my Mojo Working
-Roberta Flack - Killing me Softly with his Son
-The Clash - Complete Control
-The Beatles - All you Need is Love
-The Box Tops - The Letter
-Bob Dylan - Highway 61 revisited
-The Righteous Brothers - Unchained Melody
-The Bee Gees - How Deep is your Love
-Cream - White Room
-Depeche Mode - Personal Jesus
-Bo Diddley - I'm a Man
-Jimi Hendrix - The Wind Cries Mary
-The Who - I Can't Explain
-Television - Marquee Moon
-Sam Cooke - Wonderful World
-Chuck Berry - Brown Eyed Handsome Man
-Pink Floyd - Another Brick in the Wall (Part 2)
-Radiohead - Fake Plastic Trees
-Ray Charles - Hit the Road Jack
-U2 - Pride (In the Name of Love)
-R.E.M. - Radio Free Europe
-Elton John - Goodbye Yellow Brick Road
-Aaron Neville - Tell it Like it is
-The Verve - Bitter Sweet Symphony
-The Allman Brothers Band - Whipping Post
-The Beatles - Ticket to Ride
-Crosby, Stills, Nash & Young - Ohio
-Eric B. and Rakim - I Know you Got Soul
-Elton John - Tiny Dancer
-The Police - Roxanne
-The Temptations - Just my Imagination
-The Four Tops - Baby I Need your Loving
-Freda Payne - Band of Gold
-The Five Stairsteps - O-o-h Child
-The Lovin’ Spoonful - Summer in the City
-Elvis Presley - Can't Help Falling in Love
-The Shangri-Las - Remember (Walkin' In The Sand)
-Big Star - Thirteen
-Blue Oyster Cult - (Don`t Fear) The Reaper
-Lynyrd Skynyrd - Sweet Home Alabama
-Metallica - Enter Sandman
-Paul Revere & The Raiders - Kicks
-The Shirelles - Tonight's the Night
-Sly and the Family Stone - Thank you (Falettinme Be Mice Elf Again) 
-Eddie Cochran - C'mon Everybody
-Bob Dylan - Visions of Johanna
-Column2 - Column3
-The Carpenters - We've Only Just Begun
-R. Kelly - I Believe I can Fly
-Nirvana - In Bloom
-Aerosmith - Sweet Emotion
-Cream - Crossroads
-Pixies - Monkey Gone to Heaven
-Donna Summer - I Feel Love
-Bobbie Gentry - Ode to Billy Joe
-Little Richard - The Girl Can't help it
-The Coasters - Young Blood
-The Four Tops - I Can't Help myself
-Don Henley - The Boys of Summer
-N.W.A. - Fuck the Police
-Crosby, Stills & Nash - Suite Judy Blue Eyes
-Dr. Dre - Nuthin' But A 'G' Thang
-The Isley Brothers - It's your thing
-Billy Joel - Piano Man
-The Kinks - Lola
-Elvis Presley - Blue Suede Shoes
-The Rolling Stones - Tumbling Dice
-The Smiths - William, It was Really Nothing
-Deep Purple - Smoke on the Water
-U2 - New Year's Day
-Mitch Ryder & The Detroit Wheels - Devil with a Blue Dress on Good Golly...
-Solomon Burke - Everybody Needs Somebody to Love
-The Clash - White Man in Hammersmith Palais
-Fats Domino - Ain't it a Shame
-Gladys Knight and the Pips - Midnight Train to Georgia
-Led Zeppelin - Ramble on
-Wilson Pickett - Mustang Sally
-The Rolling Stones - Beast of Burden
-Love - Alone Again or
-Elvis Presley - Love me Tender
-The Stooges - I Wanna Be your Dog
-John Cougar Mellenkamp - Pink Houses
-Salt-N-Pepa - Push it
-The Dell-Vikings - Come Go with me
-Little Richard - Keep a Knockin'
-Bob Marley & The Wailers - I Shot the Sheriff
-Sonny & Cher - I Got you Babe
-Nirvana - Come as you are
-Toots and the Maytals - Pressure Drop
-The Shangri-Las - Leader of the Pack
-The Velvet Underground - Heroin
-The Beatles - Penny Lane
-Glen Campbell - By the Time I Get to Phoenix
-Chubby Checker - The Twist
-Sam Cooke - Cupid
-Guns ‘N' Roses - Paradise City
-George Harrison - My Sweet Lord
-Nirvana - All Apologies
-Column2 - Column3
-Lloyd Price - Stagger Lee
-Ramones - Sheena is a Punk Rocker
-Sam & Dave - Soul man
-Muddy Waters - Rollin' Stone
-The Chiffons - One Fine Day
-Prince and the Revolution - Kiss
-The Staple Singers - Respect yourself
-The Beatles - Rain
-The Four Tops - Standing in the Shadows of Love
-Cheap Trick - Surrender
-Del Shannon - Runaway
-Guns ‘N' Roses - Welcome to the Jungle
-The Stooges - Search and Destroy
-Carole King - It's too Late
-Joni Mitchell - Free Man in Paris
-Willie Nelson - On The Road Again
-The Supremes - Where Did our Love Go
-Aretha Franklin - Do Right Woman - Do Right Man
-Funkadelic - One Nation under a Groove
-Beastie Boys - Sabotage
-Foreigner - I Want to Know What Love is
-Rick James - Super Freak
-Jefferson Airplane - White Rabbit
-Labelle - Lady Marmalade
-Van Morrison - Into the Mystic
-David Bowie - Young Americans
-Alice Cooper - I'm Eighteen
-The Cure - Just Like Heaven
-Joan Jett - I Love Rock and Roll
-Paul Simon - Graceland
-The Smiths - How Soon is Now
-The Drifters - Under the Boardwalk
-Fleetwood Mac - Rhiannon
-Gloria Gaynor - I Will Survive
-The Rolling Stones - Brown Sugar
-Dusty Springfield - You Don't Have to Say you Love me
-Jackson Browne - Running on Empty
-The Crystals - Then He Kissed me
-The Eagles - Desperado
-Smokey Robinson - Shop Around
-The Rolling Stones - Miss you
-Weezer - Buddy Holly
-Brook Benton - Rainy Night in Georgia
-Thin Lizzy - The Boys are Back in Town
-Boston - More than a Feeling
+Otis Redding - Try a Little Tenderness | 1535865786 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/b4/f1/cab4f1eb-32f5-b9fb-2c28-4a4cd5b033dd/mzaf_17732352226664624994.plus.aac.p.m4a
+Bill Withers - Lean on Me | 391725484 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/98/93/e3/9893e31d-8c4d-62f9-df64-67ce4dbfae28/mzaf_2446780408908846314.plus.aac.p.m4a
+The Four Tops - Reach out I'll Be There | 1443092687 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/02/5b/38/025b383f-aa12-0fb9-c18d-7895587c1e72/mzaf_6669944714115752261.plus.aac.p.m4a
+The Everly Brothers - Bye Bye Love | 1713978516 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/2a/f3/652af38d-6f1c-2ab7-7aea-bd512d6fd2d1/mzaf_13395218763061066384.plus.aac.p.m4a
+Them - Gloria | 1828663704 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/6f/83/ce6f8340-bab5-6ecf-1071-9ba034fe6c63/mzaf_17180441311644259485.plus.aac.p.m4a
+The Beach Boys - In my Room | 1442892689 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/ba/7b/56ba7bbf-ebbe-2a13-3d84-06f6eeb95c0b/mzaf_15171190908962210074.plus.aac.p.m4a
+Question Mark and the Mysterians - 96 Tears | 1443197906 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/d6/a4/b1d6a490-d4b4-9dc6-a453-87fc92499dea/mzaf_6438044069685868090.plus.aac.p.m4a
+The Beach Boys - Caroline No | 1440851759 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/62/86/94628629-57f2-deec-7695-dc693c91fff0/mzaf_10636725737163837084.plus.aac.p.m4a
+Prince - 1999 | 212973939 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/bd/99/acbd99c0-4b34-4345-31df-2a42cb9febb5/mzaf_16568707530783232651.plus.aac.p.m4a
+Hank Williams Sr. - Your Cheating Heart | 352006649 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1e/ae/85/1eae85cb-c387-3018-a2ac-59937a5e6db1/mzaf_15812641244183997418.plus.aac.p.m4a
+Neil Young - Rockin' In The Free World | 320266889 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/40/77/45/407745ef-b783-3e30-7bb7-92ece355db0a/mzaf_18336215302472154619.plus.aac.p.m4a
+The Chords - Sh-boom | 1275075259 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c0/7c/75/c07c7516-557e-3bbc-4c37-ae670a1c8b51/mzaf_10249856351097359501.plus.aac.p.m4a
+The Lovin' Spoonful - Do you Believe in Magic | 253683194 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/db/d7/53dbd72a-6820-5404-67b2-abbf7ce546f0/mzaf_17652172786218085727.plus.aac.p.m4a
+Dolly Parton - Jolene | 1062400330 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fc/bf/b6/fcbfb6fa-5293-1bb8-f250-7feaf5183892/mzaf_10820724967096911306.plus.aac.p.m4a
+John Lee Hooker - Boom Boom | 622862110 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9b/d0/da/9bd0daa7-3e94-d538-3375-a7d689f37f30/mzaf_2296557895668893909.plus.aac.p.m4a
+Howlin' Wolf - Spoonful | 1423340117 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/3b/c5/2d3bc584-a170-31cd-fa71-d4c5d1f20967/mzaf_3025921724134393510.plus.aac.p.m4a
+The Left banke - Walk away Renee | 1479740125 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/74/cc/c174cc2c-11ba-cd7f-9280-ddf8b7f937ba/mzaf_16784273524484648734.plus.aac.p.m4a
+Lou Reed - Walk on the Wild Side | 976827230 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c6/87/97/c6879798-26af-063b-0ee1-549e5dbdcc3a/mzaf_186424191521853168.plus.aac.p.m4a
+Roy Orbison - Oh Pretty Woman | 872478306 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/45/c5/bc45c5e4-61d9-8074-df34-6117fb8146c2/mzaf_17905078581365919431.plus.aac.p.m4a
+Sly & The Family Stone - Dance to the Music | 212571243 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/7c/b8/c47cb859-dd9a-a6f5-5ea1-c8c8b3c661dc/mzaf_13150134229923280298.plus.aac.p.m4a
+Chic - Good Times | 300994538 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/bf/27/86bf27c6-eb2e-71f2-31c2-8ebf3d87a7e7/mzaf_8590762493387179060.plus.aac.p.m4a
+Muddy Waters - Hoochie Coochie Man | 632822339 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d8/16/3d/d8163d65-9672-7cc2-8f12-e73f491efffd/mzaf_11985427704601685999.plus.aac.p.m4a
+Van Morrison - Moondance | 712727462 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/00/f7/5c/00f75cf5-a03f-423d-e6ff-f4752537ba59/mzaf_9146648458025368159.plus.aac.p.m4a
+James Taylor - Fire and Rain | 1480026462 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d3/94/e5/d394e57e-7fdf-7043-3938-3ce778b771ac/mzaf_17046894136324897534.plus.aac.p.m4a
+The Clash - Should I Stay or Should I Go | 685585941 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/96/79/11967946-fe9c-4e78-9f25-955aa0362e90/mzaf_13714313884281445482.plus.aac.p.m4a
+Muddy Waters - Mannish Boy | 198155375 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/97/5b/41975ba5-4469-01dc-525e-904f69ce5e6f/mzaf_9903997940484218824.plus.aac.p.m4a
+Bob Dylan - Just Like a Woman | 178051228 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/ab/8a/9aab8aa0-c542-6968-5a63-a57322f5f379/mzaf_364167862900545728.plus.aac.p.m4a
+Marvin Gaye - Sexual Healing | 158539332 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/c7/d2/00/c7d200c2-7726-5a38-1b13-81dc6cbbda24/mzaf_13927014083609634281.plus.aac.p.m4a
+Roy Orbison - Only the Lonely | 997479696 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/f7/3c/bef73c19-bf71-feee-34ca-0c37dceb9bb0/mzaf_4880900542887399713.plus.aac.p.m4a
+The Animals - We`ve Gotta Get out of this Place | 697238933 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/e7/05/a4e7057e-deb0-3dac-75ac-02142ca9c2e1/mzaf_6852547947814527037.plus.aac.p.m4a
+The Byrds - I'll Feel a Whole Lot Better | 293281639 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ad/bb/9b/adbb9b2b-6308-21b9-49da-ac353da63820/mzaf_17976167046125390778.plus.aac.p.m4a
+Ray Charles - I Got a Woman | 46592155 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/27/22/13/27221394-9fb1-0afc-06c7-5c85d3f0dfb0/mzaf_8588661995288663204.plus.aac.p.m4a
+Buddy Holly - Everyday | 1478937809 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/92/6e/a1926e4a-d170-aada-3293-86b61d35413d/mzaf_8766041848332412402.plus.aac.p.m4a
+Afrika Bambaataa - Planet Rock | 1604619997 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/d1/39/0bd1390d-b5f7-d8a4-004b-0d29e89bbdd1/mzaf_3028737004424913980.plus.aac.p.m4a
+Patsy Cline - I Fall to Pieces | 686510135 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8c/8f/fd/8c8ffd85-e916-05bb-f92d-a36e8696f175/mzaf_266237838495434325.plus.aac.p.m4a
+Dion - The Wanderer | 1443224751 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d2/ff/16/d2ff1660-4a24-3899-ba67-c7cde4f9a0b9/mzaf_9779289330068082830.plus.aac.p.m4a
+Dusty Springfield - Son of a Preacher Man | 1440717885 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/a2/a0/33a2a0a2-5fbc-316d-6b93-90dee2785d4c/mzaf_4831114874586419234.plus.aac.p.m4a
+Sly & The Family Stone - Stand! | 216551593 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/61/81/b16181c1-2b4a-1d5d-d086-1e320de4d128/mzaf_12128972653571164863.plus.aac.p.m4a
+Elton John - Rocket Man | 1440910931 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/09/6d/8c096da7-10b6-422b-51b6-f1f97a66380d/mzaf_5290536375751623365.plus.aac.p.m4a
+The B 52s - Love Shack | 983850963 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ef/b5/65/efb56546-d7bd-69c4-59bf-03529851c9eb/mzaf_1895209027108908933.plus.aac.p.m4a
+The Spencer Davis Group - Gimme Some Lovin' | 1452241546 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/50/17/71501752-7ae9-9d87-66f5-792500979529/mzaf_7584574042707530430.plus.aac.p.m4a
+The Band - The Night they Drove Old Dixie Down | 1440847001 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/60/be/6c60be9c-76f5-9450-0135-c122c87a5885/mzaf_519492673581944672.plus.aac.p.m4a
+Jackie Wilson - Higher and Higher | 404015196 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/49/16/2f491686-4ad3-4df3-fb95-f05f6a82fe4b/mzaf_1861377404062981807.plus.aac.p.m4a
+Sly and the Family Stone - Hot Fun in the Summertime | 212579724 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/13/11/be131168-ada9-83a7-ae97-80f000b9dc69/mzaf_10381887832550494789.plus.aac.p.m4a
+Sugarhill Gang - Rappers Delight | 1439469091 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/c5/33/68/c5336883-5999-6570-e856-3d018b1cbd76/mzaf_763318161803926253.plus.aac.p.m4a
+Aretha Franklin - Chain of Fools | 933585550 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/03/98/6f/03986ffd-fa58-2456-34c0-81d9823cada2/mzaf_3041151909223156763.plus.aac.p.m4a
+Black Sabbath - Paranoid | 1440282325 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ac/db/b0/acdbb072-12c6-e8f9-0f9f-e8886e8866ce/mzaf_9739006720144213490.plus.aac.p.m4a
+Bobby Darin - Mack the Knife | 30394518 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/2c/3b/0c2c3bd6-0b00-0c20-ee17-6dfbdb40ec0f/mzaf_9706614713056523666.plus.aac.p.m4a
+The Drifters - Money Honey | 64742794 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/84/93/84/84938495-d9e5-2029-855b-ee57cf2a8a63/mzaf_3400282028001098341.plus.aac.p.m4a
+Mott the Hoople - All the Young Dudes | 155713011 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/55/04/b2550478-fe72-a29e-013e-de1d26dfbc23/mzaf_12192212255987140898.plus.aac.p.m4a
+AC/DC - Highway to Hell | 574044008 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/54/a9/d054a909-fe00-757a-b5fb-3760ea7cdf13/mzaf_15087080229874880055.plus.aac.p.m4a
+Blondie - Heart of Glass | 724579519 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/3c/36/1e3c3657-c14f-9d85-c8b0-7e0d7f0b9012/mzaf_17403835591168070190.plus.aac.p.m4a
+Radiohead - Paranoid Android | 1097861770 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/67/6c/04/676c04b5-624a-6101-2d63-dc9c971e2a4e/mzaf_680078368934998544.plus.aac.p.m4a
+The Troggs - Wild Thing | 1445289681 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/66/b2/e3/66b2e392-e729-e22a-f513-32d661c11c35/mzaf_13665732544225730998.plus.aac.p.m4a
+The Who - I Can See for Miles | 1442934311 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/75/c8/4975c838-dced-5706-e6c6-f84598afbba8/mzaf_8251032948111813037.plus.aac.p.m4a
+Jeff Buckley - Hallelujah | 1046187586 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/f9/7f/3df97f47-c0a4-bdf8-53fa-19e99fa891f1/mzaf_16433687184189443153.plus.aac.p.m4a
+The Dells - Oh, what a Night | 1443909816 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/a7/52/f9a7528f-a148-4533-1726-f11914abafd5/mzaf_6728744908045691962.plus.aac.p.m4a
+Stevie Wonder - Higher Ground | 1440807404 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/93/bb/0793bb74-cc88-b08e-e0a6-68a2e3bf1796/mzaf_13497263188247802924.plus.aac.p.m4a
+Smokey Robinson & The Miracles - Ooo Baby Baby | 1469577684 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/78/09/447809ea-c584-469f-f041-f7bfc4f6f952/mzaf_11660039265250321822.plus.aac.p.m4a
+The Crystals - He's a Rebel | 420136962 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ee/db/d9/eedbd9ec-1edb-cb44-b3fc-31bc0faf342e/mzaf_1964171213816027008.plus.aac.p.m4a
+Randy Newman - Sail Away | 51963350 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/67/de/ca67def0-2a0b-7d52-e5b1-66052b8ea38c/mzaf_10770488889975465269.plus.aac.p.m4a
+Archie Bell - Tighten' up | 266633307 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/ab/54/ecab5451-e8b8-9775-ed8b-af8f99ba5849/mzaf_16069949957497521544.plus.aac.p.m4a
+The Ronettes - Walking in the Rain | 518081280 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a0/b2/77/a0b2772f-e72f-42e4-55bd-dcb22b6161cd/mzaf_9996429854095560171.plus.aac.p.m4a
+New York Dolls - Personality Crisis | 1445885125 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/b7/47/1ab74717-df18-3077-a5f8-6537396ce944/mzaf_5602162538678348583.plus.aac.p.m4a
+U2 - Sunday Bloody Sunday | 1445668448 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ed/53/4a/ed534a17-5be5-d136-83dc-72c3a114e6df/mzaf_8269974470127955261.plus.aac.p.m4a
+The Modern Lovers - Roadrunner | 1433775199 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1f/60/f7/1f60f783-3666-367d-2ded-e79a63d05cd7/mzaf_1539522238056550314.plus.aac.p.m4a
+George Jones - He Stopped Loving her Today | 404358600 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/43/27/c4/4327c4a4-69bd-19c1-7520-bf96efd98afa/mzaf_5260185633199907171.plus.aac.p.m4a
+The Beach Boys - Sloop John B | 1886917079 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/46/6a/fc466aa8-953a-d0bf-2678-93efd5f6afb1/mzaf_7721212581977051534.plus.aac.p.m4a
+Chuck Berry - Sweet Little Sixteen | 1425247382 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/32/ea/2f/32ea2f55-dfd6-e088-5cfa-9ae5dac3eddd/mzaf_17658646660972281025.plus.aac.p.m4a
+The Beatles - Something | 1474815801 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/7f/fe/557ffe43-d824-a8a0-5103-3c7dd14f3cb6/mzaf_7875382923244631250.plus.aac.p.m4a
+Jefferson Airplane - Somebody to Love | 281811734 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/60/a7/98/60a7986d-76ca-f4ea-7541-e07314ac480c/mzaf_14375096787608655761.plus.aac.p.m4a
+Bruce Springsteen - Born in the USA | 203708455 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/68/bf/0568bf82-02e9-dd99-b3a7-0b4b7a2c2fc9/mzaf_975570673053529263.plus.aac.p.m4a
+The Staple Singers - I'll Take you there | 1443234643 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/bb/49/89bb49ef-1071-7af5-3dfc-3ce038ee208b/mzaf_167438452217527519.plus.aac.p.m4a
+David Bowie - Ziggy Stardust | 1039797286 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/aa/ec/07/aaec07bf-f18e-3177-a197-414b5438010f/mzaf_7317737316865701540.plus.aac.p.m4a
+The Cure - Pictures of you | 1443216098 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/c6/ca/5bc6ca55-04da-cb9a-e1ce-72ce3061a326/mzaf_7401728016942946355.plus.aac.p.m4a
+The Dixie Cups - Chapel of Love | 1881889304 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/46/62/424662e6-54a2-0890-dffd-42a6b6d107e9/mzaf_17603560857135649313.plus.aac.p.m4a
+Bill Withers - Ain’t no Sunshine | 293521573 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c1/97/a5/c197a504-bc13-0709-3f6f-904026c782dd/mzaf_11719507637175591282.plus.aac.p.m4a
+Stevie Wonder - You Are the Sunshine of my Life | 1440808975 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/aa/c6/09/aac609b1-e959-ecc4-eaa4-a217b11ef12a/mzaf_5768445052689851350.plus.aac.p.m4a
+Joni Mitchell - Help me | 730292349 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/68/72/396872ab-d87a-e4cc-8697-788f33606757/mzaf_2086375653369918489.plus.aac.p.m4a
+Blondie - Call Me | 716231650 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/13/b5/b113b569-8639-b071-9199-3c8f8fb0d3a9/mzaf_2541938402474802623.plus.aac.p.m4a
+Elvis Costello - What's so Funny about Peace, Love & … | 1543779936 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/fc/fc/1efcfc0e-02e8-cafb-f952-5dbcf2f7ce53/mzaf_9200628667429060101.plus.aac.p.m4a
+Howlin' Wolf - Smoke stack Lightnin' | 1445669338 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e3/30/44/e33044ce-db2c-1351-af62-f2aa6a3fa6b9/mzaf_6892523683006690268.plus.aac.p.m4a
+Pavement - Summer Babe | 1589229778 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/24/2b/6b242b62-a970-af5c-30e6-7d63b65987f9/mzaf_6952534920370860796.plus.aac.p.m4a
+Run DMC - Walk this Way | 254344996 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/7d/b0/0c7db03a-edca-e054-8a40-29240e342d0f/mzaf_1265977749455777128.plus.aac.p.m4a
+Barrett Strong - Money (That's What I Want) | 1192122175 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ce/3e/f3/ce3ef3c4-28bf-6a37-eda1-0d285cb5b267/mzaf_15045532391997250501.plus.aac.p.m4a
+The Beatles - Can't Buy me Love | 1441164423 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/1d/4b/1c1d4b36-db20-02bd-d867-0808fdbb120d/mzaf_12888580731973632250.plus.aac.p.m4a
+Eminem feat. Dido - Stan | 1440723552 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/df/2f/1d/df2f1d7d-494a-cf04-4c7c-96d743c91147/mzaf_16086271698379505688.plus.aac.p.m4a
+The Zombies - She's Not There | 1876660558 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/5d/69/fd5d69c6-b33a-e39c-516e-0035a1a4dd2d/mzaf_10573038739728989875.plus.aac.p.m4a
+The Clash - Train in Vain | 684812028 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/76/70/db767096-8efd-53d0-3a38-c7e8d267d6d4/mzaf_1847143794554183685.plus.aac.p.m4a
+Al Green - Tired of Being Alone | 1196519945 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/40/04/224004c8-b8c6-8dc5-aba9-94e170c16a04/mzaf_3435394982254328663.plus.aac.p.m4a
+Led Zeppelin - Black Dog | 580708177 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/53/e6/9653e686-47ae-8595-25af-85cccd820378/mzaf_68244809129836321.plus.aac.p.m4a
+The Rolling Stones - Street Fighting Man | 1500643409 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/ef/0c/37ef0ca4-4808-c3fe-10a9-f38003fef77e/mzaf_9667430135353967922.plus.aac.p.m4a
+Bob Marley - Get Up, Stand Up | 1610324282 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/80/a6/5080a6af-acf0-0378-c434-b0a120b5a20c/mzaf_11984863968814224543.plus.aac.p.m4a
+Neil Young - Heart of Gold | 1015739546 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/7a/8d/f87a8d65-e804-2530-be75-66a5c49539c1/mzaf_2822679759160215635.plus.aac.p.m4a
+Blondie - One Way or Another | 724578931 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/62/a8/c062a813-3d6a-f54f-4b6f-a770c3e782b3/mzaf_12107545603743730957.plus.aac.p.m4a
+Prince - Sign 'O' the Times | 212853001 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/79/6e/e7796e6a-02d6-7a5f-fec6-4a58f85acc87/mzaf_11675264717126913851.plus.aac.p.m4a
+Madonna - Like a Prayer | 83445997 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/23/82/0b238289-52e2-2107-5531-181836267ed2/mzaf_6726729811402686020.plus.aac.p.m4a
+Rod Stewart - Da Ya Think I'm Sexy | 295535860 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9c/f9/69/9cf969fe-ab98-ead7-3ea6-9f65a320580e/mzaf_10091453960064903436.plus.aac.p.m4a
+Willie Nelson - Blue Eyes Crying in the Rain | 404365979 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/78/0c/99780ca8-8933-d32d-ee0e-ad09318437f6/mzaf_11775962149562399481.plus.aac.p.m4a
+The Rolling Stones - Ruby Tuesday | 1440717883 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/3a/54/873a549a-0e0c-f42c-2e20-99c5f3aa8edd/mzaf_4699157304966681935.plus.aac.p.m4a
+The Beatles - With a Little Help from my Friends | 1573250550 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4e/17/8c/4e178c0d-7a51-b072-e9f9-7b4a45bdaf9b/mzaf_4943777718630420606.plus.aac.p.m4a
+James Brown - Say It Loud I'm Black and I'm Proud | 1793519467 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/22/66/2d226698-d82d-f29b-8dc5-e4ecc1f776b5/mzaf_6431922513539609801.plus.aac.p.m4a
+The Jam - That's Entertainment | 1445856625 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/17/67/72/176772ec-5551-3eac-a5d2-9882f2788f5e/mzaf_2778128083744655275.plus.aac.p.m4a
+Franky Lymon - Why Do Fools Fall in Love | 1421105146 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c3/19/8d/c3198d74-f857-c5c0-734f-fbea34c71617/mzaf_17929137140678867260.plus.aac.p.m4a
+Jackie Wilson - Lonely Teardrops | 111289068 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/ef/af/f5efaffb-39ff-ec1f-e4af-a01ce154fd70/mzaf_2581665290419735828.plus.aac.p.m4a
+Tina Turner - What's Love Got to Do with it | 1523068039 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/66/98/88/669888a3-c36f-38fc-68ac-52913d3b21fb/mzaf_9905505033448750371.plus.aac.p.m4a
+Black Sabbath - Iron Man | 1440282327 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/58/9b/d7/589bd769-d17a-ec4e-c377-0b4525d32408/mzaf_9777596881618455884.plus.aac.p.m4a
+The Everly Brothers - Wake Up Little Susie | 1713978664 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1a/77/43/1a77432c-d862-0fcd-d360-33d5834278f7/mzaf_3897200649482992241.plus.aac.p.m4a
+Roy Orbison - In Dreams | 997480286 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/a4/c5/eaa4c527-690a-ed3a-8539-993226128350/mzaf_9193697553497112540.plus.aac.p.m4a
+Screamin' Jay Hawkins - I Put a Spell on You | 1000013308 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b2/b2/c2/b2b2c2cb-8e89-ea4c-a1ea-58d07e68dd2d/mzaf_11066447618431677772.plus.aac.p.m4a
+Pink Floyd - Comfortably Numb | 1065976170 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/1b/39/af1b3957-d1d3-06c9-d547-633cb081b677/mzaf_3421307010114212683.plus.aac.p.m4a
+The Animals - Don't Let Me Be Misunderstood | 1373180276 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9d/b2/0d/9db20deb-ebd6-1e01-53f0-02c2707a7303/mzaf_11820686468718143869.plus.aac.p.m4a
+Pink Floyd - Wish you Were Here | 1065973980 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/73/b0/ca73b075-9f43-5ba2-4a9c-494d2e2b1d6e/mzaf_16835053037302358726.plus.aac.p.m4a
+Jimmy Cliff - Many Rivers to Cross | 1535475642 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/27/db/7027dbde-6332-c025-3ffe-8d019ca2f214/mzaf_16112942885161130611.plus.aac.p.m4a
+Elvis Costello - Alison | 1440754025 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/1f/fc/a01ffc6c-7d57-cdb4-0c59-ce761b399ffa/mzaf_14796406703182882133.plus.aac.p.m4a
+Alice Cooper - Schools out | 40458562 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/78/90/22789038-936d-85be-546e-1566017a69f0/mzaf_17156179248294627525.plus.aac.p.m4a
+Led Zeppelin - Heartbreaker | 836967301 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8f/9f/ca/8f9fcad7-6f72-f424-025c-633add8e3a0d/mzaf_4267630322448902775.plus.aac.p.m4a
+Neil Young - Cortez the Killer | 1247653315 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a3/4b/b4/a34bb4bb-17f0-c23d-bdfb-4ffdbeaeb5d5/mzaf_16752783794561747167.plus.aac.p.m4a
+Public Enemy - Fight the Power | 1440838444 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/61/32/e1613217-35ee-c7f2-560c-450c1f9034c0/mzaf_6375906548184350106.plus.aac.p.m4a
+Patti Smith - Dancing Barefoot | 573990830 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/c3/f0/f8c3f034-25d4-b187-267e-d2be88867ec6/mzaf_7105326765355155723.plus.aac.p.m4a
+Diana Ross & The Supremes - Baby Love | 1443150938 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/91/9f/72/919f7248-1796-36a8-f85b-27d3c0107d7c/mzaf_8989939591988961158.plus.aac.p.m4a
+The Rascals - Good Lovin | 855278 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/67/bd/c0/67bdc055-08ab-da4f-e6f2-c01eb69a7b67/mzaf_7554803917650123504.plus.aac.p.m4a
+James Brown - Get Up (I Feel Like Being A) Sex Machine | 1447536780 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/78/6e/cd786ebe-a6e2-8822-ff01-5280844ca5bf/mzaf_5459494183661194104.plus.aac.p.m4a
+Jerry Butler - For your Precious Love | 1769144292 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/66/f3/1566f360-f008-df36-dffa-a492b43ee925/mzaf_6528302790091930424.plus.aac.p.m4a
+The Doors - The End | 1622368875 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/d2/78/52d2788f-5bc2-a486-a805-a7c00109a6ea/mzaf_15424530324779408736.plus.aac.p.m4a
+Earth, Wind & Fire - That's the Way of the World | 532975791 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/b8/70/33b870f6-b19a-fed5-ffbf-443825178110/mzaf_8203739678540691541.plus.aac.p.m4a
+The Queen - We Will Rock you | 6781080737 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/a9/f3/0aa9f3af-4672-fb3b-42d8-6d56a9a4c69b/mzaf_16030082968131796908.plus.aac.p.m4a
+Bonnie Raitt - I Can't Make you Love me | 721215979 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/6c/f5/c16cf5c1-41cd-804d-c1a8-8b307c00f08b/mzaf_16721980866719588822.plus.aac.p.m4a
+Bob Dylan - Subterranean Homesick Blues | 177964600 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/cc/93/f4cc936f-3fea-0c61-776f-4466997c99d0/mzaf_4901256296219406274.plus.aac.p.m4a
+Norman Greenbaum - Spirit in the sky | 1462211356 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9d/bc/9e/9dbc9e1d-599e-711d-46fe-15afd75a3988/mzaf_11053192268213103738.plus.aac.p.m4a
+The Rolling Stones - Wild Horses | 1440844744 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c5/8c/3b/c58c3bb8-f81e-5ebe-699a-d4041fd72294/mzaf_8720392396525416648.plus.aac.p.m4a
+Aerosmith & Run DMC - Walk this Way | 254344996 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/7d/b0/0c7db03a-edca-e054-8a40-29240e342d0f/mzaf_1265977749455777128.plus.aac.p.m4a
+Michael Jackson - Beat it | 269573341 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/cd/46/88cd46bd-dba7-1dc2-a63b-e8c111ac4fc3/mzaf_4042555053237612653.plus.aac.p.m4a
+Paul McCartney - Maybe I'm Amazed | 1415689142 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d6/a1/0c/d6a10ceb-d2fa-93c3-44b5-124b3946b39a/mzaf_5835282407832155289.plus.aac.p.m4a
+Diana Ross & The Supremes - You Keep me Hangin' on | 1434895854 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4e/b2/cd/4eb2cd60-1e29-0a83-4ce0-e72002c9ee58/mzaf_3018560130764681408.plus.aac.p.m4a
+The Who - Baba O'Riley | 1440850320 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/35/1d/4a351dda-bd63-b7be-bcfd-b5a63b033e05/mzaf_9841159092656846881.plus.aac.p.m4a
+Jimmy Cliff - The Harder they Come | 1488635020 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/55/2f/70552f72-702f-433c-d10b-07d41d9243dd/mzaf_5205487329460455244.plus.aac.p.m4a
+Dion & The Belmonts - Runaround Sue | 912453072 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/88/71/d588718f-f245-28d5-6fd5-3e67533e5761/mzaf_4301656239849514247.plus.aac.p.m4a
+Lavern Baker - Jim Dandy | 310536689 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/46/b3/76/46b3761b-9342-896a-0e4f-e6f869ea1a47/mzaf_1934813106497400572.plus.aac.p.m4a
+Janis Joplin - Piece of my heart | 1736215985 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/04/09/53040957-2ec1-9b02-5b88-10e434eb5c9d/mzaf_4467467590289872865.plus.aac.p.m4a
+Ritchie Valens - La Bamba | 466357994 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/15/b2/27/15b227f6-2d2e-b649-f0f1-2bd99b496e95/mzaf_1777203523395635417.plus.aac.p.m4a
+Tupac Shakur - California Love | 1588493576 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/25/c3/5d/25c35d8e-13a2-a67a-5750-9c8fac55ad3b/mzaf_81027516995072444.plus.aac.p.m4a
+Elton John - Candle in the Wind | 1652668816 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/35/49/89/354989c1-72df-1f32-9a44-9909ec3545ae/mzaf_10931090400499992588.plus.aac.p.m4a
+The Isley Brothers - Who's that Lady | 723688632 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/ae/47/0cae47a1-4a1b-e213-4521-a67635d4235b/mzaf_5420194997230942267.plus.aac.p.m4a
+Ben E. King - Spanish Harlem | 68100329 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/85/c7/91/85c79123-6955-a2c5-96f7-cedd749a6850/mzaf_9355366450888081940.plus.aac.p.m4a
+Little Eva - The Loco-Motion | 1000654384 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/75/65/a4/7565a410-db09-ad74-211b-c2895b76c5d5/mzaf_10751263471490615657.plus.aac.p.m4a
+The Platters - The Great Pretender | 1444082104 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/af/cb/d7afcb49-6704-f01a-d599-0ef268324d81/mzaf_3787438834320941368.plus.aac.p.m4a
+Elvis Presley - All Shook up | 388127922 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/79/da/62/79da6281-7f46-9632-024b-7cb11f10afa5/mzaf_6435532141490671704.plus.aac.p.m4a
+Eric Clapton - Tears in Heaven | 1648144423 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/26/6a/f6266afe-37ec-8486-8f62-e45bbb2a72c0/mzaf_17532936821223198316.plus.aac.p.m4a
+Elvis Costello - Watching the Detectives | 1453164715 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/22/0f/ce220f14-7cfc-239d-802b-d2f08bb4f015/mzaf_18406427662575334231.plus.aac.p.m4a
+CCR - Bad Moon Rising | 1440952840 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/38/cc/0e/38cc0ecd-6362-406c-a436-cda02b1b2ec6/mzaf_14867378299499617461.plus.aac.p.m4a
+Eurythmics - Sweet Dreams | 268544309 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b8/b9/e0/b8b9e080-a908-d3aa-addd-e6d4e06f211e/mzaf_15705804610601659545.plus.aac.p.m4a
+Jimi Hendrix - Little Wing | 344780414 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/a5/ff/12a5ff73-ccd5-661c-a278-f279f00b25a1/mzaf_7781610315804844180.plus.aac.p.m4a
+Martha Reeves and the Vandellas - Nowhere to Run | 1444115999 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c6/d4/d1/c6d4d1e3-7352-8dfa-758e-eabf7433d96c/mzaf_12968069821675590029.plus.aac.p.m4a
+Muddy Waters - Got my Mojo Working | 1484106026 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a1/22/1f/a1221f5f-a200-9051-0a28-db764d7bbad3/mzaf_13258156277738423714.plus.aac.p.m4a
+Roberta Flack - Killing me Softly with his Son | 355038523 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9b/eb/00/9beb00a2-fe8a-808d-951e-b0ae09dc2bee/mzaf_15554659559486311039.plus.aac.p.m4a
+The Clash - Complete Control | 647981688 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/ff/e9/40ffe9c5-4180-c513-3be9-59cafe5f495b/mzaf_16327982317122661948.plus.aac.p.m4a
+The Beatles - All you Need is Love | 6818182111 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/f5/dd/f2f5dda1-5ebc-fc36-dbb3-1788110786bf/mzaf_16082605796059789619.plus.aac.p.m4a
+The Box Tops - The Letter | 258594398 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/72/9c/72729cfe-52f0-869b-7466-ee3853f08c5c/mzaf_13436462108268006427.plus.aac.p.m4a
+Bob Dylan - Highway 61 revisited | 201283479 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6c/24/76/6c247626-dc35-b516-cd51-10e1bd77887a/mzaf_9648692299623811206.plus.aac.p.m4a
+The Righteous Brothers - Unchained Melody | 1440492772 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c7/ee/8b/c7ee8b9f-d163-f583-1d95-0e480255a28b/mzaf_16782687670938493222.plus.aac.p.m4a
+The Bee Gees - How Deep is your Love | 1442259733 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/ad/91/72ad9168-9781-d7b2-f561-e2f849792a13/mzaf_4158703023764779491.plus.aac.p.m4a
+Cream - White Room | 1440830954 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/9e/d5/349ed5b9-e9aa-9d26-c64e-c6ab6228b07d/mzaf_15062683168602368065.plus.aac.p.m4a
+Depeche Mode - Personal Jesus | 1174246806 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/da/1e/a5da1e54-0d7c-0622-98cd-39938f69bf7b/mzaf_10238680678427184128.plus.aac.p.m4a
+Bo Diddley - I'm a Man | 1423325265 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/bb/60/a7bb608a-2150-a707-0d83-ab5d629274ec/mzaf_10232513163265493401.plus.aac.p.m4a
+Jimi Hendrix - The Wind Cries Mary | 401864449 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/51/c5/2351c5df-d0e5-3f16-1396-cab87c2e8506/mzaf_465394475278247809.plus.aac.p.m4a
+The Who - I Can't Explain | 1461213562 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e2/6c/d5/e26cd5f7-2a48-5619-cad0-6a14d0131341/mzaf_7826101338918531889.plus.aac.p.m4a
+Television - Marquee Moon | 1049069476 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1d/e7/a3/1de7a30a-992b-914e-6367-f0a96d63a944/mzaf_1091236108158872649.plus.aac.p.m4a
+Sam Cooke - Wonderful World | 299550144 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/6c/1b/a66c1bae-6904-32a6-fbcf-f3a58da53191/mzaf_2943271216656915612.plus.aac.p.m4a
+Chuck Berry - Brown Eyed Handsome Man | 1499703946 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/17/31/7b/17317bdc-8d80-b493-d99d-d4e466273767/mzaf_3922066041887928813.plus.aac.p.m4a
+Pink Floyd - Another Brick in the Wall (Part 2) | 1065975636 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/67/63/a46763de-89bb-f19c-c505-0e86f78f302a/mzaf_18424597729040339680.plus.aac.p.m4a
+Radiohead - Fake Plastic Trees | 1097862845 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/c2/e6/a8c2e649-2a9d-8c7c-060b-7aced7644752/mzaf_7424058486766692978.plus.aac.p.m4a
+Ray Charles - Hit the Road Jack | 539446936 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ad/cf/54/adcf54c7-f139-ec61-99ed-6bcbd32d16e8/mzaf_1372966939097586439.plus.aac.p.m4a
+U2 - Pride (In the Name of Love) | 1440732108 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/15/b8/cd/15b8cd54-ade2-aa64-e9f5-6e4b1f3e2804/mzaf_2539229775793789212.plus.aac.p.m4a
+R.E.M. - Radio Free Europe | 1565069156 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/3a/1d/133a1d29-357a-2e33-1068-a0c318a93532/mzaf_10007098281943617979.plus.aac.p.m4a
+Elton John - Goodbye Yellow Brick Road | 1484998284 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/aa/6c/4baa6cba-cb8f-4aa9-b15d-8a527a3a99e6/mzaf_18082081394541086880.plus.aac.p.m4a
+Aaron Neville - Tell it Like it is | 273074340 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/3b/28/933b28d1-4f86-552f-4072-342e6f503219/mzaf_8687775397151777133.plus.aac.p.m4a
+The Verve - Bitter Sweet Symphony | 1788430736 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/3f/a9/f23fa9e0-613d-6bfa-d5f3-aebcbdbe8bde/mzaf_1891897091759227888.plus.aac.p.m4a
+The Allman Brothers Band - Whipping Post | 1469579164 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/ed/b8/65edb8e5-d992-d1e4-8da8-c217863ce243/mzaf_4423434134863275901.plus.aac.p.m4a
+The Beatles - Ticket to Ride | 1441164669 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/58/5d/06585d28-684c-b319-fc9e-3c38658d048a/mzaf_680399913916269098.plus.aac.p.m4a
+Crosby, Stills, Nash & Young - Ohio | 322842576 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/3f/f6/883ff680-3299-ce01-2209-360b8329b926/mzaf_6430142056766827649.plus.aac.p.m4a
+Eric B. and Rakim - I Know you Got Soul | 1449756132 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/58/77/e2/5877e204-01d7-85e3-d4cb-4d422ceb8281/mzaf_13677373076021450451.plus.aac.p.m4a
+Elton John - Tiny Dancer | 1440643464 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/01/5f/bc/015fbcbc-7791-5102-9a76-6d6648f362b0/mzaf_6818294948067833285.plus.aac.p.m4a
+The Police - Roxanne | 1440797616 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/a7/6a/f7a76a18-cdc7-9222-12e8-98ceb6177f2d/mzaf_2178124545148447319.plus.aac.p.m4a
+The Temptations - Just my Imagination | 1471565152 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3e/0e/df/3e0edf2d-094f-6d89-83fb-9c7ed0e4236f/mzaf_11911738461214681132.plus.aac.p.m4a
+The Four Tops - Baby I Need your Loving | 1443196178 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/d0/d6/cbd0d65d-bfca-7cd7-c86c-dc21bbe3bfcd/mzaf_16470960739143881307.plus.aac.p.m4a
+Freda Payne - Band of Gold | 319501722 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/5e/55/5c5e55d2-bd47-06cf-b2f4-01f759878d66/mzaf_14492132986177084421.plus.aac.p.m4a
+The Five Stairsteps - O-o-h Child | 1124198582 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2c/4b/a5/2c4ba5d0-c1c6-ad8c-38f8-e036d4061194/mzaf_15199567290826111390.plus.aac.p.m4a
+The Lovin’ Spoonful - Summer in the City | 673008203 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3b/24/10/3b2410f1-5008-68eb-e743-d11cdcebe276/mzaf_14161348918288107762.plus.aac.p.m4a
+Elvis Presley - Can't Help Falling in Love | 217635636 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/23/69/112369f6-6645-e9ec-8019-e06e3efb160d/mzaf_14601922769880394709.plus.aac.p.m4a
+The Shangri-Las - Remember (Walkin' In The Sand) | 157016678 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/80/a9/bc/80a9bc46-bc04-9bc5-e65f-fc113d53f852/mzaf_18211044620552342783.plus.aac.p.m4a
+Big Star - Thirteen | 1440940022 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1f/a4/f4/1fa4f4fd-280e-b0a4-020c-e35d109e83cf/mzaf_17596444882747307326.plus.aac.p.m4a
+Blue Oyster Cult - (Don`t Fear) The Reaper | 217556132 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/4a/10/e8/4a10e8a0-e6fe-44ae-357f-15ea81f402eb/mzaf_15709773690911352688.plus.aac.p.m4a
+Lynyrd Skynyrd - Sweet Home Alabama | 1484424470 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/cc/f4/d9ccf45e-462c-7e85-351e-70187d4cc280/mzaf_319857925551916975.plus.aac.p.m4a
+Metallica - Enter Sandman | 1571968519 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/69/0d/54/690d54ca-def2-65b3-7ca1-5fed8f7a5188/mzaf_5625822267190589148.plus.aac.p.m4a
+Paul Revere & The Raiders - Kicks | 771271508 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/a4/5f/02a45fa2-420b-cc5c-348c-bcc046821e8e/mzaf_13335480350049805859.plus.aac.p.m4a
+The Shirelles - Tonight's the Night | 453763544 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/90/13/a3/9013a336-6e89-68b6-4a53-8183a0447238/mzaf_13893977084671618726.plus.aac.p.m4a
+Sly and the Family Stone - Thank you (Falettinme Be Mice Elf Again) | 193126666 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/af/69/a5af69cb-b41e-1f5c-cd7b-eb9a7b2dbd7e/mzaf_12194607039598363921.plus.aac.p.m4a
+Eddie Cochran - C'mon Everybody | 724639468 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/02/ef/ba02ef44-7d7a-4482-e3c1-0b79dbf0d446/mzaf_6374843857801531458.plus.aac.p.m4a
+Bob Dylan - Visions of Johanna | 178050256 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/bc/ca/3dbcca67-60cc-668f-ca47-539319962698/mzaf_10083317512908810952.plus.aac.p.m4a
+The Carpenters - We've Only Just Begun | 1424760645 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/8e/8a/728e8a19-ef4e-194a-c29e-4b75c0c710fe/mzaf_7342240815571462649.plus.aac.p.m4a
+R. Kelly - I Believe I can Fly | 303156673 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/81/26/878126ab-5d62-4e01-a11b-c6915fb2c86c/mzaf_9581716423463693804.plus.aac.p.m4a
+Nirvana - In Bloom | 1440783633 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/88/ca/8a/88ca8a9f-831c-b455-fdaa-f24e7bbe84f8/mzaf_7200097641492539486.plus.aac.p.m4a
+Aerosmith - Sweet Emotion | 1883816642 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/23/ae/f623ae9f-8900-a396-8b47-05212b27fab7/mzaf_6595060732910616580.plus.aac.p.m4a
+Cream - Crossroads | 1440831035 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/25/34/ba2534b6-5aa9-0475-6019-08b79d72f0d9/mzaf_11973081335915372562.plus.aac.p.m4a
+Pixies - Monkey Gone to Heaven | 291381817 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/85/f5/a4/85f5a421-1692-a33b-e64a-c5c563ef2b60/mzaf_15025162132006934524.plus.aac.p.m4a
+Donna Summer - I Feel Love | 1442959426 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/f2/f0/f6f2f08a-a788-a354-b5ed-b4a71f8a58da/mzaf_11155681679719877923.plus.aac.p.m4a
+Bobbie Gentry - Ode to Billy Joe | 269317796 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1d/86/f5/1d86f5a5-eaf1-f5d6-3db0-ccc67471dabe/mzaf_15903830923662615296.plus.aac.p.m4a
+Little Richard - The Girl Can't help it | 1581693513 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/9d/a4/5f9da4c2-64f5-8121-de57-3bf88a606b84/mzaf_10714922805517508672.plus.aac.p.m4a
+The Coasters - Young Blood | 59421918 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/74/b7/4b/74b74b79-60a5-0549-dc89-94a3e60b0daf/mzaf_6863701562185865732.plus.aac.p.m4a
+The Four Tops - I Can't Help myself | 1443096422 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/45/40/c845408f-b73d-2c35-c16b-afc82b97e602/mzaf_1210379351414939844.plus.aac.p.m4a
+Don Henley - The Boys of Summer | 1761230752 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/02/51/e1/0251e149-aa47-7295-cdc0-1d0200000b42/mzaf_3863876772917368413.plus.aac.p.m4a
+N.W.A. - Fuck the Police | 1297927361 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/c7/d1/2b/c7d12b08-60ef-c5db-6abe-bbcf34ef6af4/mzaf_2443648954471802287.plus.aac.p.m4a
+Crosby, Stills & Nash - Suite Judy Blue Eyes | 908303116 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/90/41/31/90413191-5d4e-445e-4635-8d84465398e5/mzaf_12750574270091439733.plus.aac.p.m4a
+Dr. Dre - Nuthin' But A 'G' Thang | 260131003 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fa/00/2b/fa002b68-d877-808d-9f68-cf8e9bb64e4a/mzaf_9873486345734941880.plus.aac.p.m4a
+The Isley Brothers - It's your thing | 1030447128 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/ec/af/6becaf4a-de90-de27-68e7-60781ca70122/mzaf_16097663428220511930.plus.aac.p.m4a
+Billy Joel - Piano Man | 158617575 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/e4/51/8ee451b3-a74e-25fa-be4e-09ce04a39df0/mzaf_13595078232063121698.plus.aac.p.m4a
+The Kinks - Lola | 1439223877 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6c/82/f7/6c82f722-c974-f7e6-2eb5-e6fb640a84c3/mzaf_12544604171792039167.plus.aac.p.m4a
+Elvis Presley - Blue Suede Shoes | 671019789 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/00/20/8d/00208db7-4f5b-0350-1051-5f84e839b1df/mzaf_14439384654385760245.plus.aac.p.m4a
+The Rolling Stones - Tumbling Dice | 1441153567 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/96/93/aa/9693aa03-c279-8cbb-be57-6c6b7c397d0c/mzaf_2144394851218782850.plus.aac.p.m4a
+The Smiths - William, It was Really Nothing | 802231073 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/88/cd/d988cd3e-3690-465b-0c7e-d6a04f3a3a2e/mzaf_14372086974378766379.plus.aac.p.m4a
+Deep Purple - Smoke on the Water | 1440787908 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/3f/1b/083f1b23-decd-8fe6-2bad-0437d1c5d959/mzaf_9991776491763640927.plus.aac.p.m4a
+U2 - New Year's Day | 1440894548 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/35/67/133567de-b835-6ec1-86f4-66aa83c4e45b/mzaf_4547231142406960005.plus.aac.p.m4a
+Mitch Ryder & The Detroit Wheels - Devil with a Blue Dress on Good Golly... | 40287555 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/54/b0/b1/54b0b1a8-492e-f7a3-4d26-4ff9b6e46be6/mzaf_14524335408268138179.plus.aac.p.m4a
+Solomon Burke - Everybody Needs Somebody to Love | 266616282 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/a1/57/3ca1570a-422d-f7b2-e96f-f485765094b4/mzaf_11862565806256477512.plus.aac.p.m4a
+The Clash - White Man in Hammersmith Palais | 993869578 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/26/8e/a1/268ea116-52e4-cbe9-d53a-e41bb06e1277/mzaf_6549340291067942926.plus.aac.p.m4a
+Fats Domino - Ain't it a Shame | 1017757371 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b7/88/8a/b7888a8e-864f-f117-9b90-52521a218625/mzaf_14173060871679921847.plus.aac.p.m4a
+Gladys Knight and the Pips - Midnight Train to Georgia | 943204000 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/b6/de/a4b6dec8-1fe7-7b69-135d-14dcecadccab/mzaf_9133312651957632379.plus.aac.p.m4a
+Led Zeppelin - Ramble on | 580708477 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/20/3b/e2/203be277-a5f6-d303-4641-8a7af0f9fb03/mzaf_15361554432234370379.plus.aac.p.m4a
+Wilson Pickett - Mustang Sally | 59413762 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/15/ce/21/15ce2156-07d4-ca73-456a-2ec6df160ae8/mzaf_13336711334704305893.plus.aac.p.m4a
+The Rolling Stones - Beast of Burden | 1441151319 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/36/8d/6b368d5c-fe8e-62d1-9c3a-569f65b7b3b9/mzaf_1274516718571918802.plus.aac.p.m4a
+Love - Alone Again or | 1125521742 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/a3/0b/04a30b70-d51a-6ce6-4860-3e7891a8908b/mzaf_10644169986161069953.plus.aac.p.m4a
+Elvis Presley - Love me Tender | 674507904 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/53/d2/9453d2ee-059b-f8aa-5386-4cc28684a6a5/mzaf_9966906951925171975.plus.aac.p.m4a
+The Stooges - I Wanna Be your Dog | 393789247 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/95/dd/5595dd0e-7dce-37f2-82d3-a5200cf3e7ff/mzaf_729219191203085620.plus.aac.p.m4a
+John Cougar Mellenkamp - Pink Houses | 1440757378 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/19/7b/f1/197bf1f4-5670-4ec2-a270-0d17307c2dbb/mzaf_13285474631123113799.plus.aac.p.m4a
+Salt-N-Pepa - Push it | 1422950119 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/6c/31/a46c3181-11fc-a97f-9dd2-5ee544ea6249/mzaf_3443462140320458793.plus.aac.p.m4a
+The Dell-Vikings - Come Go with me | 946100910 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9a/72/ff/9a72ff9f-ce90-e55b-c312-698e45c08b29/mzaf_4951785160888687865.plus.aac.p.m4a
+Little Richard - Keep a Knockin' | 1581693821 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/e8/8b/01e88b99-f1d6-a2e0-897f-491a5d788756/mzaf_13540133925881309724.plus.aac.p.m4a
+Bob Marley & The Wailers - I Shot the Sheriff | 1440822312 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a6/7b/db/a67bdb6f-31a9-8ea0-3e3e-c1a247688765/mzaf_14643916339168711622.plus.aac.p.m4a
+Sonny & Cher - I Got you Babe | 994424268 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/b0/6b/fcb06bc2-d516-3de5-60cd-456a49f96655/mzaf_14517474891885766976.plus.aac.p.m4a
+Nirvana - Come as you are | 1586410663 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6a/f1/9e/6af19e76-a475-2837-db0a-60d29f74ace6/mzaf_9899031328948492518.plus.aac.p.m4a
+Toots and the Maytals - Pressure Drop | 150364238 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/76/f4/b0/76f4b048-5df8-dc8b-824e-71fcffc4ba69/mzaf_10255207119234402941.plus.aac.p.m4a
+The Shangri-Las - Leader of the Pack | 1509083405 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/14/92/661492f9-d8b7-794b-4f94-a394129f8034/mzaf_8083143383279707496.plus.aac.p.m4a
+The Velvet Underground - Heroin | 1444214063 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/30/9c/3a309cab-3323-26ec-a434-ced38b559b82/mzaf_8653875946555871263.plus.aac.p.m4a
+The Beatles - Penny Lane | 1441163777 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/ec/2a/62ec2a88-e671-7d8e-0356-8109836b6655/mzaf_12791907294675235647.plus.aac.p.m4a
+Glen Campbell - By the Time I Get to Phoenix | 714826752 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d8/b7/45/d8b74592-ba11-15bd-4df6-f7992c18605f/mzaf_12105052791442846184.plus.aac.p.m4a
+Chubby Checker - The Twist | 1524841164 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/34/c7/d134c7ca-2ac6-133d-660d-ec31e7a2e145/mzaf_3582651597900196349.plus.aac.p.m4a
+Sam Cooke - Cupid | 1088173098 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a3/76/03/a3760364-e2b3-9986-9eeb-8a1c11dd5628/mzaf_3757535038258043778.plus.aac.p.m4a
+Guns ‘N' Roses - Paradise City | 1377813298 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/2d/ec/0b2dec08-f03d-8a96-93a8-386a7d7b5091/mzaf_12821402190646617663.plus.aac.p.m4a
+George Harrison - My Sweet Lord | 1666672130 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cf/21/e6/cf21e622-28ac-3549-7af0-7800b249e612/mzaf_17193142723658128294.plus.aac.p.m4a
+Nirvana - All Apologies | 1440859612 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/af/91/09af9163-f85a-b85d-d638-71f442a65e2c/mzaf_15732394013627380669.plus.aac.p.m4a
+Lloyd Price - Stagger Lee | 1414521637 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/df/91/e0df9105-b96b-5e5e-3cc2-a13c3e7566d2/mzaf_16729343092564650482.plus.aac.p.m4a
+Ramones - Sheena is a Punk Rocker | 853504086 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/b9/7a/e1b97aca-99a8-fb65-d69f-b422237cc2d4/mzaf_6891617160060905814.plus.aac.p.m4a
+Sam & Dave - Soul man | 265640785 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/be/d9/b1/bed9b1f0-ac2b-af0b-f86e-2fc27db5bbc9/mzaf_16899118303487072107.plus.aac.p.m4a
+Muddy Waters - Rollin' Stone | 1741235930 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/75/79/e6/7579e683-bf49-6503-a933-f97b3cdb4df4/mzaf_4857080932620925054.plus.aac.p.m4a
+The Chiffons - One Fine Day | 1890193571 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ec/ee/ef/eceeef14-da71-ab7a-76cf-086aa039335a/mzaf_17815371499697053763.plus.aac.p.m4a
+Prince and the Revolution - Kiss | 260336471 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/48/98/da48985c-a43a-df20-e795-3a9c8dd193bb/mzaf_13129356430453756419.plus.aac.p.m4a
+The Staple Singers - Respect yourself | 1440717130 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/81/da/36/81da368a-0669-5d24-1dc6-f0df92b3575f/mzaf_12490307581860314973.plus.aac.p.m4a
+The Beatles - Rain | 1468032534 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/86/3c/dc/863cdcac-0d28-94a0-15d0-a01f167432fd/mzaf_11642894207651407766.plus.aac.p.m4a
+The Four Tops - Standing in the Shadows of Love | 1440912159 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/58/76/185876f8-9c02-c94e-c628-37cf4eec4a06/mzaf_7395907773882668037.plus.aac.p.m4a
+Cheap Trick - Surrender | 1022529229 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/68/13/4c/68134c07-fb9f-9629-d29a-8aaa00b89d0b/mzaf_5491322171968275158.plus.aac.p.m4a
+Del Shannon - Runaway | 381035812 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3a/b1/3e/3ab13ecb-2dbc-54bf-eae1-e8d561af6b22/mzaf_14324126656753941518.plus.aac.p.m4a
+Guns ‘N' Roses - Welcome to the Jungle | 1377826728 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1f/70/d6/1f70d6e8-edab-5ea1-4c3b-e51744cc79c7/mzaf_2766266430694093633.plus.aac.p.m4a
+The Stooges - Search and Destroy | 220265285 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/56/3b/3a/563b3a06-de72-3da9-6c79-04b4c0024d80/mzaf_14343019171234846267.plus.aac.p.m4a
+Carole King - It's too Late | 747087665 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9c/52/56/9c52568b-9efc-8572-b7fe-047317154ee2/mzaf_10611586259190988943.plus.aac.p.m4a
+Joni Mitchell - Free Man in Paris | 730292350 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/a3/e5/17a3e5a4-191d-3634-28b6-cbd7c93f5bfd/mzaf_15837620782903586242.plus.aac.p.m4a
+Willie Nelson - On The Road Again | 1692211967 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/4f/46/f04f4688-4ff7-0db5-6717-8a4359e5fbcc/mzaf_8060476290476769125.plus.aac.p.m4a
+The Supremes - Where Did our Love Go | 1425205229 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/61/dd/b7/61ddb7b7-1dd4-e89f-5b47-3a56b7b95e29/mzaf_1149704340676010528.plus.aac.p.m4a
+Aretha Franklin - Do Right Woman - Do Right Man | 266602477 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/b3/84/2ab384bb-1580-b4b4-24b7-0ce4f3387e63/mzaf_10306503244057851896.plus.aac.p.m4a
+Funkadelic - One Nation under a Groove | 1180047952 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/62/4e/82/624e82e8-2ce6-5ba9-d487-9624d004786a/mzaf_17099789457632870914.plus.aac.p.m4a
+Beastie Boys - Sabotage | 724943324 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0c/84/ee/0c84eed2-b872-c134-420d-7fc47ee83316/mzaf_13417892208380323970.plus.aac.p.m4a
+Foreigner - I Want to Know What Love is | 216663961 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/5b/c4/6c5bc4fa-47d0-21a0-959c-c2f76495a26a/mzaf_11153753229091975583.plus.aac.p.m4a
+Rick James - Super Freak | 1440805227 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/0b/61/940b6164-7f98-2f03-1a33-b06202af2902/mzaf_4976900656249650660.plus.aac.p.m4a
+Jefferson Airplane - White Rabbit | 281811771 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/9d/7f/c6/9d7fc652-907c-b040-3ee0-07de78b6e064/mzaf_5136406247672899456.plus.aac.p.m4a
+Labelle - Lady Marmalade | 188249353 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/4c/df/d1/4cdfd1de-12e9-2bf7-75e2-22a1910709d0/mzaf_12093545615546689681.plus.aac.p.m4a
+Van Morrison - Into the Mystic | 712727466 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/ef/81/28ef81b5-6a96-127f-2018-9603ce0f25ad/mzaf_17792891812770075719.plus.aac.p.m4a
+David Bowie - Young Americans | 1195108148 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/df/e2/9fdfe2c9-12f6-0756-d9cd-f0d824185425/mzaf_17269108796487547653.plus.aac.p.m4a
+Alice Cooper - I'm Eighteen | 40458539 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/68/d7/8868d713-6ba3-cc6f-2dbd-afc785e467ac/mzaf_2752224199524171586.plus.aac.p.m4a
+The Cure - Just Like Heaven | 1452806384 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/a7/6e/fea76ef4-7d34-cacc-fe42-4bb8cd7e26c9/mzaf_10432640893848715301.plus.aac.p.m4a
+Joan Jett - I Love Rock and Roll | 1881685586 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/3f/67/3a3f67cf-2d47-2ab2-66a2-368fad813e0e/mzaf_2591657320565347448.plus.aac.p.m4a
+Paul Simon - Graceland | 581741458 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/91/37/1d/91371d92-aa1c-96e3-455a-55ccb0d92e40/mzaf_4580243873940877122.plus.aac.p.m4a
+The Smiths - How Soon is Now | 799969782 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/75/10/4a751067-91ff-e0cd-ad76-af002d0b5959/mzaf_15364350986932135286.plus.aac.p.m4a
+The Drifters - Under the Boardwalk | 59403251 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/6d/0e/d96d0e71-27c2-ba1e-7b79-db1208f24933/mzaf_11018511775505322462.plus.aac.p.m4a
+Fleetwood Mac - Rhiannon | 1308648840 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/18/38/17/18381745-9189-f9e8-8063-b4e8d1cbf79a/mzaf_16998426666674148154.plus.aac.p.m4a
+Gloria Gaynor - I Will Survive | 1455560633 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c6/7d/36/c67d3630-3fde-aad2-75e7-8d502eef488b/mzaf_9016115468151381404.plus.aac.p.m4a
+The Rolling Stones - Brown Sugar | 1440844739 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/81/0c/7e/810c7e11-9a36-97ff-9da0-de2440756525/mzaf_17958998670087982912.plus.aac.p.m4a
+Dusty Springfield - You Don't Have to Say you Love me | 1440923483 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/98/5b/f7985b86-2288-b84b-487c-cee75a380dcf/mzaf_9823400619294782493.plus.aac.p.m4a
+Jackson Browne - Running on Empty | 842471000 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/69/c3/a2/69c3a24d-6cf6-fe1b-98c5-415513c34c01/mzaf_16273943413297733377.plus.aac.p.m4a
+The Crystals - Then He Kissed me | 1890191255 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/14/ef/ec14ef8e-6c39-6fe4-c091-fdccaf71fabe/mzaf_8372105362247836454.plus.aac.p.m4a
+The Eagles - Desperado | 635800400 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/a9/e0/3aa9e01f-125d-d599-03ba-754c3d2855bf/mzaf_18051488524776453305.plus.aac.p.m4a
+Smokey Robinson - Shop Around | 1443193401 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/07/07/9c/07079c22-56f5-b6fb-66d4-0707389b1817/mzaf_5891775330132179819.plus.aac.p.m4a
+The Rolling Stones - Miss you | 1441151307 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/fb/28/37fb2885-d00d-e3d6-98d4-bb7f65389b21/mzaf_14683583751868854705.plus.aac.p.m4a
+Weezer - Buddy Holly | 1890580960 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/14/79/5914793b-4ea3-2410-57df-54468d8031b5/mzaf_11765119965533705431.plus.aac.p.m4a
+Brook Benton - Rainy Night in Georgia | 1476079690 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/83/dd/73/83dd734d-93d5-a180-2b50-b83ca490588b/mzaf_8208058458761889181.plus.aac.p.m4a
+Thin Lizzy - The Boys are Back in Town | 1440923430 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/5f/4b/545f4b1b-eaee-c89a-6e19-3c9a930e4943/mzaf_6841700372275105661.plus.aac.p.m4a
+Boston - More than a Feeling | 913902137 | https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/d4/d6/ecd4d62c-c9b7-ceca-1e17-91a053231b2d/mzaf_1747289863060511720.plus.aac.p.m4a
