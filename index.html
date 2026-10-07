@@ -26,7 +26,6 @@
 }
 *,*::before,*::after{box-sizing:inherit}
 html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.45;-webkit-text-size-adjust:100%}
-body{min-height:100%}
 button,input,textarea{font:inherit;color:inherit}
 button{cursor:pointer}
 :focus-visible{outline:3px solid var(--amber);outline-offset:2px}
@@ -39,7 +38,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:6px
 .iconbtn svg{width:24px;height:24px}
 .hidden{display:none!important}
 
-/* Home */
 .hero{font-family:var(--display);font-weight:800;font-size:2.4rem;line-height:1.02;letter-spacing:-.02em;margin:18px 0 10px}
 .lede{color:var(--muted);margin:0 0 26px}
 .meter{height:12px;border-radius:6px;background:var(--surf);display:flex;overflow:hidden;margin-bottom:12px}
@@ -55,7 +53,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:6px
 .note{background:var(--surf);border-radius:12px;padding:12px 14px;font-size:.92rem;color:var(--muted);margin-top:20px}
 .note button{background:none;border:0;color:var(--amber);padding:0;font-weight:600;text-decoration:underline}
 
-/* Play */
 .roundbar{display:flex;align-items:center;gap:12px;margin-bottom:16px}
 .roundbar .count{font-weight:600;font-size:.92rem;color:var(--muted);white-space:nowrap}
 .pips{flex:1;display:flex;gap:4px}
@@ -64,35 +61,38 @@ header{display:flex;align-items:center;justify-content:space-between;padding:6px
 .pips span.cur{background:var(--ink)}
 .textbtn{background:none;border:0;color:var(--muted);font-size:.92rem;padding:6px}
 
-.stage{position:relative;width:78%;margin:4px auto 18px;aspect-ratio:1}
-.disc{position:absolute;top:4%;right:-14%;width:92%;aspect-ratio:1;border-radius:50%;
-  background:repeating-radial-gradient(circle at 50% 50%,#121a28 0 2px,#1b2639 2px 4px);
-  box-shadow:0 6px 22px rgba(0,0,0,.35);transition:right .5s cubic-bezier(.2,.8,.2,1)}
-.disc::after{content:"";position:absolute;inset:34%;border-radius:50%;background:var(--amber);
-  box-shadow:inset 0 0 0 2px rgba(0,0,0,.15)}
-.disc::before{content:"";position:absolute;inset:48%;border-radius:50%;background:var(--bg);z-index:1}
-.stage.playing .disc{right:-30%;animation:spin 1.8s linear infinite}
+/* The record */
+.stage{position:relative;width:72%;max-width:300px;margin:6px auto 22px;aspect-ratio:1;display:block;border:0;padding:0;background:none;border-radius:50%}
+.lp{position:absolute;inset:0;border-radius:50%;
+  background:
+    radial-gradient(circle at 50% 50%, transparent 0 31%, rgba(255,255,255,.05) 31.5%, transparent 32%),
+    conic-gradient(from 20deg, rgba(255,255,255,.10), transparent 12%, transparent 45%, rgba(255,255,255,.08) 55%, transparent 68%),
+    repeating-radial-gradient(circle at 50% 50%, #121a28 0 2px, #1b2639 2px 4px);
+  box-shadow:0 14px 36px rgba(0,0,0,.45), inset 0 0 0 6px #0e1420}
+.lp .label{position:absolute;inset:32%;border-radius:50%;background:var(--amber);display:grid;place-items:center;
+  font-family:var(--display);font-weight:800;color:var(--amber-ink);font-size:clamp(1.6rem,8vw,2.6rem)}
+.lp .label::after{content:"";position:absolute;width:9%;height:9%;border-radius:50%;background:var(--bg);top:45.5%;left:45.5%}
+.lp .label span{transform:translateY(-22%)}
+.stage.playing .lp{animation:spin 1.8s linear infinite}
+.stage.loading .lp{animation:spin 4s linear infinite;opacity:.7}
 @keyframes spin{to{transform:rotate(360deg)}}
-.sleeve{position:absolute;inset:0;border-radius:6px;overflow:hidden;background:var(--surf);box-shadow:0 10px 30px rgba(0,0,0,.4)}
-#ytwrap{position:absolute;inset:0}
-#ytwrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.cover{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.34);pointer-events:none;background:var(--surf)}
-.taphint{position:absolute;left:10px;right:10px;bottom:10px;background:rgba(20,28,44,.88);border-radius:10px;padding:10px 12px;font-size:.9rem;text-align:center;pointer-events:none}
-@media (prefers-reduced-motion:reduce){.stage.playing .disc{animation:none}.disc{transition:none}}
+@media (prefers-reduced-motion:reduce){.stage.playing .lp,.stage.loading .lp{animation:none}}
+.time{height:4px;border-radius:2px;background:var(--surf2);margin:-6px auto 18px;width:72%;max-width:300px;overflow:hidden}
+.time span{display:block;height:100%;width:0;background:var(--amber)}
 
 .controls{display:flex;gap:10px;margin-bottom:18px}
 .controls .play{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:14px;background:var(--ink);color:var(--bg);font-weight:700;padding:13px}
-.controls .play svg,.controls .secondary svg{width:20px;height:20px}
+.controls svg{width:20px;height:20px}
 .controls .secondary{display:flex;align-items:center;gap:6px}
 .err{background:rgba(255,122,107,.14);border:1px solid rgba(255,122,107,.5);border-radius:12px;padding:12px 14px;margin-bottom:16px;font-size:.95rem}
-.err button{margin-top:8px}
+.err .btnrow{margin-top:10px}
 
 .field{position:relative;margin-bottom:12px}
 .field label{display:block;font-size:.85rem;font-weight:600;color:var(--muted);margin-bottom:5px}
 .field input{width:100%;background:var(--surf);border:1.5px solid var(--line);border-radius:12px;padding:13px 14px;font-size:1.05rem}
 .field input:focus{border-color:var(--amber);outline:none}
-.ac{position:absolute;z-index:20;left:0;right:0;top:100%;margin-top:4px;background:var(--surf2);border-radius:12px;
-  box-shadow:0 12px 30px rgba(0,0,0,.45);max-height:270px;overflow:auto;padding:4px;list-style:none;margin-block:4px 0}
+.ac{position:absolute;z-index:20;left:0;right:0;top:100%;background:var(--surf2);border-radius:12px;
+  box-shadow:0 12px 30px rgba(0,0,0,.45);max-height:270px;overflow:auto;padding:4px;list-style:none;margin:4px 0 0}
 .ac li{padding:11px 12px;border-radius:8px;cursor:pointer}
 .ac li.on,.ac li:hover{background:var(--line)}
 .ac li mark{background:none;color:var(--amber);font-weight:700}
@@ -100,7 +100,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:6px
 .answerrow .primary{flex:2}
 .answerrow .secondary{flex:1}
 
-.result{margin-top:4px}
 .res{display:grid;grid-template-columns:28px 1fr;gap:4px 10px;align-items:start;padding:12px 0;border-bottom:1px solid var(--surf2)}
 .res .mark{font-size:1.2rem;font-weight:800;line-height:1.3}
 .res .mark.y{color:var(--ok)} .res .mark.n{color:var(--no)}
@@ -108,12 +107,15 @@ header{display:flex;align-items:center;justify-content:space-between;padding:6px
 .res .v{font-family:var(--display);font-weight:700;font-size:1.25rem;line-height:1.2}
 .res .you{font-size:.9rem;color:var(--muted)}
 .res .you s{color:var(--no)}
-.verdict{margin:14px 0;color:var(--muted);font-size:.95rem}
+.verdict{margin:14px 0 6px;color:var(--muted);font-size:.95rem}
+.alt{margin:6px 0 14px}
+.alt ul{list-style:none;padding:0;margin:8px 0 0}
+.alt li button{width:100%;text-align:left;background:var(--surf);border:0;border-radius:10px;padding:10px 12px;margin-bottom:6px}
+.alt li button small{display:block;color:var(--muted)}
+.alt li button.cur{outline:2px solid var(--amber)}
 
-/* Summary */
 .sumlist{list-style:none;padding:0;margin:0 0 24px}
 .sumlist li{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--surf2)}
-.sumlist img{width:48px;height:48px;object-fit:cover;border-radius:4px;flex:none;background:var(--surf)}
 .sumlist .t{flex:1;min-width:0}
 .sumlist .t b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .sumlist .t span{font-size:.88rem;color:var(--muted)}
@@ -123,7 +125,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:6px
 .btnrow{display:flex;gap:10px}
 .btnrow>*{flex:1}
 
-/* Settings */
 dialog{border:0;padding:0;background:var(--bg);color:var(--ink);width:100%;max-width:520px;max-height:100%;height:100%;margin:0 auto;
   padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 dialog::backdrop{background:rgba(10,14,24,.7)}
@@ -153,17 +154,15 @@ dialog::backdrop{background:rgba(10,14,24,.7)}
     </button>
   </header>
 
-  <!-- HOME -->
   <section id="home">
     <h1 class="hero" id="heroText"></h1>
     <p class="lede" id="ledeText"></p>
     <div class="meter" id="meter" aria-hidden="true"></div>
     <div class="legend" id="legend"></div>
     <button class="primary" id="startBtn">Starta runda</button>
-    <div class="note hidden" id="demoNote">Du övar på en demolista med några få låtar. <button id="demoImport">Lägg in hela spellistan</button> under inställningar.</div>
+    <div class="note hidden" id="demoNote">Du övar på en demolista med några få låtar. <button id="demoImport">Lägg in din låtlista</button> under inställningar.</div>
   </section>
 
-  <!-- PLAY -->
   <section id="play" class="hidden">
     <div class="roundbar">
       <span class="count" id="roundCount"></span>
@@ -171,23 +170,19 @@ dialog::backdrop{background:rgba(10,14,24,.7)}
       <button class="textbtn" id="quitBtn">Avsluta</button>
     </div>
 
-    <div class="stage" id="stage">
-      <div class="disc" aria-hidden="true"></div>
-      <div class="sleeve">
-        <div id="ytwrap"><div id="yt"></div></div>
-        <img class="cover" id="cover" alt="">
-        <div class="taphint hidden" id="tapHint">Tryck på bilden för att starta ljudet</div>
-      </div>
-    </div>
+    <button class="stage" id="stage" aria-label="Spela eller pausa">
+      <div class="lp"><div class="label"><span>?</span></div></div>
+    </button>
+    <div class="time" aria-hidden="true"><span id="timeBar"></span></div>
 
     <div class="controls">
       <button class="play" id="playBtn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15l12-7.5z"/></svg><span>Spela</span></button>
-      <button class="secondary" id="restartBtn" aria-label="Spela från början"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>Från början</button>
+      <button class="secondary" id="restartBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>Från början</button>
     </div>
 
     <div class="err hidden" id="errBox">
-      Den här videon går inte att spela utanför YouTube.
-      <div><button class="secondary" id="skipBtn">Hoppa över låten</button></div>
+      <span id="errText"></span>
+      <div class="btnrow"><button class="secondary" id="retryBtn">Försök igen</button><button class="secondary" id="skipBtn">Hoppa över</button></div>
     </div>
 
     <div id="answerForm">
@@ -207,15 +202,18 @@ dialog::backdrop{background:rgba(10,14,24,.7)}
       </div>
     </div>
 
-    <div class="result hidden" id="resultBox">
+    <div class="hidden" id="resultBox">
       <div class="res"><span class="mark" id="aMark"></span><div><div class="k">Artist</div><div class="v" id="aRight"></div><div class="you" id="aYou"></div></div></div>
       <div class="res"><span class="mark" id="tMark"></span><div><div class="k">Titel</div><div class="v" id="tRight"></div><div class="you" id="tYou"></div></div></div>
       <p class="verdict" id="verdict"></p>
+      <div class="alt">
+        <button class="textbtn" id="altBtn">Fel låt eller version? Välj en annan</button>
+        <ul id="altList" class="hidden"></ul>
+      </div>
       <button class="primary" id="nextBtn">Nästa låt</button>
     </div>
   </section>
 
-  <!-- SUMMARY -->
   <section id="summary" class="hidden">
     <h1 class="hero" id="sumHero"></h1>
     <p class="lede" id="sumLede"></p>
@@ -227,7 +225,8 @@ dialog::backdrop{background:rgba(10,14,24,.7)}
   </section>
 </div>
 
-<!-- SETTINGS -->
+<audio id="audio" preload="auto" playsinline></audio>
+
 <dialog id="settings">
   <div class="dlg">
     <div style="display:flex;justify-content:space-between;align-items:center">
@@ -237,17 +236,20 @@ dialog::backdrop{background:rgba(10,14,24,.7)}
 
     <h3>Låtlista</h3>
     <p id="listInfo"></p>
-    <ol>
-      <li>Öppna spellistan på YouTube på en dator i Chrome.</li>
-      <li>Tryck F12 och välj fliken Console. Skriv <code>allow pasting</code> och tryck Enter om Chrome frågar.</li>
-      <li>Klistra in koden nedan och tryck Enter. Sidan scrollar själv tills alla låtar är laddade, sedan kopieras listan.</li>
-      <li>Klistra in resultatet i rutan här under och tryck Importera.</li>
-    </ol>
+    <p>Klistra in låtar, en per rad som <i>Artist - Titel</i>, eller listan som koden nedan ger dig. Nya låtar läggs till i den befintliga listan.</p>
     <div class="stack">
-      <button class="secondary" id="copySnippet">Kopiera koden</button>
-      <textarea id="songsIn" placeholder='[{"id":"fJ9rUzIMcZQ","artist":"Queen","title":"Bohemian Rhapsody"}, …]'></textarea>
-      <button class="primary" id="importSongs">Importera låtlista</button>
+      <textarea id="songsIn" placeholder="Queen - Bohemian Rhapsody&#10;Nirvana - Smells Like Teen Spirit"></textarea>
+      <button class="primary" id="importSongs">Lägg till låtar</button>
+      <button class="secondary danger" id="clearSongs">Töm låtlistan</button>
     </div>
+    <p style="margin-top:16px">Hämta en spellista från Apple Music:</p>
+    <ol>
+      <li>Öppna spellistan på music.apple.com på en dator i Chrome.</li>
+      <li>Tryck F12 och välj fliken Console. Skriv <code>allow pasting</code> och tryck Enter om Chrome frågar.</li>
+      <li>Klistra in koden och tryck Enter. Gör samma sak på varje spellista du vill ha med. Koden samlar alla låtar och kopierar hela listan varje gång.</li>
+      <li>Klistra in resultatet i rutan ovan.</li>
+    </ol>
+    <button class="secondary" id="copySnippet" style="width:100%">Kopiera koden</button>
 
     <h3>Framsteg</h3>
     <p>Framstegen sparas i den här webbläsaren. Exportera en backup om du vill flytta dem till en annan enhet.</p>
@@ -261,109 +263,195 @@ dialog::backdrop{background:rgba(10,14,24,.7)}
   </div>
 </dialog>
 
-<script type="text/plain" id="snippet">(async () => {
-  const sleep = ms => new Promise(r => setTimeout(r, ms));
-  let last = -1, same = 0;
-  while (same < 5) {
-    const n = document.querySelectorAll('ytd-playlist-video-renderer').length;
-    if (n === last) same++; else { same = 0; last = n; }
-    window.scrollTo(0, document.documentElement.scrollHeight);
-    await sleep(1000);
+<script type="text/plain" id="snippet">(() => {
+  const KEY = 'latplugg_collected';
+  const prev = JSON.parse(localStorage.getItem(KEY) || '[]');
+  const out = new Map(prev.map(s => [s.trackId || (s.artist + '|' + s.title).toLowerCase(), s]));
+  const before = out.size;
+  const add = (title, artist, id) => {
+    title = (title || '').replace(/\s+/g, ' ').trim(); artist = (artist || '').replace(/\s+/g, ' ').trim();
+    if (!title || !artist) return;
+    const k = id ? Number(id) : (artist + '|' + title).toLowerCase();
+    if (!out.has(k)) out.set(k, id ? { trackId: Number(id), artist, title } : { artist, title });
+  };
+  try {
+    const el = document.getElementById('serialized-server-data');
+    if (el) {
+      const walk = o => {
+        if (!o || typeof o !== 'object') return;
+        if (Array.isArray(o)) { o.forEach(walk); return; }
+        const cd = o.contentDescriptor;
+        if (cd && cd.kind === 'song' && o.title) {
+          const artist = o.artistName || (o.subtitleLinks || []).map(l => l.title).join(', ');
+          add(o.title, artist, cd.identifiers && cd.identifiers.storeAdamID);
+        }
+        for (const k in o) walk(o[k]);
+      };
+      walk(JSON.parse(el.textContent));
+    }
+  } catch (e) {}
+  if (out.size === before) {
+    document.querySelectorAll('[data-testid="track-list-item"], .songs-list-row').forEach(r => {
+      const t = r.querySelector('[data-testid="track-title"], .songs-list-row__song-name');
+      const a = r.querySelector('[data-testid="track-title-by-line"], .songs-list-row__by-line');
+      const link = r.querySelector('a[href*="/song/"], a[href*="?i="]');
+      const m = link && link.href.match(/(?:\/song\/[^/]+\/|[?&]i=)(\d+)/);
+      add(t && t.textContent, a && a.textContent, m && m[1]);
+    });
   }
-  const junk = /\s*[(\[][^)\]]*(official|video|audio|lyric|remaster|visuali[sz]er|\bhd\b|\bhq\b|4k|\bmv\b|clip|version|stereo|mono)[^)\]]*[)\]]/gi;
-  const tidy = s => s.replace(junk, '').replace(/\s*\|.*$/, '').replace(/\s+(official\s+)?(music\s+)?video$/i, '')
-    .replace(/^["'“”]+|["'“”]+$/g, '').replace(/\s+/g, ' ').trim();
-  const songs = [...document.querySelectorAll('ytd-playlist-video-renderer')].map(el => {
-    const a = el.querySelector('a#video-title');
-    if (!a) return null;
-    const id = new URL(a.href, location.href).searchParams.get('v');
-    const raw = (a.getAttribute('title') || a.textContent).trim();
-    const ch = (el.querySelector('ytd-channel-name a, #channel-name a')?.textContent || '').trim();
-    let artist, title;
-    const m = raw.match(/^(.+?)\s+[-–—]\s+(.+)$/) || raw.match(/^(.+?)\s+["“](.+?)["”]/);
-    if (m) { artist = m[1]; title = m[2]; }
-    else { artist = ch.replace(/\s*-\s*Topic$/i, '').replace(/VEVO$/i, '').replace(/\s*Official.*$/i, ''); title = raw; }
-    return { id, artist: tidy(artist), title: tidy(title) };
-  }).filter(s => s && s.id);
-  const json = JSON.stringify(songs);
-  try { copy(json); console.log(songs.length + ' låtar kopierade. Klistra in dem i Låtplugg.'); }
+  const all = [...out.values()];
+  localStorage.setItem(KEY, JSON.stringify(all));
+  const json = JSON.stringify(all);
+  const msg = (all.length - before) + ' nya låtar, ' + all.length + ' totalt.';
+  try { copy(json); console.log(msg + ' Listan är kopierad.'); }
   catch (e) {
     const t = document.createElement('textarea'); t.value = json;
     t.style.cssText = 'position:fixed;top:20px;left:20px;width:80vw;height:60vh;z-index:99999';
-    document.body.appendChild(t); t.select();
-    console.log(songs.length + ' låtar. Kopiera texten i rutan med Ctrl+C.');
+    document.body.appendChild(t); t.select(); console.log(msg + ' Kopiera texten i rutan med Ctrl+C.');
   }
 })();</script>
 
 <script>
 /* ---------- Data ---------- */
 const DEMO_SONGS = [
-  {id:"fJ9rUzIMcZQ", artist:"Queen", title:"Bohemian Rhapsody"},
-  {id:"hTWKbfoikeg", artist:"Nirvana", title:"Smells Like Teen Spirit"},
-  {id:"Zi_XLOBDo_Y", artist:"Michael Jackson", title:"Billie Jean"},
-  {id:"YkgkThdzX-8", artist:"John Lennon", title:"Imagine"},
-  {id:"1w7OgIMMRc4", artist:"Guns N' Roses", title:"Sweet Child O' Mine"},
-  {id:"PWgvGjAhvIw", artist:"OutKast", title:"Hey Ya!"},
-  {id:"bx1Bh8ZvH84", artist:"Oasis", title:"Wonderwall"},
-  {id:"A_MjCqQoLLA", artist:"The Beatles", title:"Hey Jude"}
+  {artist:"Queen", title:"Bohemian Rhapsody"},
+  {artist:"Nirvana", title:"Smells Like Teen Spirit"},
+  {artist:"Michael Jackson", title:"Billie Jean"},
+  {artist:"John Lennon", title:"Imagine"},
+  {artist:"Guns N' Roses", title:"Sweet Child O' Mine"},
+  {artist:"OutKast", title:"Hey Ya!"},
+  {artist:"Oasis", title:"Wonderwall"},
+  {artist:"The Beatles", title:"Hey Jude"}
 ];
+/* Låtar som byggs in direkt i appen. Fylls i när listan är klar. */
+const BUILTIN_SONGS = [];
+
 const ROUND_SIZE = 10;
-const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64, 128]; // dagar per nivå
+const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64, 128];
 const KNOWN_LEVEL = 4;
-const K_SONGS = "latplugg_songs_v1", K_PROG = "latplugg_progress_v1";
+const COUNTRY = "se";
+const K_SONGS = "latplugg_songs_v2", K_PROG = "latplugg_progress_v2", K_RES = "latplugg_audio_v2";
 
 function load(key){ try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : null; } catch(e){ return null; } }
 function save(key, val){ try { localStorage.setItem(key, JSON.stringify(val)); return true; } catch(e){ toast("Kunde inte spara i webbläsaren."); return false; } }
-
-let customSongs = load(K_SONGS);
-let SONGS = Array.isArray(customSongs) && customSongs.length ? customSongs : DEMO_SONGS;
-let P = load(K_PROG) || {};
-P.cards = P.cards || {}; P.skip = P.skip || {};
-const saveProg = () => save(K_PROG, P);
-
-function today(){ const d = new Date(); return Math.floor((d.getTime() - d.getTimezoneOffset()*60000) / 86400000); }
-function shuffle(a){ for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 const $ = id => document.getElementById(id);
+function today(){ const d=new Date(); return Math.floor((d.getTime()-d.getTimezoneOffset()*60000)/86400000); }
+function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+const sleep = ms => new Promise(r=>setTimeout(r,ms));
 
-/* ---------- Matching ---------- */
+/* ---------- Text helpers ---------- */
 function fold(s){ return (s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,""); }
+const VERSION_WORDS = /(remaster|remix|mono|stereo|version|edit|single|live|mix|demo|take|from|soundtrack|anniversary|deluxe|bonus)/i;
+function cleanTitle(t){
+  t = (t||"").trim();
+  t = t.replace(/\s+[-–]\s+[^-–]*$/, m => VERSION_WORDS.test(m) ? "" : m);
+  t = t.replace(/\s*[(\[][^)\]]*[)\]]/g, m => VERSION_WORDS.test(m) ? "" : m);
+  return t.replace(/\s+/g," ").trim();
+}
 function norm(s){
-  return fold(s).replace(/\s*[(\[].*?[)\]]/g,"").replace(/\s(feat|ft|featuring)\.?\s.*$/,"")
+  return fold(s).replace(/\s*[(\[].*?[)\]]/g,"").replace(/\s(feat|ft|featuring|with)\.?\s.*$/,"")
     .replace(/&/g," and ").replace(/^the\s+/,"").replace(/[^a-z0-9]/g,"");
 }
+function songKey(s){ return s.trackId ? "t"+s.trackId : "n"+norm(s.artist)+"|"+norm(s.title); }
 function lev(a,b){
   const m=a.length,n=b.length; if(!m) return n; if(!n) return m;
   let prev=Array.from({length:n+1},(_,i)=>i);
-  for(let i=1;i<=m;i++){ const cur=[i]; for(let j=1;j<=n;j++){ cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1)); } prev=cur; }
+  for(let i=1;i<=m;i++){ const cur=[i]; for(let j=1;j<=n;j++) cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1)); prev=cur; }
   return prev[n];
 }
-function isMatch(input, answer){
-  const a=norm(input), b=norm(answer); if(!a) return false; if(a===b) return true;
-  const tol = b.length>12 ? 2 : b.length>5 ? 1 : 0;
-  return lev(a,b) <= tol;
+function close(a,b){ if(!a) return false; if(a===b) return true; const tol=b.length>12?2:b.length>5?1:0; return lev(a,b)<=tol; }
+function isMatch(input, answer){ return close(norm(input), norm(answer)); }
+function artistParts(a){ return [a, ...a.split(/\s*(?:,|&|\band\b|\bx\b|\bfeat\.?|\bft\.?|\bwith\b)\s*/i)].map(x=>x.trim()).filter(Boolean); }
+function artistMatch(input, answer){ const n=norm(input); return artistParts(answer).some(p=>close(n,norm(p))); }
+
+/* ---------- State ---------- */
+function prepSongs(list){
+  const seen=new Set(), out=[];
+  for(const x of list||[]){
+    if(!x || !x.artist || !x.title) continue;
+    const s={artist:String(x.artist).trim(), title:cleanTitle(String(x.title))};
+    if(x.trackId && /^\d+$/.test(String(x.trackId))) s.trackId=Number(x.trackId);
+    s.key=songKey(s);
+    if(seen.has(s.key)) continue; seen.add(s.key); out.push(s);
+  }
+  return out;
+}
+let stored = load(K_SONGS);
+let usingDemo = false;
+let SONGS = prepSongs(Array.isArray(stored) && stored.length ? stored : BUILTIN_SONGS);
+if(!SONGS.length){ SONGS = prepSongs(DEMO_SONGS); usingDemo = true; }
+let P = load(K_PROG) || {}; P.cards=P.cards||{}; P.skip=P.skip||{};
+let R = load(K_RES) || {};
+const saveProg = () => save(K_PROG,P);
+const saveRes = () => save(K_RES,R);
+
+/* ---------- Apple (iTunes) lookup ---------- */
+let jsonpN=0;
+function jsonp(url){
+  return new Promise((res,rej)=>{
+    const cb="__lp"+Date.now()+(++jsonpN), s=document.createElement("script");
+    const done=()=>{ clearTimeout(t); delete window[cb]; s.remove(); };
+    const t=setTimeout(()=>{ done(); rej(new Error("timeout")); },12000);
+    window[cb]=d=>{ done(); res(d); };
+    s.onerror=()=>{ done(); rej(new Error("net")); };
+    s.src=url+(url.includes("?")?"&":"?")+"callback="+cb;
+    document.head.append(s);
+  });
+}
+function scoreHit(s,h){
+  let sc=0;
+  if(artistMatch(h.artistName||"",s.artist) || artistMatch(s.artist,h.artistName||"")) sc+=4;
+  const ht=norm(cleanTitle(h.trackName||"")), st=norm(s.title);
+  if(ht===st) sc+=4; else if(close(ht,st) || ht.startsWith(st) || st.startsWith(ht)) sc+=2;
+  if(/live|karaoke|cover|tribute|instrumental/i.test((h.trackName||"")+" "+(h.collectionName||""))) sc-=3;
+  if(!h.previewUrl) sc-=10;
+  return sc;
+}
+async function searchHits(s, limit=10){
+  const term=encodeURIComponent(`${s.artist} ${s.title}`);
+  const d=await jsonp(`https://itunes.apple.com/search?term=${term}&country=${COUNTRY}&media=music&entity=song&limit=${limit}`);
+  return (d.results||[]).filter(h=>h.previewUrl);
+}
+async function resolveSongs(list){
+  const need=list.filter(s=>!R[s.key] || (R[s.key].none && Date.now()-R[s.key].at>86400000));
+  if(!need.length) return;
+  const withId=need.filter(s=>s.trackId);
+  for(let i=0;i<withId.length;i+=150){
+    const chunk=withId.slice(i,i+150);
+    try{
+      const d=await jsonp(`https://itunes.apple.com/lookup?id=${chunk.map(s=>s.trackId).join(",")}&country=${COUNTRY}&entity=song`);
+      const map={}; (d.results||[]).forEach(h=>{ if(h.previewUrl) map[h.trackId]=h; });
+      chunk.forEach(s=>{ const h=map[s.trackId]; if(h) R[s.key]={tid:h.trackId,url:h.previewUrl}; });
+    }catch(e){}
+  }
+  for(const s of need.filter(s=>!R[s.key] || R[s.key].none)){
+    try{
+      const hits=await searchHits(s);
+      const best=hits.map(h=>({h,sc:scoreHit(s,h)})).sort((a,b)=>b.sc-a.sc)[0];
+      R[s.key] = best && best.sc>=4 ? {tid:best.h.trackId,url:best.h.previewUrl} : {none:true,at:Date.now()};
+    }catch(e){ /* nätverksfel: försök igen senare */ }
+    await sleep(350);
+  }
+  saveRes();
 }
 
 /* ---------- Autocomplete ---------- */
-function uniqSorted(arr){ const seen=new Map(); arr.forEach(x=>{ const k=fold(x).trim(); if(k && !seen.has(k)) seen.set(k,x); }); return [...seen.values()].sort((a,b)=>a.localeCompare(b,"sv")); }
+function uniqSorted(arr){ const m=new Map(); arr.forEach(x=>{ const k=fold(x).trim(); if(k && !m.has(k)) m.set(k,x); }); return [...m.values()].sort((a,b)=>a.localeCompare(b,"sv")); }
 let artistOptions=[], titleOptions=[];
 function rebuildOptions(){ artistOptions=uniqSorted(SONGS.map(s=>s.artist)); titleOptions=uniqSorted(SONGS.map(s=>s.title)); }
-
 function setupAC(input, list, getOpts, onPick){
   let items=[], idx=-1;
-  function close(){ list.classList.add("hidden"); input.setAttribute("aria-expanded","false"); idx=-1; }
+  function hide(){ list.classList.add("hidden"); input.setAttribute("aria-expanded","false"); idx=-1; }
   function render(){
-    const q=fold(input.value).trim();
-    if(!q){ close(); return; }
+    const q=fold(input.value).trim(); if(!q){ hide(); return; }
     const scored=[];
     for(const o of getOpts()){
       const f=fold(o), pos=f.indexOf(q); if(pos<0) continue;
-      const score = pos===0 ? 0 : (f[pos-1]===" " || f[pos-1]==="(") ? 1 : 2;
-      scored.push({o,score,pos});
+      scored.push({o,pos,score: pos===0?0 : /[\s(]/.test(f[pos-1])?1:2});
     }
     scored.sort((a,b)=>a.score-b.score || a.o.localeCompare(b.o,"sv"));
-    items=scored.slice(0,8);
-    list.textContent="";
-    if(!items.length){ close(); return; }
+    items=scored.slice(0,8); list.textContent="";
+    if(!items.length){ hide(); return; }
     items.forEach((it,i)=>{
       const li=document.createElement("li"); li.setAttribute("role","option");
       li.append(it.o.slice(0,it.pos));
@@ -375,97 +463,64 @@ function setupAC(input, list, getOpts, onPick){
     idx=-1; list.classList.remove("hidden"); input.setAttribute("aria-expanded","true");
   }
   function hl(){ [...list.children].forEach((li,i)=>li.classList.toggle("on",i===idx)); if(idx>=0) list.children[idx].scrollIntoView({block:"nearest"}); }
-  function pick(i){ input.value=items[i].o; close(); onPick && onPick(); }
+  function pick(i){ input.value=items[i].o; hide(); onPick&&onPick(); }
   input.addEventListener("input",render);
-  input.addEventListener("blur",()=>setTimeout(close,120));
+  input.addEventListener("blur",()=>setTimeout(hide,120));
   input.addEventListener("keydown",e=>{
     const open=!list.classList.contains("hidden");
-    if(e.key==="ArrowDown" && open){ e.preventDefault(); idx=Math.min(idx+1,items.length-1); hl(); }
-    else if(e.key==="ArrowUp" && open){ e.preventDefault(); idx=Math.max(idx-1,0); hl(); }
-    else if(e.key==="Escape"){ close(); }
-    else if(e.key==="Enter"){
-      e.preventDefault();
-      if(open && idx>=0){ pick(idx); }
-      else if(open && items.length===1){ pick(0); }
-      else { close(); onPick && onPick(); }
-    }
+    if(e.key==="ArrowDown"&&open){ e.preventDefault(); idx=Math.min(idx+1,items.length-1); hl(); }
+    else if(e.key==="ArrowUp"&&open){ e.preventDefault(); idx=Math.max(idx-1,0); hl(); }
+    else if(e.key==="Escape") hide();
+    else if(e.key==="Enter"){ e.preventDefault(); if(open&&idx>=0) pick(idx); else if(open&&items.length===1) pick(0); else { hide(); onPick&&onPick(); } }
   });
-  return {close};
+  return {hide};
 }
 
-/* ---------- YouTube ---------- */
-let player=null, playerReady=false, pendingId=null, playState=-1, hintTimer=null;
-function loadYT(){
-  const s=document.createElement("script"); s.src="https://www.youtube.com/iframe_api";
-  s.onerror=()=>toast("Kunde inte ladda YouTube. Kontrollera nätet.");
-  document.head.append(s);
+/* ---------- Audio ---------- */
+const audio=$("audio");
+function setPlaying(on){
+  $("stage").classList.toggle("playing",on);
+  const b=$("playBtn");
+  b.querySelector("span").textContent = on ? "Pausa" : (audio.ended ? "Spela igen" : "Spela");
+  b.querySelector("svg").innerHTML = on ? '<path d="M6 4h4v16H6zM14 4h4v16h-4z"/>' : '<path d="M7 4.5v15l12-7.5z"/>';
 }
-window.onYouTubeIframeAPIReady=function(){
-  const vars={controls:0,disablekb:1,playsinline:1,rel:0,fs:0,iv_load_policy:3,modestbranding:1};
-  if(location.protocol.startsWith("http")) vars.origin=location.origin;
-  player=new YT.Player("yt",{width:"100%",height:"100%",playerVars:vars,events:{
-    onReady:()=>{ playerReady=true; if(pendingId){ cue(pendingId); pendingId=null; } },
-    onStateChange:e=>setPlayState(e.data),
-    onError:e=>{ if([2,5,100,101,150,153].includes(e.data)) $("errBox").classList.remove("hidden"); }
-  }});
-};
-function cue(id){
-  setPlayState(-1); $("errBox").classList.add("hidden"); $("tapHint").classList.add("hidden");
-  if(!playerReady){ pendingId=id; return; }
-  player.cueVideoById({videoId:id,startSeconds:0});
-}
-function setPlayState(s){
-  playState=s;
-  const playing = s===1 || s===3;
-  $("stage").classList.toggle("playing", s===1);
-  if(playing){ $("tapHint").classList.add("hidden"); clearTimeout(hintTimer); }
-  const btn=$("playBtn");
-  btn.querySelector("span").textContent = playing ? "Pausa" : s===0 ? "Spela igen" : "Spela";
-  btn.querySelector("svg").innerHTML = playing ? '<path d="M6 4h4v16H6zM14 4h4v16h-4z"/>' : '<path d="M7 4.5v15l12-7.5z"/>';
-}
+audio.addEventListener("playing",()=>setPlaying(true));
+audio.addEventListener("pause",()=>setPlaying(false));
+audio.addEventListener("ended",()=>setPlaying(false));
+audio.addEventListener("timeupdate",()=>{ $("timeBar").style.width = audio.duration ? (audio.currentTime/audio.duration*100)+"%" : "0"; });
+audio.addEventListener("error",()=>{ if(current && audio.getAttribute("src")){ delete R[current.s.key]; saveRes(); showErr("Klippet gick inte att spela. Tryck Försök igen för att hämta det på nytt."); } });
+function loadAudio(url){ audio.pause(); audio.src=url; audio.currentTime=0; audio.load(); $("timeBar").style.width="0"; setPlaying(false); }
 function togglePlay(){
-  if(!playerReady){ toast("Spelaren laddar fortfarande…"); return; }
-  if(playState===1 || playState===3){ player.pauseVideo(); return; }
-  if(playState===0) player.seekTo(0,true);
-  player.playVideo(); armHint();
+  if(!audio.getAttribute("src")) return;
+  if(!audio.paused){ audio.pause(); return; }
+  if(audio.ended) audio.currentTime=0;
+  audio.play().catch(()=>{});
 }
-function restart(){
-  if(!playerReady) return;
-  player.seekTo(0,true); player.playVideo(); armHint();
-}
-function armHint(){
-  clearTimeout(hintTimer);
-  hintTimer=setTimeout(()=>{ if(playState!==1 && playState!==3 && $("errBox").classList.contains("hidden")) $("tapHint").classList.remove("hidden"); },1800);
-}
+function restart(){ if(!audio.getAttribute("src")) return; audio.currentTime=0; audio.play().catch(()=>{}); }
+function showErr(t){ $("errText").textContent=t; $("errBox").classList.remove("hidden"); }
 
 /* ---------- Spaced repetition ---------- */
 function buildRound(){
-  const t=today();
-  const avail=SONGS.filter(s=>!P.skip[s.id]);
-  const due=shuffle(avail.filter(s=>P.cards[s.id] && P.cards[s.id].d<=t)).sort((a,b)=>P.cards[a.id].d-P.cards[b.id].d);
+  const t=today(), avail=SONGS.filter(s=>!P.skip[s.key]);
+  const due=shuffle(avail.filter(s=>P.cards[s.key]&&P.cards[s.key].d<=t)).sort((a,b)=>P.cards[a.key].d-P.cards[b.key].d);
   const pick=due.slice(0,ROUND_SIZE);
-  if(pick.length<ROUND_SIZE) pick.push(...shuffle(avail.filter(s=>!P.cards[s.id])).slice(0,ROUND_SIZE-pick.length));
-  if(pick.length<ROUND_SIZE){
-    const rest=avail.filter(s=>!pick.includes(s)).sort((a,b)=>P.cards[a.id].d-P.cards[b.id].d);
-    pick.push(...rest.slice(0,ROUND_SIZE-pick.length));
-  }
-  return pick.map(s=>({s,retry:false}));
+  if(pick.length<ROUND_SIZE) pick.push(...shuffle(avail.filter(s=>!P.cards[s.key])).slice(0,ROUND_SIZE-pick.length));
+  if(pick.length<ROUND_SIZE){ const rest=avail.filter(s=>!pick.includes(s)).sort((a,b)=>P.cards[a.key].d-P.cards[b.key].d); pick.push(...rest.slice(0,ROUND_SIZE-pick.length)); }
+  return pick;
 }
-function grade(song, aOk, tOk){
-  const t=today(), isNew=!P.cards[song.id];
-  const c=P.cards[song.id] || {b:0,d:t,n:0,ok:0};
+function grade(s,aOk,tOk){
+  const t=today(), isNew=!P.cards[s.key], c=P.cards[s.key]||{b:0,d:t,n:0,ok:0};
   c.n++;
-  if(aOk && tOk){ c.ok++; c.b = isNew ? 3 : Math.min(c.b+1, INTERVALS.length-1); c.d = t + INTERVALS[c.b]; }
-  else if(aOk || tOk){ c.b=Math.max(0,c.b-1); c.d=t+1; }
+  if(aOk&&tOk){ c.ok++; c.b = isNew ? 3 : Math.min(c.b+1,INTERVALS.length-1); c.d=t+INTERVALS[c.b]; }
+  else if(aOk||tOk){ c.b=Math.max(0,c.b-1); c.d=t+1; }
   else { c.b=0; c.d=t+1; }
-  P.cards[song.id]=c; saveProg();
+  P.cards[s.key]=c; saveProg();
 }
 function stats(){
-  const t=today(); let fresh=0, learning=0, known=0, due=0, skipped=0;
+  const t=today(); let fresh=0,learning=0,known=0,due=0,skipped=0;
   for(const s of SONGS){
-    if(P.skip[s.id]){ skipped++; continue; }
-    const c=P.cards[s.id];
-    if(!c){ fresh++; continue; }
+    if(P.skip[s.key]){ skipped++; continue; }
+    const c=P.cards[s.key]; if(!c){ fresh++; continue; }
     if(c.b>=KNOWN_LEVEL) known++; else learning++;
     if(c.d<=t) due++;
   }
@@ -474,136 +529,167 @@ function stats(){
 
 /* ---------- Views ---------- */
 function show(id){ ["home","play","summary"].forEach(v=>$(v).classList.toggle("hidden",v!==id)); window.scrollTo(0,0); }
-
 function renderHome(){
   const st=stats();
-  $("heroText").textContent = st.due>0 ? `${st.due} ${st.due===1?"låt":"låtar"} att repetera idag` :
-    st.fresh>0 ? "Dags för nya låtar" : "Allt repeterat för idag";
+  $("heroText").textContent = st.due>0 ? `${st.due} ${st.due===1?"låt":"låtar"} att repetera idag` : st.fresh>0 ? "Dags för nya låtar" : "Allt repeterat för idag";
   $("ledeText").textContent = st.due>0 ? "Rundan börjar med dem, sedan fylls den på med nya låtar." :
     st.fresh>0 ? `${st.fresh} låtar kvar som du inte har övat på än.` : "Du kan ändå köra en extra runda med de låtar som står näst på tur.";
   const parts=[["Kan",st.known,"var(--ok)"],["Lär mig",st.learning,"var(--amber)"],["Nya",st.fresh,"var(--surf2)"]];
   const m=$("meter"); m.textContent="";
   parts.forEach(([,n,c])=>{ if(!n) return; const s=document.createElement("span"); s.style.width=(n/Math.max(1,st.total)*100)+"%"; s.style.background=c; m.append(s); });
   const lg=$("legend"); lg.textContent="";
-  parts.forEach(([label,n,c])=>{ const d=document.createElement("div"); const b=document.createElement("b"); b.textContent=n; const i=document.createElement("i"); i.style.background=c; d.append(b,i,label); lg.append(d); });
+  parts.forEach(([label,n,c])=>{ const d=document.createElement("div"),b=document.createElement("b"),i=document.createElement("i"); b.textContent=n; i.style.background=c; d.append(b,i,label); lg.append(d); });
   $("startBtn").disabled = st.total===0;
-  $("demoNote").classList.toggle("hidden", SONGS!==DEMO_SONGS);
+  $("demoNote").classList.toggle("hidden",!usingDemo);
 }
 
-let round=null, current=null, acA, acT, answered=false;
-
-function startRound(){
-  const q=buildRound();
-  if(!q.length){ toast("Det finns inga låtar att öva på."); return; }
-  round={queue:q, i:0, firstCount:q.length, results:[]};
+let round=null, current=null, answered=false, acA, acT;
+async function startRound(){
+  const songs=buildRound();
+  if(!songs.length){ toast("Det finns inga låtar att öva på."); return; }
+  const btn=$("startBtn"), again=$("againBtn");
+  btn.disabled=again.disabled=true; const old=btn.textContent; btn.textContent=again.textContent="Hämtar ljud…";
+  try{ await resolveSongs(songs); } finally { btn.disabled=again.disabled=false; btn.textContent=old; again.textContent="Ny runda"; }
+  const playable=songs.filter(s=>R[s.key]&&R[s.key].url);
+  const missing=songs.length-playable.length;
+  if(!playable.length){ toast("Kunde inte hämta några ljudklipp. Kontrollera nätet och försök igen."); return; }
+  if(missing) toast(`${missing} låtar saknade klipp och togs bort ur rundan.`);
+  round={queue:playable.map(s=>({s,retry:false})), i:0, firstCount:playable.length, results:[]};
   show("play"); nextCard(true);
+  /* Förbered nästa runda i bakgrunden */
+  setTimeout(()=>resolveSongs(buildRound().filter(s=>!round.queue.some(q=>q.s===s))).catch(()=>{}),1500);
 }
 function renderPips(){
   const p=$("pips"); p.textContent="";
-  for(let i=0;i<round.queue.length;i++){ const s=document.createElement("span"); if(i<round.i) s.className="done"; else if(i===round.i) s.className="cur"; p.append(s); }
-  const isRetry=round.queue[round.i].retry;
-  $("roundCount").textContent = isRetry ? "Repris" : `Låt ${round.i+1} av ${round.firstCount}`;
+  round.queue.forEach((_,i)=>{ const s=document.createElement("span"); if(i<round.i) s.className="done"; else if(i===round.i) s.className="cur"; p.append(s); });
+  $("roundCount").textContent = round.queue[round.i].retry ? "Repris" : `Låt ${round.i+1} av ${round.firstCount}`;
 }
 function nextCard(first){
   if(!first) round.i++;
-  if(round.i>=round.queue.length){ if(playerReady) player.stopVideo(); finishRound(); return; }
+  if(round.i>=round.queue.length){ audio.pause(); finishRound(); return; }
   current=round.queue[round.i]; answered=false;
   renderPips();
-  $("cover").src=`https://i.ytimg.com/vi/${current.s.id}/hqdefault.jpg`;
+  $("errBox").classList.add("hidden");
   $("artistIn").value=""; $("titleIn").value="";
   $("answerForm").classList.remove("hidden"); $("resultBox").classList.add("hidden");
-  cue(current.s.id);
+  $("altList").classList.add("hidden"); $("altBtn").classList.remove("hidden");
+  const r=R[current.s.key];
+  if(r&&r.url){ loadAudio(r.url); audio.play().catch(()=>{}); }
+  else { loadAudio(""); audio.removeAttribute("src"); showErr("Hittade inget ljudklipp för låten."); }
+}
+async function retryAudio(){
+  $("errBox").classList.add("hidden"); delete R[current.s.key];
+  $("stage").classList.add("loading");
+  await resolveSongs([current.s]).catch(()=>{});
+  $("stage").classList.remove("loading");
+  const r=R[current.s.key];
+  if(r&&r.url){ loadAudio(r.url); audio.play().catch(()=>{}); } else showErr("Hittade fortfarande inget klipp. Hoppa över låten eller försök senare.");
 }
 function submit(dunno){
-  if(answered) return; answered=true;
-  acA.close(); acT.close();
+  if(answered) return; answered=true; acA.hide(); acT.hide();
   const s=current.s, aIn=dunno?"":$("artistIn").value.trim(), tIn=dunno?"":$("titleIn").value.trim();
-  const aOk=isMatch(aIn,s.artist), tOk=isMatch(tIn,s.title);
-  if(!current.retry){
-    grade(s,aOk,tOk);
-    round.results.push({s,aOk,tOk});
-    if(!(aOk&&tOk)) round.queue.push({s,retry:true});
-  }
+  const aOk=artistMatch(aIn,s.artist), tOk=isMatch(tIn,s.title);
+  if(!current.retry){ grade(s,aOk,tOk); round.results.push({s,aOk,tOk}); if(!(aOk&&tOk)) round.queue.push({s,retry:true}); }
   fillRes("a",aOk,s.artist,aIn); fillRes("t",tOk,s.title,tIn);
-  const c=P.cards[s.id];
-  $("verdict").textContent = current.retry ? (aOk&&tOk ? "Bra, nu satt den." : "Den kommer tillbaka i morgon.") :
-    aOk&&tOk ? `Rätt! Nästa gång om ${INTERVALS[c.b]} ${INTERVALS[c.b]===1?"dag":"dagar"}.` :
-    "Du får den igen i slutet av rundan och i morgon.";
+  const c=P.cards[s.key];
+  $("verdict").textContent = current.retry ? (aOk&&tOk?"Bra, nu satt den.":"Den kommer tillbaka i morgon.") :
+    aOk&&tOk ? `Rätt! Nästa gång om ${INTERVALS[c.b]} ${INTERVALS[c.b]===1?"dag":"dagar"}.` : "Du får den igen i slutet av rundan och i morgon.";
   $("answerForm").classList.add("hidden"); $("resultBox").classList.remove("hidden");
-  $("nextBtn").focus({preventScroll:true});
   renderPips();
 }
-function fillRes(p, ok, right, you){
+function fillRes(p,ok,right,you){
   const mk=$(p+"Mark"); mk.textContent=ok?"✓":"✕"; mk.className="mark "+(ok?"y":"n");
   $(p+"Right").textContent=right;
   const y=$(p+"You"); y.textContent="";
   if(!ok){ if(you){ y.append("Du skrev: "); const s=document.createElement("s"); s.textContent=you; y.append(s); } else y.textContent="Inget svar"; }
   else if(norm(you)!==norm(right)) y.textContent=`Du skrev: ${you} (räknas som rätt)`;
 }
+async function showAlternatives(){
+  const ul=$("altList"); ul.textContent=""; ul.classList.remove("hidden"); $("altBtn").classList.add("hidden");
+  const li0=document.createElement("li"); li0.textContent="Söker…"; li0.style.color="var(--muted)"; ul.append(li0);
+  let hits=[]; try{ hits=await searchHits(current.s,8); }catch(e){}
+  ul.textContent="";
+  if(!hits.length){ const li=document.createElement("li"); li.textContent="Hittade inga andra versioner."; li.style.color="var(--muted)"; ul.append(li); return; }
+  const s=current.s;
+  hits.forEach(h=>{
+    const li=document.createElement("li"), b=document.createElement("button");
+    b.textContent=`${h.trackName} – ${h.artistName}`;
+    const sm=document.createElement("small"); sm.textContent=h.collectionName||""; b.append(sm);
+    if(R[s.key]&&R[s.key].tid===h.trackId) b.classList.add("cur");
+    b.onclick=()=>{ R[s.key]={tid:h.trackId,url:h.previewUrl}; saveRes(); [...ul.querySelectorAll("button")].forEach(x=>x.classList.remove("cur")); b.classList.add("cur"); loadAudio(h.previewUrl); audio.play().catch(()=>{}); toast("Versionen är sparad för låten."); };
+    li.append(b); ul.append(li);
+  });
+}
 function skipSong(){
-  P.skip[current.s.id]=true; saveProg();
-  round.queue.splice(round.i,1);
-  round.firstCount=Math.max(0, round.queue.filter(x=>!x.retry).length);
-  toast("Låten är överhoppad.");
-  round.i--; nextCard(false);
+  P.skip[current.s.key]=true; saveProg();
+  round.queue=round.queue.filter((q,i)=>i<round.i || q.s!==current.s);
+  round.results=round.results.filter(r=>r.s!==current.s);
+  round.firstCount=round.queue.filter(q=>!q.retry).length;
+  toast("Låten är överhoppad."); round.i--; nextCard(false);
 }
 function finishRound(){
-  const r=round.results, both=r.filter(x=>x.aOk&&x.tOk).length;
+  const r=round.results, both=r.filter(x=>x.aOk&&x.tOk).length, st=stats();
   $("sumHero").textContent = r.length ? `${both} av ${r.length} helt rätt` : "Rundan är klar";
-  const st=stats();
-  $("sumLede").textContent = `Du kan nu ${st.known} av ${st.total} låtar.` + (st.due ? ` ${st.due} kvar att repetera idag.` : "");
+  $("sumLede").textContent = `Du kan nu ${st.known} av ${st.total} låtar.` + (st.due?` ${st.due} kvar att repetera idag.`:"");
   const ul=$("sumList"); ul.textContent="";
   r.forEach(({s,aOk,tOk})=>{
-    const li=document.createElement("li");
-    const img=document.createElement("img"); img.src=`https://i.ytimg.com/vi/${s.id}/default.jpg`; img.alt="";
-    const t=document.createElement("div"); t.className="t";
-    const b=document.createElement("b"); b.textContent=s.title; const sp=document.createElement("span"); sp.textContent=s.artist; t.append(b,sp);
-    const d=document.createElement("div"); d.className="dots"; d.title="Artist, titel";
+    const li=document.createElement("li"), t=document.createElement("div"), b=document.createElement("b"), sp=document.createElement("span"), d=document.createElement("div");
+    t.className="t"; b.textContent=s.title; sp.textContent=s.artist; t.append(b,sp);
+    d.className="dots"; d.title="Artist, titel";
     [aOk,tOk].forEach(ok=>{ const i=document.createElement("i"); if(ok) i.className="y"; d.append(i); });
-    li.append(img,t,d); ul.append(li);
+    li.append(t,d); ul.append(li);
   });
   show("summary");
 }
 
 /* ---------- Settings ---------- */
-function toast(msg){
-  const t=document.createElement("div"); t.className="toast"; t.textContent=msg; document.body.append(t);
-  setTimeout(()=>t.remove(),2600);
-}
+function toast(msg){ const t=document.createElement("div"); t.className="toast"; t.textContent=msg; document.body.append(t); setTimeout(()=>t.remove(),2800); }
 function renderSettings(){
-  $("listInfo").textContent = SONGS===DEMO_SONGS ? `Just nu används en demolista med ${SONGS.length} låtar.` :
-    `Just nu används din importerade lista med ${SONGS.length} låtar. En ny import ersätter listan men behåller framstegen för låtar som finns kvar.`;
+  $("listInfo").textContent = usingDemo ? `Just nu används en demolista med ${SONGS.length} låtar.` : `Listan innehåller ${SONGS.length} låtar.`;
+}
+function parseSongInput(text){
+  text=text.trim(); if(!text) return [];
+  if(text.startsWith("[")){ try{ return JSON.parse(text); }catch(e){ return null; } }
+  return text.split(/\r?\n/).map(l=>{
+    const m=l.trim().match(/^(.+?)\s+[-–—]\s+(.+)$/) || l.split("\t").length>1 && [0,...l.split("\t")];
+    return m ? {artist:m[1],title:m[2]} : null;
+  }).filter(Boolean);
 }
 function importSongs(){
-  let arr;
-  try { arr=JSON.parse($("songsIn").value.trim()); } catch(e){ toast("Texten är inte giltig JSON. Klistra in hela resultatet."); return; }
-  if(!Array.isArray(arr)){ toast("Listan måste vara en JSON-array."); return; }
-  const seen=new Set();
-  const clean=arr.filter(x=>x && typeof x.id==="string" && /^[\w-]{11}$/.test(x.id) && x.artist && x.title && !seen.has(x.id) && seen.add(x.id))
-    .map(x=>({id:x.id, artist:String(x.artist).trim(), title:String(x.title).trim()}));
-  if(!clean.length){ toast("Hittade inga låtar med id, artist och titel."); return; }
-  if(!save(K_SONGS,clean)) return;
-  customSongs=clean; SONGS=clean; rebuildOptions();
+  const parsed=parseSongInput($("songsIn").value);
+  if(parsed===null){ toast("Listan gick inte att läsa. Klistra in hela resultatet från koden."); return; }
+  const add=prepSongs(parsed);
+  if(!add.length){ toast("Hittade inga låtar. Skriv en per rad som Artist - Titel."); return; }
+  const base=usingDemo?[]:SONGS, keys=new Set(base.map(s=>s.key));
+  const fresh=add.filter(s=>!keys.has(s.key));
+  SONGS=[...base,...fresh]; usingDemo=false;
+  save(K_SONGS,SONGS.map(({key,...s})=>s)); rebuildOptions();
   $("songsIn").value=""; renderSettings(); renderHome();
-  toast(`${clean.length} låtar importerade.`);
+  toast(`${fresh.length} nya låtar tillagda.`);
+  resolveSongs(fresh.filter(s=>s.trackId)).catch(()=>{});
+}
+function clearSongs(){
+  if(!confirm("Tömma låtlistan? Dina framsteg sparas om du lägger in samma låtar igen.")) return;
+  try{ localStorage.removeItem(K_SONGS); }catch(e){}
+  SONGS=prepSongs(BUILTIN_SONGS); usingDemo=false;
+  if(!SONGS.length){ SONGS=prepSongs(DEMO_SONGS); usingDemo=true; }
+  rebuildOptions(); renderSettings(); renderHome();
 }
 function exportBackup(){
-  const data={app:"latplugg",v:1,exported:new Date().toISOString(),progress:P,songs:SONGS===DEMO_SONGS?null:SONGS};
-  const blob=new Blob([JSON.stringify(data)],{type:"application/json"});
-  const a=document.createElement("a"); a.href=URL.createObjectURL(blob);
+  const data={app:"latplugg",v:2,exported:new Date().toISOString(),progress:P,audio:R,songs:usingDemo?null:SONGS.map(({key,...s})=>s)};
+  const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([JSON.stringify(data)],{type:"application/json"}));
   a.download=`latplugg-backup-${new Date().toISOString().slice(0,10)}.json`;
-  document.body.append(a); a.click(); a.remove();
-  setTimeout(()=>URL.revokeObjectURL(a.href),5000);
+  document.body.append(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href),5000);
 }
 function importBackup(file){
   const r=new FileReader();
   r.onload=()=>{
     try{
-      const d=JSON.parse(r.result);
-      if(d.app!=="latplugg" || !d.progress) throw 0;
+      const d=JSON.parse(r.result); if(d.app!=="latplugg"||!d.progress) throw 0;
       if(!confirm("Det här ersätter dina nuvarande framsteg. Fortsätta?")) return;
       P=d.progress; P.cards=P.cards||{}; P.skip=P.skip||{}; saveProg();
-      if(Array.isArray(d.songs) && d.songs.length){ save(K_SONGS,d.songs); customSongs=d.songs; SONGS=d.songs; rebuildOptions(); }
+      if(d.audio){ R=d.audio; saveRes(); }
+      if(Array.isArray(d.songs)&&d.songs.length){ SONGS=prepSongs(d.songs); usingDemo=false; save(K_SONGS,d.songs); rebuildOptions(); }
       renderSettings(); renderHome(); toast("Backupen är inläst.");
     }catch(e){ toast("Filen är ingen Låtplugg-backup."); }
   };
@@ -617,13 +703,16 @@ acT=setupAC($("titleIn"),$("titleAc"),()=>titleOptions,()=>submit(false));
 $("startBtn").onclick=startRound;
 $("againBtn").onclick=startRound;
 $("homeBtn").onclick=()=>{ renderHome(); show("home"); };
-$("quitBtn").onclick=()=>{ if(playerReady) player.stopVideo(); round.results.length ? finishRound() : (renderHome(), show("home")); };
+$("quitBtn").onclick=()=>{ audio.pause(); if(round.results.length) finishRound(); else { renderHome(); show("home"); } };
+$("stage").onclick=togglePlay;
 $("playBtn").onclick=togglePlay;
 $("restartBtn").onclick=restart;
 $("submitBtn").onclick=()=>submit(false);
 $("dunnoBtn").onclick=()=>submit(true);
 $("nextBtn").onclick=()=>nextCard(false);
 $("skipBtn").onclick=skipSong;
+$("retryBtn").onclick=retryAudio;
+$("altBtn").onclick=showAlternatives;
 const dlg=$("settings");
 $("openSettings").onclick=()=>{ renderSettings(); dlg.showModal(); };
 $("demoImport").onclick=()=>{ renderSettings(); dlg.showModal(); };
@@ -632,9 +721,10 @@ dlg.addEventListener("close",renderHome);
 $("copySnippet").onclick=async()=>{
   const code=$("snippet").textContent;
   try{ await navigator.clipboard.writeText(code); toast("Koden är kopierad."); }
-  catch(e){ $("songsIn").value=code; $("songsIn").select(); toast("Kopiera koden från rutan, och töm den sedan."); }
+  catch(e){ $("songsIn").value=code; $("songsIn").select(); toast("Kopiera koden från rutan och töm den sedan."); }
 };
 $("importSongs").onclick=importSongs;
+$("clearSongs").onclick=clearSongs;
 $("exportBtn").onclick=exportBackup;
 $("importBtn").onclick=()=>$("importFile").click();
 $("importFile").onchange=e=>{ if(e.target.files[0]) importBackup(e.target.files[0]); e.target.value=""; };
@@ -643,9 +733,7 @@ $("resetBtn").onclick=()=>{ if(confirm("Nollställa alla framsteg? Låtlistan be
 document.addEventListener("keydown",e=>{
   if(e.key===" " && !$("play").classList.contains("hidden") && !["INPUT","TEXTAREA","BUTTON"].includes(document.activeElement.tagName)){ e.preventDefault(); togglePlay(); }
 });
-
 renderHome();
-loadYT();
 </script>
 </body>
 </html>
