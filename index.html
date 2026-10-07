@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#23324A">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Låtplugg">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💿</text></svg>">
+<title>Låtplugg</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#23324A; --surf:#2E4060; --surf2:#3A4E72; --line:#4D6390;
+  --amber:#FFB347; --amber-ink:#2A1A05; --ink:#F4EFE6; --muted:#A9B5C8;
+  --ok:#7BD389; --no:#FF7A6B;
+  --display:"Bricolage Grotesque", "Arial Black", system-ui, sans-serif;
+  --body:Figtree, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+*,*::before,*::after{box-sizing:inherit}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.45;-webkit-text-size-adjust:100%}
+body{min-height:100%}
+button,input,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+.app{max-width:480px;margin:0 auto;padding:12px 18px 32px}
+header{display:flex;align-items:center;justify-content:space-between;padding:6px 0 14px}
+.brand{font-family:var(--display);font-weight:800;font-size:1.35rem;letter-spacing:-.01em;display:flex;align-items:center;gap:8px}
+.brand svg{width:26px;height:26px}
+.iconbtn{background:none;border:0;padding:8px;border-radius:10px;color:var(--muted);display:grid;place-items:center}
+.iconbtn:hover{color:var(--ink);background:var(--surf)}
+.iconbtn svg{width:24px;height:24px}
+.hidden{display:none!important}
+
+/* Home */
+.hero{font-family:var(--display);font-weight:800;font-size:2.4rem;line-height:1.02;letter-spacing:-.02em;margin:18px 0 10px}
+.lede{color:var(--muted);margin:0 0 26px}
+.meter{height:12px;border-radius:6px;background:var(--surf);display:flex;overflow:hidden;margin-bottom:12px}
+.meter span{display:block;height:100%}
+.legend{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:30px}
+.legend div{font-size:.85rem;color:var(--muted)}
+.legend b{display:block;font-family:var(--display);font-size:1.5rem;color:var(--ink);font-weight:700}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.primary{width:100%;border:0;border-radius:14px;background:var(--amber);color:var(--amber-ink);font-weight:700;font-size:1.1rem;padding:16px}
+.primary:active{transform:translateY(1px)}
+.primary:disabled{opacity:.45}
+.secondary{border:1.5px solid var(--line);background:transparent;border-radius:14px;padding:13px 16px;font-weight:600}
+.note{background:var(--surf);border-radius:12px;padding:12px 14px;font-size:.92rem;color:var(--muted);margin-top:20px}
+.note button{background:none;border:0;color:var(--amber);padding:0;font-weight:600;text-decoration:underline}
+
+/* Play */
+.roundbar{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.roundbar .count{font-weight:600;font-size:.92rem;color:var(--muted);white-space:nowrap}
+.pips{flex:1;display:flex;gap:4px}
+.pips span{flex:1;height:6px;border-radius:3px;background:var(--surf2)}
+.pips span.done{background:var(--amber)}
+.pips span.cur{background:var(--ink)}
+.textbtn{background:none;border:0;color:var(--muted);font-size:.92rem;padding:6px}
+
+.stage{position:relative;width:78%;margin:4px auto 18px;aspect-ratio:1}
+.disc{position:absolute;top:4%;right:-14%;width:92%;aspect-ratio:1;border-radius:50%;
+  background:repeating-radial-gradient(circle at 50% 50%,#121a28 0 2px,#1b2639 2px 4px);
+  box-shadow:0 6px 22px rgba(0,0,0,.35);transition:right .5s cubic-bezier(.2,.8,.2,1)}
+.disc::after{content:"";position:absolute;inset:34%;border-radius:50%;background:var(--amber);
+  box-shadow:inset 0 0 0 2px rgba(0,0,0,.15)}
+.disc::before{content:"";position:absolute;inset:48%;border-radius:50%;background:var(--bg);z-index:1}
+.stage.playing .disc{right:-30%;animation:spin 1.8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.sleeve{position:absolute;inset:0;border-radius:6px;overflow:hidden;background:var(--surf);box-shadow:0 10px 30px rgba(0,0,0,.4)}
+#ytwrap{position:absolute;inset:0}
+#ytwrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.cover{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.34);pointer-events:none;background:var(--surf)}
+.taphint{position:absolute;left:10px;right:10px;bottom:10px;background:rgba(20,28,44,.88);border-radius:10px;padding:10px 12px;font-size:.9rem;text-align:center;pointer-events:none}
+@media (prefers-reduced-motion:reduce){.stage.playing .disc{animation:none}.disc{transition:none}}
+
+.controls{display:flex;gap:10px;margin-bottom:18px}
+.controls .play{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:14px;background:var(--ink);color:var(--bg);font-weight:700;padding:13px}
+.controls .play svg,.controls .secondary svg{width:20px;height:20px}
+.controls .secondary{display:flex;align-items:center;gap:6px}
+.err{background:rgba(255,122,107,.14);border:1px solid rgba(255,122,107,.5);border-radius:12px;padding:12px 14px;margin-bottom:16px;font-size:.95rem}
+.err button{margin-top:8px}
+
+.field{position:relative;margin-bottom:12px}
+.field label{display:block;font-size:.85rem;font-weight:600;color:var(--muted);margin-bottom:5px}
+.field input{width:100%;background:var(--surf);border:1.5px solid var(--line);border-radius:12px;padding:13px 14px;font-size:1.05rem}
+.field input:focus{border-color:var(--amber);outline:none}
+.ac{position:absolute;z-index:20;left:0;right:0;top:100%;margin-top:4px;background:var(--surf2);border-radius:12px;
+  box-shadow:0 12px 30px rgba(0,0,0,.45);max-height:270px;overflow:auto;padding:4px;list-style:none;margin-block:4px 0}
+.ac li{padding:11px 12px;border-radius:8px;cursor:pointer}
+.ac li.on,.ac li:hover{background:var(--line)}
+.ac li mark{background:none;color:var(--amber);font-weight:700}
+.answerrow{display:flex;gap:10px;margin-top:6px}
+.answerrow .primary{flex:2}
+.answerrow .secondary{flex:1}
+
+.result{margin-top:4px}
+.res{display:grid;grid-template-columns:28px 1fr;gap:4px 10px;align-items:start;padding:12px 0;border-bottom:1px solid var(--surf2)}
+.res .mark{font-size:1.2rem;font-weight:800;line-height:1.3}
+.res .mark.y{color:var(--ok)} .res .mark.n{color:var(--no)}
+.res .k{font-size:.8rem;color:var(--muted)}
+.res .v{font-family:var(--display);font-weight:700;font-size:1.25rem;line-height:1.2}
+.res .you{font-size:.9rem;color:var(--muted)}
+.res .you s{color:var(--no)}
+.verdict{margin:14px 0;color:var(--muted);font-size:.95rem}
+
+/* Summary */
+.sumlist{list-style:none;padding:0;margin:0 0 24px}
+.sumlist li{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--surf2)}
+.sumlist img{width:48px;height:48px;object-fit:cover;border-radius:4px;flex:none;background:var(--surf)}
+.sumlist .t{flex:1;min-width:0}
+.sumlist .t b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sumlist .t span{font-size:.88rem;color:var(--muted)}
+.dots{display:flex;gap:4px;flex:none}
+.dots i{width:10px;height:10px;border-radius:50%;background:var(--no)}
+.dots i.y{background:var(--ok)}
+.btnrow{display:flex;gap:10px}
+.btnrow>*{flex:1}
+
+/* Settings */
+dialog{border:0;padding:0;background:var(--bg);color:var(--ink);width:100%;max-width:520px;max-height:100%;height:100%;margin:0 auto;
+  padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+dialog::backdrop{background:rgba(10,14,24,.7)}
+@media (min-width:600px){dialog{height:auto;max-height:90vh;margin:auto;border-radius:18px}}
+.dlg{padding:12px 18px 28px;overflow:auto;max-height:100%}
+.dlg h2{font-family:var(--display);font-weight:800;font-size:1.6rem;margin:4px 0 0}
+.dlg h3{font-family:var(--display);font-size:1.15rem;margin:26px 0 6px}
+.dlg p{color:var(--muted);margin:0 0 10px;font-size:.95rem}
+.dlg textarea{width:100%;min-height:110px;background:var(--surf);border:1.5px solid var(--line);border-radius:12px;padding:10px;font-size:.85rem;font-family:ui-monospace,Menlo,Consolas,monospace}
+.dlg .stack{display:flex;flex-direction:column;gap:10px}
+.dlg ol{color:var(--muted);font-size:.95rem;padding-left:20px;margin:6px 0 10px}
+.dlg ol li{margin-bottom:6px}
+.danger{color:var(--no);border-color:rgba(255,122,107,.6)}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);
+  padding:10px 16px;border-radius:12px;font-weight:600;font-size:.95rem;z-index:100;max-width:90vw}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="brand">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="#121a28"/><circle cx="16" cy="16" r="10.5" fill="none" stroke="#2a3854" stroke-width="1"/><circle cx="16" cy="16" r="6" fill="#FFB347"/><circle cx="16" cy="16" r="1.6" fill="#23324A"/></svg>
+      Låtplugg
+    </div>
+    <button class="iconbtn" id="openSettings" aria-label="Inställningar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+    </button>
+  </header>
+
+  <!-- HOME -->
+  <section id="home">
+    <h1 class="hero" id="heroText"></h1>
+    <p class="lede" id="ledeText"></p>
+    <div class="meter" id="meter" aria-hidden="true"></div>
+    <div class="legend" id="legend"></div>
+    <button class="primary" id="startBtn">Starta runda</button>
+    <div class="note hidden" id="demoNote">Du övar på en demolista med några få låtar. <button id="demoImport">Lägg in hela spellistan</button> under inställningar.</div>
+  </section>
+
+  <!-- PLAY -->
+  <section id="play" class="hidden">
+    <div class="roundbar">
+      <span class="count" id="roundCount"></span>
+      <div class="pips" id="pips"></div>
+      <button class="textbtn" id="quitBtn">Avsluta</button>
+    </div>
+
+    <div class="stage" id="stage">
+      <div class="disc" aria-hidden="true"></div>
+      <div class="sleeve">
+        <div id="ytwrap"><div id="yt"></div></div>
+        <img class="cover" id="cover" alt="">
+        <div class="taphint hidden" id="tapHint">Tryck på bilden för att starta ljudet</div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button class="play" id="playBtn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15l12-7.5z"/></svg><span>Spela</span></button>
+      <button class="secondary" id="restartBtn" aria-label="Spela från början"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>Från början</button>
+    </div>
+
+    <div class="err hidden" id="errBox">
+      Den här videon går inte att spela utanför YouTube.
+      <div><button class="secondary" id="skipBtn">Hoppa över låten</button></div>
+    </div>
+
+    <div id="answerForm">
+      <div class="field">
+        <label for="artistIn">Artist</label>
+        <input id="artistIn" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="next" role="combobox" aria-expanded="false" aria-controls="artistAc">
+        <ul class="ac hidden" id="artistAc" role="listbox"></ul>
+      </div>
+      <div class="field">
+        <label for="titleIn">Titel</label>
+        <input id="titleIn" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="done" role="combobox" aria-expanded="false" aria-controls="titleAc">
+        <ul class="ac hidden" id="titleAc" role="listbox"></ul>
+      </div>
+      <div class="answerrow">
+        <button class="primary" id="submitBtn">Svara</button>
+        <button class="secondary" id="dunnoBtn">Vet inte</button>
+      </div>
+    </div>
+
+    <div class="result hidden" id="resultBox">
+      <div class="res"><span class="mark" id="aMark"></span><div><div class="k">Artist</div><div class="v" id="aRight"></div><div class="you" id="aYou"></div></div></div>
+      <div class="res"><span class="mark" id="tMark"></span><div><div class="k">Titel</div><div class="v" id="tRight"></div><div class="you" id="tYou"></div></div></div>
+      <p class="verdict" id="verdict"></p>
+      <button class="primary" id="nextBtn">Nästa låt</button>
+    </div>
+  </section>
+
+  <!-- SUMMARY -->
+  <section id="summary" class="hidden">
+    <h1 class="hero" id="sumHero"></h1>
+    <p class="lede" id="sumLede"></p>
+    <ul class="sumlist" id="sumList"></ul>
+    <div class="btnrow">
+      <button class="secondary" id="homeBtn">Till start</button>
+      <button class="primary" id="againBtn">Ny runda</button>
+    </div>
+  </section>
+</div>
+
+<!-- SETTINGS -->
+<dialog id="settings">
+  <div class="dlg">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <h2>Inställningar</h2>
+      <button class="iconbtn" id="closeSettings" aria-label="Stäng"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+
+    <h3>Låtlista</h3>
+    <p id="listInfo"></p>
+    <ol>
+      <li>Öppna spellistan på YouTube på en dator i Chrome.</li>
+      <li>Tryck F12 och välj fliken Console. Skriv <code>allow pasting</code> och tryck Enter om Chrome frågar.</li>
+      <li>Klistra in koden nedan och tryck Enter. Sidan scrollar själv tills alla låtar är laddade, sedan kopieras listan.</li>
+      <li>Klistra in resultatet i rutan här under och tryck Importera.</li>
+    </ol>
+    <div class="stack">
+      <button class="secondary" id="copySnippet">Kopiera koden</button>
+      <textarea id="songsIn" placeholder='[{"id":"fJ9rUzIMcZQ","artist":"Queen","title":"Bohemian Rhapsody"}, …]'></textarea>
+      <button class="primary" id="importSongs">Importera låtlista</button>
+    </div>
+
+    <h3>Framsteg</h3>
+    <p>Framstegen sparas i den här webbläsaren. Exportera en backup om du vill flytta dem till en annan enhet.</p>
+    <div class="stack">
+      <button class="secondary" id="exportBtn">Exportera backup</button>
+      <button class="secondary" id="importBtn">Läs in backup</button>
+      <input type="file" id="importFile" accept="application/json,.json" class="hidden">
+      <button class="secondary" id="unskipBtn">Ta tillbaka överhoppade låtar</button>
+      <button class="secondary danger" id="resetBtn">Nollställ alla framsteg</button>
+    </div>
+  </div>
+</dialog>
+
+<script type="text/plain" id="snippet">(async () => {
+  const sleep = ms => new Promise(r => setTimeout(r, ms));
+  let last = -1, same = 0;
+  while (same < 5) {
+    const n = document.querySelectorAll('ytd-playlist-video-renderer').length;
+    if (n === last) same++; else { same = 0; last = n; }
+    window.scrollTo(0, document.documentElement.scrollHeight);
+    await sleep(1000);
+  }
+  const junk = /\s*[(\[][^)\]]*(official|video|audio|lyric|remaster|visuali[sz]er|\bhd\b|\bhq\b|4k|\bmv\b|clip|version|stereo|mono)[^)\]]*[)\]]/gi;
+  const tidy = s => s.replace(junk, '').replace(/\s*\|.*$/, '').replace(/\s+(official\s+)?(music\s+)?video$/i, '')
+    .replace(/^["'“”]+|["'“”]+$/g, '').replace(/\s+/g, ' ').trim();
+  const songs = [...document.querySelectorAll('ytd-playlist-video-renderer')].map(el => {
+    const a = el.querySelector('a#video-title');
+    if (!a) return null;
+    const id = new URL(a.href, location.href).searchParams.get('v');
+    const raw = (a.getAttribute('title') || a.textContent).trim();
+    const ch = (el.querySelector('ytd-channel-name a, #channel-name a')?.textContent || '').trim();
+    let artist, title;
+    const m = raw.match(/^(.+?)\s+[-–—]\s+(.+)$/) || raw.match(/^(.+?)\s+["“](.+?)["”]/);
+    if (m) { artist = m[1]; title = m[2]; }
+    else { artist = ch.replace(/\s*-\s*Topic$/i, '').replace(/VEVO$/i, '').replace(/\s*Official.*$/i, ''); title = raw; }
+    return { id, artist: tidy(artist), title: tidy(title) };
+  }).filter(s => s && s.id);
+  const json = JSON.stringify(songs);
+  try { copy(json); console.log(songs.length + ' låtar kopierade. Klistra in dem i Låtplugg.'); }
+  catch (e) {
+    const t = document.createElement('textarea'); t.value = json;
+    t.style.cssText = 'position:fixed;top:20px;left:20px;width:80vw;height:60vh;z-index:99999';
+    document.body.appendChild(t); t.select();
+    console.log(songs.length + ' låtar. Kopiera texten i rutan med Ctrl+C.');
+  }
+})();</script>
+
+<script>
+/* ---------- Data ---------- */
+const DEMO_SONGS = [
+  {id:"fJ9rUzIMcZQ", artist:"Queen", title:"Bohemian Rhapsody"},
+  {id:"hTWKbfoikeg", artist:"Nirvana", title:"Smells Like Teen Spirit"},
+  {id:"Zi_XLOBDo_Y", artist:"Michael Jackson", title:"Billie Jean"},
+  {id:"YkgkThdzX-8", artist:"John Lennon", title:"Imagine"},
+  {id:"1w7OgIMMRc4", artist:"Guns N' Roses", title:"Sweet Child O' Mine"},
+  {id:"PWgvGjAhvIw", artist:"OutKast", title:"Hey Ya!"},
+  {id:"bx1Bh8ZvH84", artist:"Oasis", title:"Wonderwall"},
+  {id:"A_MjCqQoLLA", artist:"The Beatles", title:"Hey Jude"}
+];
+const ROUND_SIZE = 10;
+const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64, 128]; // dagar per nivå
+const KNOWN_LEVEL = 4;
+const K_SONGS = "latplugg_songs_v1", K_PROG = "latplugg_progress_v1";
+
+function load(key){ try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : null; } catch(e){ return null; } }
+function save(key, val){ try { localStorage.setItem(key, JSON.stringify(val)); return true; } catch(e){ toast("Kunde inte spara i webbläsaren."); return false; } }
+
+let customSongs = load(K_SONGS);
+let SONGS = Array.isArray(customSongs) && customSongs.length ? customSongs : DEMO_SONGS;
+let P = load(K_PROG) || {};
+P.cards = P.cards || {}; P.skip = P.skip || {};
+const saveProg = () => save(K_PROG, P);
+
+function today(){ const d = new Date(); return Math.floor((d.getTime() - d.getTimezoneOffset()*60000) / 86400000); }
+function shuffle(a){ for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+const $ = id => document.getElementById(id);
+
+/* ---------- Matching ---------- */
+function fold(s){ return (s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,""); }
+function norm(s){
+  return fold(s).replace(/\s*[(\[].*?[)\]]/g,"").replace(/\s(feat|ft|featuring)\.?\s.*$/,"")
+    .replace(/&/g," and ").replace(/^the\s+/,"").replace(/[^a-z0-9]/g,"");
+}
+function lev(a,b){
+  const m=a.length,n=b.length; if(!m) return n; if(!n) return m;
+  let prev=Array.from({length:n+1},(_,i)=>i);
+  for(let i=1;i<=m;i++){ const cur=[i]; for(let j=1;j<=n;j++){ cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1)); } prev=cur; }
+  return prev[n];
+}
+function isMatch(input, answer){
+  const a=norm(input), b=norm(answer); if(!a) return false; if(a===b) return true;
+  const tol = b.length>12 ? 2 : b.length>5 ? 1 : 0;
+  return lev(a,b) <= tol;
+}
+
+/* ---------- Autocomplete ---------- */
+function uniqSorted(arr){ const seen=new Map(); arr.forEach(x=>{ const k=fold(x).trim(); if(k && !seen.has(k)) seen.set(k,x); }); return [...seen.values()].sort((a,b)=>a.localeCompare(b,"sv")); }
+let artistOptions=[], titleOptions=[];
+function rebuildOptions(){ artistOptions=uniqSorted(SONGS.map(s=>s.artist)); titleOptions=uniqSorted(SONGS.map(s=>s.title)); }
+
+function setupAC(input, list, getOpts, onPick){
+  let items=[], idx=-1;
+  function close(){ list.classList.add("hidden"); input.setAttribute("aria-expanded","false"); idx=-1; }
+  function render(){
+    const q=fold(input.value).trim();
+    if(!q){ close(); return; }
+    const scored=[];
+    for(const o of getOpts()){
+      const f=fold(o), pos=f.indexOf(q); if(pos<0) continue;
+      const score = pos===0 ? 0 : (f[pos-1]===" " || f[pos-1]==="(") ? 1 : 2;
+      scored.push({o,score,pos});
+    }
+    scored.sort((a,b)=>a.score-b.score || a.o.localeCompare(b.o,"sv"));
+    items=scored.slice(0,8);
+    list.textContent="";
+    if(!items.length){ close(); return; }
+    items.forEach((it,i)=>{
+      const li=document.createElement("li"); li.setAttribute("role","option");
+      li.append(it.o.slice(0,it.pos));
+      const mk=document.createElement("mark"); mk.textContent=it.o.slice(it.pos,it.pos+q.length); li.append(mk);
+      li.append(it.o.slice(it.pos+q.length));
+      li.addEventListener("pointerdown",e=>{ e.preventDefault(); pick(i); });
+      list.append(li);
+    });
+    idx=-1; list.classList.remove("hidden"); input.setAttribute("aria-expanded","true");
+  }
+  function hl(){ [...list.children].forEach((li,i)=>li.classList.toggle("on",i===idx)); if(idx>=0) list.children[idx].scrollIntoView({block:"nearest"}); }
+  function pick(i){ input.value=items[i].o; close(); onPick && onPick(); }
+  input.addEventListener("input",render);
+  input.addEventListener("blur",()=>setTimeout(close,120));
+  input.addEventListener("keydown",e=>{
+    const open=!list.classList.contains("hidden");
+    if(e.key==="ArrowDown" && open){ e.preventDefault(); idx=Math.min(idx+1,items.length-1); hl(); }
+    else if(e.key==="ArrowUp" && open){ e.preventDefault(); idx=Math.max(idx-1,0); hl(); }
+    else if(e.key==="Escape"){ close(); }
+    else if(e.key==="Enter"){
+      e.preventDefault();
+      if(open && idx>=0){ pick(idx); }
+      else if(open && items.length===1){ pick(0); }
+      else { close(); onPick && onPick(); }
+    }
+  });
+  return {close};
+}
+
+/* ---------- YouTube ---------- */
+let player=null, playerReady=false, pendingId=null, playState=-1, hintTimer=null;
+function loadYT(){
+  const s=document.createElement("script"); s.src="https://www.youtube.com/iframe_api";
+  s.onerror=()=>toast("Kunde inte ladda YouTube. Kontrollera nätet.");
+  document.head.append(s);
+}
+window.onYouTubeIframeAPIReady=function(){
+  const vars={controls:0,disablekb:1,playsinline:1,rel:0,fs:0,iv_load_policy:3,modestbranding:1};
+  if(location.protocol.startsWith("http")) vars.origin=location.origin;
+  player=new YT.Player("yt",{width:"100%",height:"100%",playerVars:vars,events:{
+    onReady:()=>{ playerReady=true; if(pendingId){ cue(pendingId); pendingId=null; } },
+    onStateChange:e=>setPlayState(e.data),
+    onError:e=>{ if([2,5,100,101,150,153].includes(e.data)) $("errBox").classList.remove("hidden"); }
+  }});
+};
+function cue(id){
+  setPlayState(-1); $("errBox").classList.add("hidden"); $("tapHint").classList.add("hidden");
+  if(!playerReady){ pendingId=id; return; }
+  player.cueVideoById({videoId:id,startSeconds:0});
+}
+function setPlayState(s){
+  playState=s;
+  const playing = s===1 || s===3;
+  $("stage").classList.toggle("playing", s===1);
+  if(playing){ $("tapHint").classList.add("hidden"); clearTimeout(hintTimer); }
+  const btn=$("playBtn");
+  btn.querySelector("span").textContent = playing ? "Pausa" : s===0 ? "Spela igen" : "Spela";
+  btn.querySelector("svg").innerHTML = playing ? '<path d="M6 4h4v16H6zM14 4h4v16h-4z"/>' : '<path d="M7 4.5v15l12-7.5z"/>';
+}
+function togglePlay(){
+  if(!playerReady){ toast("Spelaren laddar fortfarande…"); return; }
+  if(playState===1 || playState===3){ player.pauseVideo(); return; }
+  if(playState===0) player.seekTo(0,true);
+  player.playVideo(); armHint();
+}
+function restart(){
+  if(!playerReady) return;
+  player.seekTo(0,true); player.playVideo(); armHint();
+}
+function armHint(){
+  clearTimeout(hintTimer);
+  hintTimer=setTimeout(()=>{ if(playState!==1 && playState!==3 && $("errBox").classList.contains("hidden")) $("tapHint").classList.remove("hidden"); },1800);
+}
+
+/* ---------- Spaced repetition ---------- */
+function buildRound(){
+  const t=today();
+  const avail=SONGS.filter(s=>!P.skip[s.id]);
+  const due=shuffle(avail.filter(s=>P.cards[s.id] && P.cards[s.id].d<=t)).sort((a,b)=>P.cards[a.id].d-P.cards[b.id].d);
+  const pick=due.slice(0,ROUND_SIZE);
+  if(pick.length<ROUND_SIZE) pick.push(...shuffle(avail.filter(s=>!P.cards[s.id])).slice(0,ROUND_SIZE-pick.length));
+  if(pick.length<ROUND_SIZE){
+    const rest=avail.filter(s=>!pick.includes(s)).sort((a,b)=>P.cards[a.id].d-P.cards[b.id].d);
+    pick.push(...rest.slice(0,ROUND_SIZE-pick.length));
+  }
+  return pick.map(s=>({s,retry:false}));
+}
+function grade(song, aOk, tOk){
+  const t=today(), isNew=!P.cards[song.id];
+  const c=P.cards[song.id] || {b:0,d:t,n:0,ok:0};
+  c.n++;
+  if(aOk && tOk){ c.ok++; c.b = isNew ? 3 : Math.min(c.b+1, INTERVALS.length-1); c.d = t + INTERVALS[c.b]; }
+  else if(aOk || tOk){ c.b=Math.max(0,c.b-1); c.d=t+1; }
+  else { c.b=0; c.d=t+1; }
+  P.cards[song.id]=c; saveProg();
+}
+function stats(){
+  const t=today(); let fresh=0, learning=0, known=0, due=0, skipped=0;
+  for(const s of SONGS){
+    if(P.skip[s.id]){ skipped++; continue; }
+    const c=P.cards[s.id];
+    if(!c){ fresh++; continue; }
+    if(c.b>=KNOWN_LEVEL) known++; else learning++;
+    if(c.d<=t) due++;
+  }
+  return {fresh,learning,known,due,skipped,total:SONGS.length-skipped};
+}
+
+/* ---------- Views ---------- */
+function show(id){ ["home","play","summary"].forEach(v=>$(v).classList.toggle("hidden",v!==id)); window.scrollTo(0,0); }
+
+function renderHome(){
+  const st=stats();
+  $("heroText").textContent = st.due>0 ? `${st.due} ${st.due===1?"låt":"låtar"} att repetera idag` :
+    st.fresh>0 ? "Dags för nya låtar" : "Allt repeterat för idag";
+  $("ledeText").textContent = st.due>0 ? "Rundan börjar med dem, sedan fylls den på med nya låtar." :
+    st.fresh>0 ? `${st.fresh} låtar kvar som du inte har övat på än.` : "Du kan ändå köra en extra runda med de låtar som står näst på tur.";
+  const parts=[["Kan",st.known,"var(--ok)"],["Lär mig",st.learning,"var(--amber)"],["Nya",st.fresh,"var(--surf2)"]];
+  const m=$("meter"); m.textContent="";
+  parts.forEach(([,n,c])=>{ if(!n) return; const s=document.createElement("span"); s.style.width=(n/Math.max(1,st.total)*100)+"%"; s.style.background=c; m.append(s); });
+  const lg=$("legend"); lg.textContent="";
+  parts.forEach(([label,n,c])=>{ const d=document.createElement("div"); const b=document.createElement("b"); b.textContent=n; const i=document.createElement("i"); i.style.background=c; d.append(b,i,label); lg.append(d); });
+  $("startBtn").disabled = st.total===0;
+  $("demoNote").classList.toggle("hidden", SONGS!==DEMO_SONGS);
+}
+
+let round=null, current=null, acA, acT, answered=false;
+
+function startRound(){
+  const q=buildRound();
+  if(!q.length){ toast("Det finns inga låtar att öva på."); return; }
+  round={queue:q, i:0, firstCount:q.length, results:[]};
+  show("play"); nextCard(true);
+}
+function renderPips(){
+  const p=$("pips"); p.textContent="";
+  for(let i=0;i<round.queue.length;i++){ const s=document.createElement("span"); if(i<round.i) s.className="done"; else if(i===round.i) s.className="cur"; p.append(s); }
+  const isRetry=round.queue[round.i].retry;
+  $("roundCount").textContent = isRetry ? "Repris" : `Låt ${round.i+1} av ${round.firstCount}`;
+}
+function nextCard(first){
+  if(!first) round.i++;
+  if(round.i>=round.queue.length){ if(playerReady) player.stopVideo(); finishRound(); return; }
+  current=round.queue[round.i]; answered=false;
+  renderPips();
+  $("cover").src=`https://i.ytimg.com/vi/${current.s.id}/hqdefault.jpg`;
+  $("artistIn").value=""; $("titleIn").value="";
+  $("answerForm").classList.remove("hidden"); $("resultBox").classList.add("hidden");
+  cue(current.s.id);
+}
+function submit(dunno){
+  if(answered) return; answered=true;
+  acA.close(); acT.close();
+  const s=current.s, aIn=dunno?"":$("artistIn").value.trim(), tIn=dunno?"":$("titleIn").value.trim();
+  const aOk=isMatch(aIn,s.artist), tOk=isMatch(tIn,s.title);
+  if(!current.retry){
+    grade(s,aOk,tOk);
+    round.results.push({s,aOk,tOk});
+    if(!(aOk&&tOk)) round.queue.push({s,retry:true});
+  }
+  fillRes("a",aOk,s.artist,aIn); fillRes("t",tOk,s.title,tIn);
+  const c=P.cards[s.id];
+  $("verdict").textContent = current.retry ? (aOk&&tOk ? "Bra, nu satt den." : "Den kommer tillbaka i morgon.") :
+    aOk&&tOk ? `Rätt! Nästa gång om ${INTERVALS[c.b]} ${INTERVALS[c.b]===1?"dag":"dagar"}.` :
+    "Du får den igen i slutet av rundan och i morgon.";
+  $("answerForm").classList.add("hidden"); $("resultBox").classList.remove("hidden");
+  $("nextBtn").focus({preventScroll:true});
+  renderPips();
+}
+function fillRes(p, ok, right, you){
+  const mk=$(p+"Mark"); mk.textContent=ok?"✓":"✕"; mk.className="mark "+(ok?"y":"n");
+  $(p+"Right").textContent=right;
+  const y=$(p+"You"); y.textContent="";
+  if(!ok){ if(you){ y.append("Du skrev: "); const s=document.createElement("s"); s.textContent=you; y.append(s); } else y.textContent="Inget svar"; }
+  else if(norm(you)!==norm(right)) y.textContent=`Du skrev: ${you} (räknas som rätt)`;
+}
+function skipSong(){
+  P.skip[current.s.id]=true; saveProg();
+  round.queue.splice(round.i,1);
+  round.firstCount=Math.max(0, round.queue.filter(x=>!x.retry).length);
+  toast("Låten är överhoppad.");
+  round.i--; nextCard(false);
+}
+function finishRound(){
+  const r=round.results, both=r.filter(x=>x.aOk&&x.tOk).length;
+  $("sumHero").textContent = r.length ? `${both} av ${r.length} helt rätt` : "Rundan är klar";
+  const st=stats();
+  $("sumLede").textContent = `Du kan nu ${st.known} av ${st.total} låtar.` + (st.due ? ` ${st.due} kvar att repetera idag.` : "");
+  const ul=$("sumList"); ul.textContent="";
+  r.forEach(({s,aOk,tOk})=>{
+    const li=document.createElement("li");
+    const img=document.createElement("img"); img.src=`https://i.ytimg.com/vi/${s.id}/default.jpg`; img.alt="";
+    const t=document.createElement("div"); t.className="t";
+    const b=document.createElement("b"); b.textContent=s.title; const sp=document.createElement("span"); sp.textContent=s.artist; t.append(b,sp);
+    const d=document.createElement("div"); d.className="dots"; d.title="Artist, titel";
+    [aOk,tOk].forEach(ok=>{ const i=document.createElement("i"); if(ok) i.className="y"; d.append(i); });
+    li.append(img,t,d); ul.append(li);
+  });
+  show("summary");
+}
+
+/* ---------- Settings ---------- */
+function toast(msg){
+  const t=document.createElement("div"); t.className="toast"; t.textContent=msg; document.body.append(t);
+  setTimeout(()=>t.remove(),2600);
+}
+function renderSettings(){
+  $("listInfo").textContent = SONGS===DEMO_SONGS ? `Just nu används en demolista med ${SONGS.length} låtar.` :
+    `Just nu används din importerade lista med ${SONGS.length} låtar. En ny import ersätter listan men behåller framstegen för låtar som finns kvar.`;
+}
+function importSongs(){
+  let arr;
+  try { arr=JSON.parse($("songsIn").value.trim()); } catch(e){ toast("Texten är inte giltig JSON. Klistra in hela resultatet."); return; }
+  if(!Array.isArray(arr)){ toast("Listan måste vara en JSON-array."); return; }
+  const seen=new Set();
+  const clean=arr.filter(x=>x && typeof x.id==="string" && /^[\w-]{11}$/.test(x.id) && x.artist && x.title && !seen.has(x.id) && seen.add(x.id))
+    .map(x=>({id:x.id, artist:String(x.artist).trim(), title:String(x.title).trim()}));
+  if(!clean.length){ toast("Hittade inga låtar med id, artist och titel."); return; }
+  if(!save(K_SONGS,clean)) return;
+  customSongs=clean; SONGS=clean; rebuildOptions();
+  $("songsIn").value=""; renderSettings(); renderHome();
+  toast(`${clean.length} låtar importerade.`);
+}
+function exportBackup(){
+  const data={app:"latplugg",v:1,exported:new Date().toISOString(),progress:P,songs:SONGS===DEMO_SONGS?null:SONGS};
+  const blob=new Blob([JSON.stringify(data)],{type:"application/json"});
+  const a=document.createElement("a"); a.href=URL.createObjectURL(blob);
+  a.download=`latplugg-backup-${new Date().toISOString().slice(0,10)}.json`;
+  document.body.append(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(a.href),5000);
+}
+function importBackup(file){
+  const r=new FileReader();
+  r.onload=()=>{
+    try{
+      const d=JSON.parse(r.result);
+      if(d.app!=="latplugg" || !d.progress) throw 0;
+      if(!confirm("Det här ersätter dina nuvarande framsteg. Fortsätta?")) return;
+      P=d.progress; P.cards=P.cards||{}; P.skip=P.skip||{}; saveProg();
+      if(Array.isArray(d.songs) && d.songs.length){ save(K_SONGS,d.songs); customSongs=d.songs; SONGS=d.songs; rebuildOptions(); }
+      renderSettings(); renderHome(); toast("Backupen är inläst.");
+    }catch(e){ toast("Filen är ingen Låtplugg-backup."); }
+  };
+  r.readAsText(file);
+}
+
+/* ---------- Wire up ---------- */
+rebuildOptions();
+acA=setupAC($("artistIn"),$("artistAc"),()=>artistOptions,()=>$("titleIn").focus());
+acT=setupAC($("titleIn"),$("titleAc"),()=>titleOptions,()=>submit(false));
+$("startBtn").onclick=startRound;
+$("againBtn").onclick=startRound;
+$("homeBtn").onclick=()=>{ renderHome(); show("home"); };
+$("quitBtn").onclick=()=>{ if(playerReady) player.stopVideo(); round.results.length ? finishRound() : (renderHome(), show("home")); };
+$("playBtn").onclick=togglePlay;
+$("restartBtn").onclick=restart;
+$("submitBtn").onclick=()=>submit(false);
+$("dunnoBtn").onclick=()=>submit(true);
+$("nextBtn").onclick=()=>nextCard(false);
+$("skipBtn").onclick=skipSong;
+const dlg=$("settings");
+$("openSettings").onclick=()=>{ renderSettings(); dlg.showModal(); };
+$("demoImport").onclick=()=>{ renderSettings(); dlg.showModal(); };
+$("closeSettings").onclick=()=>dlg.close();
+dlg.addEventListener("close",renderHome);
+$("copySnippet").onclick=async()=>{
+  const code=$("snippet").textContent;
+  try{ await navigator.clipboard.writeText(code); toast("Koden är kopierad."); }
+  catch(e){ $("songsIn").value=code; $("songsIn").select(); toast("Kopiera koden från rutan, och töm den sedan."); }
+};
+$("importSongs").onclick=importSongs;
+$("exportBtn").onclick=exportBackup;
+$("importBtn").onclick=()=>$("importFile").click();
+$("importFile").onchange=e=>{ if(e.target.files[0]) importBackup(e.target.files[0]); e.target.value=""; };
+$("unskipBtn").onclick=()=>{ const n=Object.keys(P.skip).length; P.skip={}; saveProg(); renderHome(); toast(n?`${n} låtar tillbaka i listan.`:"Inga överhoppade låtar."); };
+$("resetBtn").onclick=()=>{ if(confirm("Nollställa alla framsteg? Låtlistan behålls.")){ P={cards:{},skip:{}}; saveProg(); renderHome(); toast("Framstegen är nollställda."); } };
+document.addEventListener("keydown",e=>{
+  if(e.key===" " && !$("play").classList.contains("hidden") && !["INPUT","TEXTAREA","BUTTON"].includes(document.activeElement.tagName)){ e.preventDefault(); togglePlay(); }
+});
+
+renderHome();
+loadYT();
+</script>
+</body>
+</html>
