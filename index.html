@@ -65,6 +65,13 @@ header{display:flex;align-items:center;justify-content:space-between;padding:6px
 .kind .new{background:var(--surf2);color:var(--ink)}
 .kind .rev{background:rgba(123,211,137,.18);color:var(--ok);border:1px solid rgba(123,211,137,.5)}
 .kind .rep{background:rgba(255,179,71,.16);color:var(--amber);border:1px solid rgba(255,179,71,.5)}
+.info{background:var(--surf);border-radius:14px;padding:14px 16px;margin:4px 0 14px}
+.info .meta{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-weight:600;margin-bottom:4px}
+.info .meta .flag{font-size:1.25rem;line-height:1}
+.info .row{margin-top:12px}
+.info .lbl{font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--amber);margin-bottom:2px}
+.info .txt{font-size:.98rem;line-height:1.5}
+.info .dim{color:var(--muted)}
 .knowbtn{width:100%;margin:0 0 10px;border:1.5px solid rgba(123,211,137,.6);background:rgba(123,211,137,.12);color:var(--ok);border-radius:14px;padding:13px;font-weight:700}
 
 /* The record */
@@ -205,6 +212,7 @@ header{display:flex;align-items:center;justify-content:space-between;padding:6px
       <div class="res"><span class="mark" id="aMark"></span><div><div class="k">Artist</div><div class="v" id="aRight"></div><div class="you" id="aYou"></div></div></div>
       <div class="res"><span class="mark" id="tMark"></span><div><div class="k">Titel</div><div class="v" id="tRight"></div><div class="you" id="tYou"></div></div></div>
       <p class="verdict" id="verdict"></p>
+      <div class="info hidden" id="infoBox"></div>
       <div class="alt">
         <button class="textbtn" id="altBtn">Fel låt eller version? Välj en annan</button>
         <ul id="altList" class="hidden"></ul>
@@ -410,7 +418,7 @@ function nextCard(first){
   if(current.retry){ kb.className="rep"; kb.textContent="Repris – du missade den nyss"; }
   else if(current.isNew){ kb.className="new"; kb.textContent="Ny låt"; }
   else { kb.className="rev"; kb.textContent=`Repetition – du har haft den ${c0.n} ${c0.n===1?"gång":"gånger"}`; }
-  $("knowBtn").classList.add("hidden");
+  $("knowBtn").classList.add("hidden"); $("infoBox").classList.add("hidden");
   renderPips();
   $("stage").classList.remove("revealed"); $("cover").removeAttribute("src");
   $("errBox").classList.add("hidden");
@@ -437,7 +445,7 @@ function submit(dunno){
     aOk&&tOk ? `Rätt! Nästa gång om ${INTERVALS[c.b]} ${INTERVALS[c.b]===1?"dag":"dagar"}.` : "Du får den igen i slutet av rundan och i morgon.";
   $("knowBtn").classList.toggle("hidden", !(aOk && tOk && !current.isNew && !current.retry && c.b<KNOW_JUMP));
   $("answerForm").classList.add("hidden"); $("resultBox").classList.remove("hidden");
-  revealCover(); renderPips();
+  revealCover(); renderInfo(s); renderPips();
 }
 function fillRes(p,ok,right,you){
   const mk=$(p+"Mark"); mk.textContent=ok?"✓":"✕"; mk.className="mark "+(ok?"y":"n");
@@ -488,6 +496,58 @@ function finishRound(){
   show("summary");
 }
 
+/* ---------- info.txt ----------
+   Block åtskilda av en tomrad. Första raden: Artist - Titel.
+   Fält: land, år, sångare, original, film, titel, krok (alla valfria). */
+let INFO = load("latplugg_info_cache") || {};
+function parseInfo(text){
+  const out={};
+  for(const block of (text||"").split(/\r?\n\s*\r?\n/)){
+    const lines=block.split(/\r?\n/).map(l=>l.trim()).filter(l=>l && !l.startsWith("#"));
+    if(!lines.length) continue;
+    const m=lines[0].match(/^(.+?)\s+[-–—]\s+(.+)$/); if(!m) continue;
+    const e={};
+    for(const l of lines.slice(1)){
+      const f=l.match(/^([a-zåäö]+)\s*:\s*(.+)$/i); if(f) e[fold(f[1])]=f[2].trim();
+    }
+    out[songKey({artist:m[1],title:cleanTitle(m[2])})]=e;
+  }
+  return out;
+}
+async function loadInfo(){
+  if(!location.protocol.startsWith("http")) return;
+  try{ const r=await fetch("info.txt",{cache:"no-store"}); if(!r.ok) return; INFO=parseInfo(await r.text()); save("latplugg_info_cache",INFO); }catch(e){}
+}
+function sameArtist(a,b){
+  const ka=[norm(a),...artistParts(a).slice(1).map(norm).filter(x=>x.length>=4)];
+  const kb=[norm(b),...artistParts(b).slice(1).map(norm).filter(x=>x.length>=4)];
+  return ka.some(x=>kb.includes(x));
+}
+function renderInfo(s){
+  const box=$("infoBox"), e=INFO[s.key]||{};
+  box.textContent="";
+  const meta=document.createElement("div"); meta.className="meta";
+  if(e.land){
+    const fm=e.land.match(/^((?:\p{Regional_Indicator}{2}|\u{1F3F4}[\u{E0061}-\u{E007A}]+\u{E007F})+)\s*(.*)$/u);
+    if(fm){ const f=document.createElement("span"); f.className="flag"; f.textContent=fm[1]; const n=document.createElement("span"); n.textContent=fm[2]; meta.append(f,n); }
+    else { const n=document.createElement("span"); n.textContent=e.land; meta.append(n); }
+  }
+  if(e.ar){ const y=document.createElement("span"); y.className="dim"; y.textContent=(e.land?"· ":"")+e.ar; meta.append(y); }
+  if(meta.childNodes.length) box.append(meta);
+  const row=(label,text,dim)=>{ if(!text) return; const d=document.createElement("div"); d.className="row";
+    const l=document.createElement("div"); l.className="lbl"; l.textContent=label;
+    const t=document.createElement("div"); t.className="txt"+(dim?" dim":""); t.textContent=text; d.append(l,t); box.append(d); };
+  row("Sångare", e.sangare);
+  row("Original", e.original);
+  row("Film", e.film);
+  row("Titeln i låten", e.titel);
+  row("Minneskrok", e.krok);
+  const others=SONGS.filter(x=>x!==s && sameArtist(x.artist,s.artist)).map(x=>x.title);
+  const list = others.length ? (others.slice(0,12).join(", ")+(others.length>12?` och ${others.length-12} till`:"")) : "Inga fler, det här är den enda i listan.";
+  row(`Fler av ${s.artist} i listan`, list, !others.length);
+  box.classList.remove("hidden");
+}
+
 /* ---------- songs.txt ---------- */
 let remoteBusy=false;
 async function loadRemote(){
@@ -531,9 +591,10 @@ $("altBtn").onclick=showAlternatives;
 document.addEventListener("keydown",e=>{
   if(e.key===" " && !$("play").classList.contains("hidden") && !["INPUT","TEXTAREA","BUTTON"].includes(document.activeElement.tagName)){ e.preventDefault(); togglePlay(); }
 });
-document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible") loadRemote(); });
+document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible"){ loadRemote(); loadInfo(); } });
 renderHome();
 loadRemote();
+loadInfo();
 </script>
 </body>
 </html>
