@@ -1,0 +1,686 @@
+# Information som visas efter att du har gissat.
+# Ett block per låt, med en tom rad mellan blocken.
+# Första raden: Artist - Titel (stavat som i songs.txt).
+# Fält (alla valfria): land, år, sångare, original, film, titel, krok
+# Rader som börjar med # ignoreras.
+
+Bob Dylan - Like a Rolling Stone
+land: 🇺🇸 USA
+år: 1965
+titel: Sjungs i slutet av refrängen, som en fråga till kvinnan som fallit från toppen.
+krok: Över sex minuter lång, vilket var otänkbart för en singel då. Den svepande orgeln spelades av Al Kooper, som egentligen var gitarrist och smög in vid orgeln.
+
+The Rolling Stones - Satisfaction
+land: 🇬🇧 Storbritannien
+år: 1965
+sångare: Mick Jagger
+titel: Refrängens kärna, med "I can't get no" före.
+krok: Keith Richards drömde gitarriffet och spelade in det på en kassett mitt i natten. På morgonen fanns riffet på bandet, följt av 40 minuters snarkningar. Känns igen på det fuzziga gitarrljudet.
+
+John Lennon - Imagine
+land: 🇬🇧 Storbritannien
+år: 1971
+titel: Första ordet i låten och inledningen på verserna.
+krok: Lennon sitter vid ett vitt flygel i sitt hem i videon. Yoko Ono krediterades som medförfattare först 2017.
+
+Marvin Gaye - What's Going On
+land: 🇺🇸 USA
+år: 1971
+titel: Sjungs flera gånger, som en fråga.
+krok: Börjar med festprat och saxofon. Motown-chefen Berry Gordy vägrade först släppa den och kallade den det sämsta han hört. Den blev en av Motowns största framgångar.
+
+Aretha Franklin - Respect
+land: 🇺🇸 USA
+år: 1967
+original: Otis Redding (1965)
+titel: Bokstaveras R-E-S-P-E-C-T i mitten av låten.
+krok: Aretha lade själv till bokstaveringen och bakgrundskörerna, och gjorde Otis låt om en man som vill ha respekt till en kvinnlig och medborgarrättslig hymn.
+
+The Beach Boys - Good Vibrations
+land: 🇺🇸 USA
+år: 1966
+sångare: Carl Wilson
+titel: Sjungs i refrängen.
+krok: Brian Wilson spelade in den i bitar i flera studior under ett halvår, och den var tidernas dyraste singel. Det kusliga pipande ljudet är ett elektroniskt instrument som liknar en theremin.
+
+Chuck Berry - Johnny B. Goode
+land: 🇺🇸 USA
+år: 1958
+film: Tillbaka till framtiden (1985), där Marty McFly spelar den på skoldansen
+titel: Namnet sjungs i verserna, och refrängen hejar på Johnny.
+krok: Handlar om en fattig landsortskille som spelar gitarr. Låten skickades ut i rymden på Voyager-sondernas guldskiva 1977.
+
+The Beatles - Hey Jude
+land: 🇬🇧 Storbritannien
+år: 1968
+sångare: Paul McCartney
+titel: Låtens första ord.
+krok: Paul skrev den för att trösta Lennons son Julian när föräldrarna skilde sig, och den hette först "Hey Jules". Över sju minuter lång, med en lång "na na na"-avslutning.
+
+Nirvana - Smells Like Teen Spirit
+land: 🇺🇸 USA
+år: 1991
+sångare: Kurt Cobain
+titel: Sjungs inte i texten.
+krok: En vän klottrade att Kurt luktade Teen Spirit, ett deodorantmärke som hans flickvän använde. Kurt trodde att det var en revolutionär slogan.
+
+Ray Charles - What'd I Say
+land: 🇺🇸 USA
+år: 1959
+titel: Sjungs i växelsång mellan Ray och körtjejerna.
+krok: Improviserades fram i slutet av en spelning när bandet hade slut på låtar. Inleds av ett elpiano, och delades upp i två delar på singelns A- och B-sida.
+
+The Who - My Generation
+land: 🇬🇧 Storbritannien
+år: 1965
+sångare: Roger Daltrey
+titel: Sjungs som svar i refrängen.
+krok: Daltrey stammar fram texten som en uppkäftig tonåring. Innehåller den berömda raden om att hoppas dö innan man blir gammal, och ett ovanligt basgitarrsolo.
+
+Sam Cooke - A Change Is Gonna Come
+land: 🇺🇸 USA
+år: 1964
+titel: Avslutar varje vers.
+krok: Skrevs efter att Cooke nekats rum på ett motell för vita i Louisiana, och inspirerades av Blowin' in the Wind. Släpptes som singel strax efter att han sköts ihjäl 1964.
+
+The Beatles - Yesterday
+land: 🇬🇧 Storbritannien
+år: 1965
+sångare: Paul McCartney
+titel: Låtens första ord.
+krok: Paul drömde melodin och hade arbetstiteln "Scrambled Eggs" innan texten fanns. Bara Paul och en akustisk gitarr med stråkkvartett, inga andra Beatles.
+
+Bob Dylan - Blowin' in the Wind
+land: 🇺🇸 USA
+år: 1963
+titel: Avslutar varje vers, som svaret på alla frågor.
+krok: Består av en rad retoriska frågor om krig och frihet. Blev först en hit med trion Peter, Paul and Mary.
+
+The Clash - London Calling
+land: 🇬🇧 Storbritannien
+år: 1979
+sångare: Joe Strummer
+titel: Låtens första ord och början på varje vers.
+krok: Titeln kommer från BBC:s anrop i radio under andra världskriget. Skivomslaget med basisten som krossar sin bas härmar Elvis debutalbum.
+
+The Beatles - I Want to Hold Your Hand
+land: 🇬🇧 Storbritannien
+år: 1963
+sångare: John Lennon och Paul McCartney
+titel: Sjungs i refrängen.
+krok: Beatles första etta i USA, som startade beatlemanian där strax före deras besök i Ed Sullivan Show i februari 1964.
+
+Jimi Hendrix - Purple Haze
+land: 🇺🇸 USA
+år: 1967
+titel: Låtens första ord.
+krok: Inleds med ett skärande intervall som kallas djävulens intervall. Känd för att en rad ofta hörs fel, som att han kysser "this guy" i stället för "the sky".
+
+Chuck Berry - Maybellene
+land: 🇺🇸 USA
+år: 1955
+titel: Flickans namn sjungs i refrängen.
+krok: Hans första singel. Handlar om en biljakt mellan en Cadillac och en Ford V8, och bygger på den gamla countrylåten Ida Red.
+
+Elvis Presley - Hound Dog
+land: 🇺🇸 USA
+år: 1956
+original: Big Mama Thornton (1953)
+titel: Låtens första ord.
+krok: Skriven av Leiber och Stoller. Elvis tvingades sjunga den för en basset med hög hatt i en tv-show.
+
+The Beatles - Let It Be
+land: 🇬🇧 Storbritannien
+år: 1970
+sångare: Paul McCartney
+titel: Sjungs i refrängen.
+krok: "Mother Mary" i texten är Pauls mamma Mary, som dog när han var fjorton och kom till honom i en dröm. Beatles sista singel innan uppbrottet.
+
+Bruce Springsteen - Born to Run
+land: 🇺🇸 USA
+år: 1975
+titel: Sjungs i slutet av refrängen.
+krok: Det tog ett halvår att spela in, med en ljudvägg inspirerad av Phil Spector. Springsteen hamnade på omslaget till både Time och Newsweek samma vecka.
+
+The Ronettes - Be My Baby
+land: 🇺🇸 USA
+år: 1963
+sångare: Ronnie Spector
+film: Dirty Dancing (1987), under förtexterna
+titel: Sjungs i refrängen.
+krok: Börjar med ett av popens mest kända trumkomp, bom, bom-bom, pang. Producerad av Phil Spector med hans ljudvägg.
+
+The Beatles - In My Life
+land: 🇬🇧 Storbritannien
+år: 1965
+sångare: John Lennon
+titel: Avslutar verserna.
+krok: Lennons nostalgiska blick tillbaka på Liverpool. Pianosolot spelades in av producenten George Martin i halv hastighet och spelades upp snabbare, så det låter som ett cembalo.
+
+The Impressions - People Get Ready
+land: 🇺🇸 USA
+år: 1965
+sångare: Curtis Mayfield
+titel: Låtens första ord.
+krok: Gospelinspirerad medborgarrättslåt där ett tåg på väg mot frälsningen är bilden. Curtis Mayfields mjuka gitarr bär låten.
+
+The Beach Boys - God Only Knows
+land: 🇺🇸 USA
+år: 1966
+sångare: Carl Wilson
+film: Love Actually (2003), i slutscenen
+titel: Avslutar raderna i refrängen.
+krok: Paul McCartney har kallat den tidernas bästa låt. Inleds med valthorn, och var en av de första poplåtarna med ordet Gud i titeln.
+
+The Beatles - A Day in the Life
+land: 🇬🇧 Storbritannien
+år: 1967
+sångare: John Lennon och Paul McCartney
+titel: Sjungs inte i texten.
+krok: Två låtar ihopsatta, Johns och Pauls. En orkester på 40 musiker klättrar i ett kaos, och allt slutar med ett pianoackord som ringer ut i drygt 40 sekunder.
+
+Derek and the Dominos - Layla
+land: 🇬🇧 Storbritannien
+år: 1970
+sångare: Eric Clapton
+film: Maffiabröder (Goodfellas, 1990), där pianoslutet spelas
+titel: Namnet sjungs i refrängen.
+krok: Clapton var hopplöst kär i Pattie Boyd, som var gift med hans vän George Harrison. Han gifte sig senare med henne. Låten har två delar: gitarriffet och ett långt pianoslut.
+
+Otis Redding - (Sittin' On) The Dock of the Bay
+land: 🇺🇸 USA
+år: 1968
+titel: Sjungs i refrängen.
+krok: Spelades in bara dagar innan Redding dog i en flygolycka i december 1967. Han visslade på slutet i stället för en sista vers han inte hunnit skriva, och den blev hans första etta.
+
+The Beatles - Help!
+land: 🇬🇧 Storbritannien
+år: 1965
+sångare: John Lennon
+film: Help! (1965), Beatles andra film
+titel: Låtens första ord, ropat.
+krok: Lennon sa senare att det var ett verkligt rop på hjälp, mitt i den största berömmelsen.
+
+Johnny Cash - I Walk the Line
+land: 🇺🇸 USA
+år: 1956
+film: Walk the Line (2005), filmen om Cash fick namn efter låten
+titel: Avslutar varje vers.
+krok: Cash nynnar före varje vers för att hitta tonarten, eftersom låten byter tonart hela tiden. Det klickande ljudet kommer från ett papper som han trädde in mellan gitarrsträngarna.
+
+Led Zeppelin - Stairway to Heaven
+land: 🇬🇧 Storbritannien
+år: 1971
+sångare: Robert Plant
+titel: Sjungs i första versen och som låtens sista rad.
+krok: Börjar lugnt med akustisk gitarr och blockflöjter och växer till ett gitarrsolo av Jimmy Page. Släpptes aldrig som singel, och var förbjuden att provspela i många gitarraffärer.
+
+The Rolling Stones - Sympathy for the Devil
+land: 🇬🇧 Storbritannien
+år: 1968
+sångare: Mick Jagger
+titel: Sjungs inte i texten.
+krok: Sjungs från djävulens perspektiv, som presenterar sig och sina gärningar genom historien. Känns igen på sambarytmen och körens woo-woo.
+
+Ike & Tina Turner - River Deep - Mountain High
+land: 🇺🇸 USA
+år: 1966
+sångare: Tina Turner
+titel: Sjungs i refrängen, som bilder för hur stark kärleken är.
+krok: Phil Spectors största produktion med ljudvägg. Floppade i USA men blev en hit i Storbritannien, och Spector drog sig tillbaka efter misslyckandet.
+
+The Righteous Brothers - You've Lost That Lovin' Feelin'
+land: 🇺🇸 USA
+år: 1964
+sångare: Bill Medley och Bobby Hatfield
+film: Top Gun (1986), där Maverick sjunger den i baren
+titel: Sjungs i refrängen.
+krok: Börjar med Bill Medleys ovanligt djupa röst. Har spelats mer än någon annan låt i amerikansk radio under 1900-talet.
+
+The Doors - Light My Fire
+land: 🇺🇸 USA
+år: 1967
+sångare: Jim Morrison
+titel: Sjungs i refrängen.
+krok: Skrevs mest av gitarristen Robby Krieger. Känns igen på det långa orgelsolot. Morrison lovade att byta ut ordet "higher" i Ed Sullivan Show men sjöng det ändå.
+
+U2 - One
+land: 🇮🇪 Irland
+år: 1991
+sångare: Bono
+titel: Sjungs i refrängen.
+krok: Skrevs i Berlin när bandet var nära att splittras, och sägs ha räddat dem. Johnny Cash gjorde en känd cover.
+
+Bob Marley - No Woman No Cry
+land: 🇯🇲 Jamaica
+år: 1974
+titel: Sjungs i refrängen.
+krok: Betyder "kvinna, gråt inte". Marley krediterade en vän som drev ett soppkök i Trenchtown, så att royaltyn höll köket igång. Den mest kända versionen är liveinspelningen från London 1975.
+
+The Rolling Stones - Gimme Shelter
+land: 🇬🇧 Storbritannien
+år: 1969
+sångare: Mick Jagger
+titel: Sjungs i refrängen.
+krok: Gospelsångerskan Merry Clayton ringdes in mitt i natten, gravid och med papiljotter, och hennes röst spricker i det mest intensiva partiet.
+
+Buddy Holly - That'll Be the Day
+land: 🇺🇸 USA
+år: 1957
+titel: Sjungs i refrängen.
+krok: Titeln kommer från John Waynes återkommande replik i westernfilmen Förföljarna (1956). Det var den första låten som Quarrymen, bandet som blev Beatles, spelade in.
+
+Martha and the Vandellas - Dancing in the Street
+land: 🇺🇸 USA
+år: 1964
+sångare: Martha Reeves
+titel: Sjungs i refrängen.
+krok: Medskriven av Marvin Gaye. Blev en hymn för medborgarrättsrörelsen. David Bowie och Mick Jagger gjorde en känd cover till Live Aid 1985.
+
+The Band - The Weight
+land: 🇨🇦 Kanada
+år: 1968
+sångare: Levon Helm
+film: Easy Rider (1969)
+titel: Sjungs inte i texten.
+krok: Handlar om en resenär som kommer till staden Nazareth och fastnar i en rad underliga uppdrag. Fyra av fem medlemmar var kanadensare, sångaren Levon Helm var amerikan.
+
+The Kinks - Waterloo Sunset
+land: 🇬🇧 Storbritannien
+år: 1967
+sångare: Ray Davies
+titel: Sjungs i refrängen.
+krok: Handlar om Terry och Julie som möts vid Waterloo station och om att se solnedgången över Themsen. Ray Davies låg på sjukhus där som barn och tittade ut över floden.
+
+Little Richard - Tutti Frutti
+land: 🇺🇸 USA
+år: 1955
+titel: Sjungs i refrängen.
+krok: Börjar med en berömd nonsensramsa som låter som ett trumkomp. Originaltexten var för vågad och skrevs om innan inspelningen.
+
+Ray Charles - Georgia on My Mind
+land: 🇺🇸 USA
+år: 1960
+original: Hoagy Carmichael (1930)
+titel: Låtens första ord.
+krok: Ray Charles kom från Georgia, och hans version blev delstatens officiella sång 1979.
+
+Elvis Presley - Heartbreak Hotel
+land: 🇺🇸 USA
+år: 1956
+titel: Sjungs i första versen.
+krok: Elvis första singel på RCA och hans första etta. Inspirerades av en tidningsartikel om ett avskedsbrev från en ensam man.
+
+David Bowie - Heroes
+land: 🇬🇧 Storbritannien
+år: 1977
+titel: Sjungs i refrängen, om att vara hjältar för en dag.
+krok: Skrevs i Berlin och handlar om två älskande som möts vid Berlinmuren. Titeln skrivs med citattecken, "Heroes", som en ironisk markering.
+
+Simon and Garfunkel - Bridge over Troubled Water
+land: 🇺🇸 USA
+år: 1970
+sångare: Art Garfunkel
+titel: Sjungs i refrängen.
+krok: Paul Simon skrev den, men det är Art Garfunkel som sjunger. Simon ångrade senare att han lämnade över den. Gospelinspirerat piano och en storslagen slutvers.
+
+Jimi Hendrix - All Along the Watchtower
+land: 🇺🇸 USA
+år: 1968
+original: Bob Dylan (1967)
+titel: Låtens första ord.
+krok: Dylan gillade Hendrix version så mycket att han själv började spela den på hans sätt. Handlar om en gycklare och en tjuv.
+
+The Eagles - Hotel California
+land: 🇺🇸 USA
+år: 1976
+sångare: Don Henley
+titel: Sjungs i refrängen, som en välkomsthälsning.
+krok: Känns igen på det långa dubbelgitarrsolot av Don Felder och Joe Walsh. Slutar med att man kan checka ut när man vill men aldrig lämna hotellet.
+
+Smokey Robinson & The Miracles - The Tracks of My Tears
+land: 🇺🇸 USA
+år: 1965
+sångare: Smokey Robinson
+titel: Sjungs i refrängen.
+krok: Handlar om någon som ler utåt men gråter inombords, som en clown. Inleds av Marv Tarplins gitarrslinga.
+
+Grandmaster Flash and the Furious Five - The Message
+land: 🇺🇸 USA
+år: 1982
+sångare: Melle Mel (rappare)
+titel: Sjungs inte i texten.
+krok: En av de första hiphoplåtarna om verkliga sociala problem, livet i Bronx. Refrängen handlar om att vara nära kanten. Grandmaster Flash själv medverkar knappt.
+
+Prince - When Doves Cry
+land: 🇺🇸 USA
+år: 1984
+film: Purple Rain (1984)
+titel: Sjungs i refrängen.
+krok: Prince tog bort hela basgången i sista stund, något nästan ingen hitlåt saknar. Inleds av ett gitarrsolo och en trummaskin.
+
+Sex Pistols - Anarchy in the U.K.
+land: 🇬🇧 Storbritannien
+år: 1976
+sångare: Johnny Rotten
+titel: Sjungs i refrängen.
+krok: Bandets debutsingel. Skivbolaget EMI sparkade dem efter att de svurit i direktsänd tv.
+
+Percy Sledge - When a Man Loves a Woman
+land: 🇺🇸 USA
+år: 1966
+titel: Låtens första ord.
+krok: Sledge jobbade som sjukvårdsbiträde när han spelade in den. Michael Bolton gjorde en cover som också blev etta 1991.
+
+The Kingsmen - Louie Louie
+land: 🇺🇸 USA
+år: 1963
+sångare: Jack Ely
+original: Richard Berry (1957)
+film: Animal House (1978)
+titel: Sjungs i refrängen.
+krok: FBI utredde i två år om den svårhörda texten var oanständig och kom fram till att den inte gick att uppfatta. Sången spelades in i en enda tagning.
+
+Little Richard - Long Tall Sally
+land: 🇺🇸 USA
+år: 1956
+titel: Sjungs i verserna.
+krok: Beatles spelade den ofta, med Paul McCartney som gjorde sin bästa Little Richard-imitation.
+
+Procol Harum - A Whiter Shade of Pale
+land: 🇬🇧 Storbritannien
+år: 1967
+sångare: Gary Brooker
+titel: Avslutar refrängen.
+krok: Den kända orgelmelodin är inspirerad av Bach. Organisten Matthew Fisher vann 2009 en rättegång om att räknas som medförfattare.
+
+Michael Jackson - Billie Jean
+land: 🇺🇸 USA
+år: 1983
+titel: Sjungs i refrängen, där han förnekar att hon är hans flickvän.
+krok: Inleds av ett av popens mest kända trumkomp och en studsande basgång. Michael gjorde sin första moonwalk till den på tv 1983, och i videon lyser trottoarplattorna.
+
+Bob Dylan - The Times They Are A-Changin'
+land: 🇺🇸 USA
+år: 1964
+titel: Avslutar varje vers.
+krok: Dylan bestämde sig för att medvetet skriva en stor hymn för sin tid. Blev en symbol för 60-talets ungdomsuppror.
+
+Al Green - Let's Stay Together
+land: 🇺🇸 USA
+år: 1971
+film: Pulp Fiction (1994)
+titel: Sjungs i refrängen.
+krok: Al Greens mjuka falsett gjorde honom till soulens stora romantiker. Han blev senare pastor och predikar fortfarande i Memphis.
+
+Jerry Lee Lewis - Whole Lotta Shakin' Going On
+land: 🇺🇸 USA
+år: 1957
+original: Big Maybelle (1955)
+titel: Sjungs i refrängen.
+krok: Hans genombrott, där han hamrar på pianot och pratsjunger. Flera radiostationer vägrade spela den för att den ansågs för suggestiv.
+
+Bo Diddley - Bo Diddley
+land: 🇺🇸 USA
+år: 1955
+titel: Artisten sjunger sitt eget namn.
+krok: Den hackande rytmen blev så känd att den kallas "Bo Diddley-takten". Han spelade på en hemmabyggd fyrkantig gitarr.
+
+Buffalo Springfield - For What It's Worth
+land: 🇺🇸 USA
+år: 1966
+sångare: Stephen Stills
+titel: Sjungs inte i texten.
+krok: Handlar inte om Vietnamkriget som många tror, utan om kravaller kring ett utegångsförbud för ungdomar på Sunset Strip i Los Angeles. Neil Young var med i bandet.
+
+The Beatles - She Loves You
+land: 🇬🇧 Storbritannien
+år: 1963
+sångare: John Lennon och Paul McCartney
+titel: Sjungs i refrängen.
+krok: Känd för sitt "yeah, yeah, yeah", som blev Beatles kännetecken. Var Storbritanniens mest sålda singel i över ett decennium.
+
+Cream - Sunshine of Your Love
+land: 🇬🇧 Storbritannien
+år: 1967
+sångare: Jack Bruce och Eric Clapton
+titel: Sjungs i refrängen.
+krok: Basisten Jack Bruce kom på riffet efter att ha sett Jimi Hendrix spela. Cream var en trio med Eric Clapton på gitarr.
+
+Bob Marley - Redemption Song
+land: 🇯🇲 Jamaica
+år: 1980
+titel: Sjungs i refrängen, om frihets- och befrielsesånger.
+krok: Bara Marley och en akustisk gitarr. Han skrev den när han visste att han hade cancer. En rad bygger på ett tal av Marcus Garvey om att befria sig från mentalt slaveri.
+
+Elvis Presley - Jailhouse Rock
+land: 🇺🇸 USA
+år: 1957
+film: Jailhouse Rock (1957)
+titel: Sjungs i refrängen.
+krok: Handlar om en fest i ett fängelse. Elvis koreograferade själv den berömda dansscenen i filmen.
+
+Bob Dylan - Tangled Up in Blue
+land: 🇺🇸 USA
+år: 1975
+titel: Avslutar varje vers.
+krok: Från albumet Blood on the Tracks, som skrevs när hans äktenskap höll på att spricka. Berättaren hoppar mellan jag och han, och mellan olika tider.
+
+Roy Orbison - Crying
+land: 🇺🇸 USA
+år: 1961
+film: Mulholland Drive (2001), sjungen på spanska
+titel: Upprepas genom hela låten.
+krok: Slutar med en operaliknande hög ton. Orbison bar alltid mörka solglasögon.
+
+Dionne Warwick - Walk On By
+land: 🇺🇸 USA
+år: 1964
+titel: Sjungs i refrängen.
+krok: Skriven av Burt Bacharach och Hal David, som skrev de flesta av hennes hits. Isaac Hayes gjorde en tolv minuter lång cover.
+
+The Beach Boys - California Girls
+land: 🇺🇸 USA
+år: 1965
+sångare: Mike Love
+titel: Sjungs i refrängen.
+krok: Börjar med ett orkestralt intro som Brian Wilson var särskilt stolt över. David Lee Roth gjorde en känd cover 1985.
+
+James Brown - Papa's Got a Brand New Bag
+land: 🇺🇸 USA
+år: 1965
+titel: Sjungs i refrängen.
+krok: Räknas ofta som funkens födelse, med betoning på första taktslaget. Bandet spelade in den snabbt, och bandet spelades sedan upp i högre hastighet.
+
+Eddie Cochran - Summertime Blues
+land: 🇺🇸 USA
+år: 1958
+titel: Avslutar varje vers.
+krok: En tonåring som måste jobba hela sommaren. Den djupa rösten som svarar är chefen, pappan och en kongressledamot. The Who gjorde en känd liveversion.
+
+Stevie Wonder - Superstition
+land: 🇺🇸 USA
+år: 1972
+titel: Sjungs i refrängen.
+krok: Inleds av ett trumkomp och ett funkigt clavinet-riff. Skrevs egentligen åt gitarristen Jeff Beck, men Stevie släppte den först.
+
+Led Zeppelin - Whole Lotta Love
+land: 🇬🇧 Storbritannien
+år: 1969
+sångare: Robert Plant
+titel: Sjungs i refrängen.
+krok: Känt gitarriff och ett kaotiskt mellanparti med theremin. Willie Dixon stämde bandet för likheter med hans You Need Love. En instrumental version var signaturmelodi till Top of the Pops.
+
+The Beatles - Strawberry Fields Forever
+land: 🇬🇧 Storbritannien
+år: 1967
+sångare: John Lennon
+titel: Sjungs i refrängen.
+krok: Strawberry Field var ett barnhem i Liverpool där Lennon lekte som barn. Två tagningar i olika tempo och tonart klipptes ihop. Släpptes ihop med Penny Lane, som också finns i listan.
+
+Elvis Presley - Mystery Train
+land: 🇺🇸 USA
+år: 1955
+original: Junior Parker (1953)
+titel: Sjungs inte i texten.
+krok: Elvis sista singel på Sun Records innan han gick till RCA. Gitarristen Scotty Moore står för det tågliknande kompet.
+
+James Brown - I Got You (I Feel Good)
+land: 🇺🇸 USA
+år: 1965
+film: Good Morning, Vietnam (1987)
+titel: Börjar med ett skrik om att han mår bra, och "I got you" sjungs i refrängen.
+krok: Inleds av James Browns kanske mest kända skrik. Blev hans största hit.
+
+The Byrds - Mr. Tambourine Man
+land: 🇺🇸 USA
+år: 1965
+sångare: Roger McGuinn
+original: Bob Dylan (1965)
+titel: Sjungs i refrängen.
+krok: Känns igen på den klingande tolvsträngade gitarren. Av bandet spelade bara McGuinn på inspelningen, resten var studiomusiker. Startade folkrocken.
+
+Marvin Gaye - I Heard It Through the Grapevine
+land: 🇺🇸 USA
+år: 1968
+original: Gladys Knight & the Pips släppte den först (1967)
+titel: Sjungs i refrängen.
+krok: Motown lade först Marvins version på hyllan. När den till slut släpptes blev den Motowns största singel dittills.
+
+Fats Domino - Blueberry Hill
+land: 🇺🇸 USA
+år: 1956
+original: Skrevs 1940 och spelades in av bland andra Glenn Miller och Gene Autry
+titel: Låtens första rad.
+krok: Rysslands Vladimir Putin sjöng den på engelska vid en välgörenhetsgala 2010.
+
+The Kinks - You Really Got Me
+land: 🇬🇧 Storbritannien
+år: 1964
+sångare: Ray Davies
+titel: Sjungs i refrängen.
+krok: Gitarristen Dave Davies skar sönder högtalaren i sin förstärkare med ett rakblad för att få det distade ljudet. Van Halen gjorde en känd cover.
+
+The Beatles - Norwegian Wood
+land: 🇬🇧 Storbritannien
+år: 1965
+sångare: John Lennon
+titel: Avslutar verserna.
+krok: Första poplåten med sitar, som George Harrison spelade. Lennon skrev den om en affär han inte ville att hans fru skulle förstå.
+
+The Police - Every Breath You Take
+land: 🇬🇧 Storbritannien
+år: 1983
+sångare: Sting
+titel: Låtens första ord.
+krok: Låter som en kärlekslåt, men handlar om besatt övervakning av någon. Puff Daddy samplade den i I'll Be Missing You 1997.
+
+Patsy Cline - Crazy
+land: 🇺🇸 USA
+år: 1961
+titel: Låtens första ord.
+krok: Skriven av Willie Nelson. Patsy spelade in den på kryckor efter en svår bilolycka.
+
+Bruce Springsteen - Thunder Road
+land: 🇺🇸 USA
+år: 1975
+titel: Sjungs i texten när han lockar Mary att följa med.
+krok: Öppningslåten på albumet Born to Run, med munspel och piano. Handlar om att lämna en stad full av förlorare.
+
+Johnny Cash - Ring of Fire
+land: 🇺🇸 USA
+år: 1963
+original: Anita Carter (1963)
+titel: Sjungs i refrängen.
+krok: June Carter skrev den om att bli kär i Cash, som hon senare gifte sig med. Cash drömde om mariachitrumpeterna, som blev låtens kännetecken.
+
+The Temptations - My Girl
+land: 🇺🇸 USA
+år: 1964
+sångare: David Ruffin
+film: My Girl (1991), som fick namn efter låten
+titel: Sjungs i refrängen.
+krok: Skriven av Smokey Robinson. Inleds av en basgång och en fingerknäppande gitarr.
+
+The Mamas and the Papas - California Dreamin'
+land: 🇺🇸 USA
+år: 1965
+sångare: Denny Doherty
+film: Chungking Express (1994)
+titel: Avslutar refrängen.
+krok: Skrevs en kall vinter i New York av John och Michelle Phillips, som längtade till Kalifornien. Känns igen på flöjtsolot.
+
+The Five Satins - In the Still of the Night
+land: 🇺🇸 USA
+år: 1956
+sångare: Fred Parris
+film: Dirty Dancing (1987)
+titel: Låtens första ord.
+krok: Spelades in i en kyrkkällare i New Haven. Känns igen på doo-wop-kören i bakgrunden.
+
+Elvis Presley - Suspicious Minds
+land: 🇺🇸 USA
+år: 1969
+original: Mark James (1968)
+titel: Avslutar refrängen.
+krok: Elvis sista etta i USA. Mot slutet tonar låten ut och kommer tillbaka igen, ett grepp som förvirrade radio-dj:er.
+
+The Ramones - Blitzkrieg Bop
+land: 🇺🇸 USA
+år: 1976
+sångare: Joey Ramone
+titel: Sjungs i refrängen.
+krok: Börjar med ramsan "Hey! Ho! Let's go!". Alla bandmedlemmar tog efternamnet Ramone fast de inte var släkt.
+
+U2 - I Still Haven't Found What I'm Looking For
+land: 🇮🇪 Irland
+år: 1987
+sångare: Bono
+titel: Sjungs i refrängen.
+krok: Gospelinspirerad, och bandet framförde den med en gospelkör från Harlem i filmen Rattle and Hum. Känns igen på The Edges klingande gitarr.
+
+Little Richard - Good Golly Miss Molly
+land: 🇺🇸 USA
+år: 1958
+titel: Låtens första ord.
+krok: Mitch Ryder gjorde den till ett medley med Devil with a Blue Dress On, som också finns i listan.
+
+Carl Perkins - Blue Suede Shoes
+land: 🇺🇸 USA
+år: 1956
+titel: Sjungs i refrängen.
+krok: Johnny Cash berättade om en soldat som var rädd om sina blå mockaskor, och Perkins skrev låten. Medan den klättrade på listorna skadades Perkins i en bilolycka, och Elvis version tog över. Den finns också i listan.
+
+Jerry Lee Lewis - Great Balls of Fire
+land: 🇺🇸 USA
+år: 1957
+film: Top Gun (1986), där Goose sjunger den vid pianot
+titel: Sjungs i refrängen.
+krok: Jerry Lee Lewis karriär rasade när det kom fram att han gift sig med sin 13-åriga kusin. Filmen om honom heter också Great Balls of Fire! (1989).
+
+Chuck Berry - Roll Over Beethoven
+land: 🇺🇸 USA
+år: 1956
+titel: Sjungs i refrängen.
+krok: Skrevs för att hans syster alltid upptog familjens piano med klassisk musik. Beatles gjorde en cover med George Harrison som sångare.
+
+Al Green - Love and Happiness
+land: 🇺🇸 USA
+år: 1972
+titel: Sjungs i refrängen.
+krok: Börjar med ett långt gitarrintro där man hör en fot som stampar takten.
+
+Creedence Clearwater Revival - Fortunate Son
+land: 🇺🇸 USA
+år: 1969
+sångare: John Fogerty
+film: Forrest Gump (1994)
+titel: Avslutar refrängen.
+krok: Protestlåt om rika och mäktiga mäns söner som slapp kriget i Vietnam, medan vanliga killar skickades dit. Ofta förkortat CCR.
+
+The Rolling Stones - You Can't Always Get What You Want
+land: 🇬🇧 Storbritannien
+år: 1969
+sångare: Mick Jagger
+titel: Sjungs i refrängen.
+krok: Börjar med London Bach Choir. Al Kooper, samma musiker som spelade orgel på Like a Rolling Stone, spelar valthorn och klaviatur.
