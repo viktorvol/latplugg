@@ -60,6 +60,12 @@ header{display:flex;align-items:center;justify-content:space-between;padding:6px
 .pips span.done{background:var(--amber)}
 .pips span.cur{background:var(--ink)}
 .textbtn{background:none;border:0;color:var(--muted);font-size:.92rem;padding:6px}
+.kind{display:flex;justify-content:center;margin:-4px 0 12px}
+.kind span{font-size:.85rem;font-weight:700;letter-spacing:.02em;padding:5px 12px;border-radius:999px}
+.kind .new{background:var(--surf2);color:var(--ink)}
+.kind .rev{background:rgba(123,211,137,.18);color:var(--ok);border:1px solid rgba(123,211,137,.5)}
+.kind .rep{background:rgba(255,179,71,.16);color:var(--amber);border:1px solid rgba(255,179,71,.5)}
+.knowbtn{width:100%;margin:0 0 10px;border:1.5px solid rgba(123,211,137,.6);background:rgba(123,211,137,.12);color:var(--ok);border-radius:14px;padding:13px;font-weight:700}
 
 /* The record */
 .stage{position:relative;width:72%;max-width:300px;margin:6px auto 22px;aspect-ratio:1;display:block;border:0;padding:0;background:none;border-radius:50%}
@@ -161,6 +167,7 @@ header{display:flex;align-items:center;justify-content:space-between;padding:6px
       <button class="textbtn" id="quitBtn">Avsluta</button>
     </div>
 
+    <div class="kind"><span id="kindBadge"></span></div>
     <button class="stage" id="stage" aria-label="Spela eller pausa">
       <div class="lpwrap"><div class="lp"><div class="label"><span>?</span></div></div></div>
       <img class="cover" id="cover" alt="">
@@ -202,6 +209,7 @@ header{display:flex;align-items:center;justify-content:space-between;padding:6px
         <button class="textbtn" id="altBtn">Fel låt eller version? Välj en annan</button>
         <ul id="altList" class="hidden"></ul>
       </div>
+      <button class="knowbtn hidden" id="knowBtn">Jag kan den här – sluta öva på den</button>
       <button class="primary" id="nextBtn">Nästa låt</button>
     </div>
   </section>
@@ -229,6 +237,7 @@ const DEMO_SONGS = [
 const ROUND_SIZE = 10;
 const INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64, 128];
 const KNOWN_LEVEL = 4;
+const KNOW_JUMP = 5;   // "Jag kan den här" flyttar låten hit: räknas som Kan, tillbaka om 16 dagar
 
 let P = load(K_PROG) || {}; P.cards=P.cards||{}; P.skip=P.skip||{};
 let R = load(K_RES) || {};
@@ -396,6 +405,12 @@ function nextCard(first){
   if(!first) round.i++;
   if(round.i>=round.queue.length){ audio.pause(); finishRound(); return; }
   current=round.queue[round.i]; answered=false;
+  if(current.isNew===undefined) current.isNew=!P.cards[current.s.key];
+  const kb=$("kindBadge"), c0=P.cards[current.s.key];
+  if(current.retry){ kb.className="rep"; kb.textContent="Repris – du missade den nyss"; }
+  else if(current.isNew){ kb.className="new"; kb.textContent="Ny låt"; }
+  else { kb.className="rev"; kb.textContent=`Repetition – du har haft den ${c0.n} ${c0.n===1?"gång":"gånger"}`; }
+  $("knowBtn").classList.add("hidden");
   renderPips();
   $("stage").classList.remove("revealed"); $("cover").removeAttribute("src");
   $("errBox").classList.add("hidden");
@@ -420,6 +435,7 @@ function submit(dunno){
   const c=P.cards[s.key];
   $("verdict").textContent = current.retry ? (aOk&&tOk?"Bra, nu satt den.":"Den kommer tillbaka i morgon.") :
     aOk&&tOk ? `Rätt! Nästa gång om ${INTERVALS[c.b]} ${INTERVALS[c.b]===1?"dag":"dagar"}.` : "Du får den igen i slutet av rundan och i morgon.";
+  $("knowBtn").classList.toggle("hidden", !(aOk && tOk && !current.isNew && !current.retry && c.b<KNOW_JUMP));
   $("answerForm").classList.add("hidden"); $("resultBox").classList.remove("hidden");
   revealCover(); renderPips();
 }
@@ -505,6 +521,12 @@ $("submitBtn").onclick=()=>submit(false);
 $("dunnoBtn").onclick=()=>submit(true);
 $("nextBtn").onclick=()=>nextCard(false);
 $("skipBtn").onclick=skipSong;
+$("knowBtn").onclick=()=>{
+  const c=P.cards[current.s.key]; if(!c) return;
+  c.b=Math.max(c.b,KNOW_JUMP); c.d=today()+INTERVALS[c.b]; saveProg();
+  $("knowBtn").classList.add("hidden");
+  $("verdict").textContent=`Markerad som en låt du kan. Den kommer tillbaka om ${INTERVALS[c.b]} dagar som en kontroll.`;
+};
 $("altBtn").onclick=showAlternatives;
 document.addEventListener("keydown",e=>{
   if(e.key===" " && !$("play").classList.contains("hidden") && !["INPUT","TEXTAREA","BUTTON"].includes(document.activeElement.tagName)){ e.preventDefault(); togglePlay(); }
