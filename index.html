@@ -180,6 +180,10 @@ header{display:flex;align-items:center;justify-content:space-between;padding:6px
       <img class="cover" id="cover" alt="">
     </button>
     <div class="time" aria-hidden="true"><span id="timeBar"></span></div>
+    <div id="afterBox" class="hidden" style="margin-bottom:16px">
+      <button class="primary" id="nextBtn">Nästa låt</button>
+      <button class="knowbtn hidden" id="knowBtn" style="margin:10px 0 0">Jag kan den här – sluta öva på den</button>
+    </div>
 
     <div class="controls">
       <button class="play" id="playBtn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15l12-7.5z"/></svg><span>Spela</span></button>
@@ -217,8 +221,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:6px
         <button class="textbtn" id="altBtn">Fel låt eller version? Välj en annan</button>
         <ul id="altList" class="hidden"></ul>
       </div>
-      <button class="knowbtn hidden" id="knowBtn">Jag kan den här – sluta öva på den</button>
-      <button class="primary" id="nextBtn">Nästa låt</button>
     </div>
   </section>
 
@@ -423,7 +425,7 @@ function nextCard(first){
   $("stage").classList.remove("revealed"); $("cover").removeAttribute("src");
   $("errBox").classList.add("hidden");
   $("artistIn").value=""; $("titleIn").value="";
-  $("answerForm").classList.remove("hidden"); $("resultBox").classList.add("hidden");
+  $("answerForm").classList.remove("hidden"); $("resultBox").classList.add("hidden"); $("afterBox").classList.add("hidden");
   $("altList").classList.add("hidden"); $("altBtn").classList.toggle("hidden",apiDown);
   loadAudio(R[current.s.key].url); audio.play().catch(()=>{});
 }
@@ -444,7 +446,9 @@ function submit(dunno){
   $("verdict").textContent = current.retry ? (aOk&&tOk?"Bra, nu satt den.":"Den kommer tillbaka i morgon.") :
     aOk&&tOk ? `Rätt! Nästa gång om ${INTERVALS[c.b]} ${INTERVALS[c.b]===1?"dag":"dagar"}.` : "Du får den igen i slutet av rundan och i morgon.";
   $("knowBtn").classList.toggle("hidden", !(aOk && tOk && !current.isNew && !current.retry && c.b<KNOW_JUMP));
-  $("answerForm").classList.add("hidden"); $("resultBox").classList.remove("hidden");
+  $("answerForm").classList.add("hidden"); $("resultBox").classList.remove("hidden"); $("afterBox").classList.remove("hidden");
+  if(document.activeElement) document.activeElement.blur();
+  window.scrollTo({top:0,behavior:"smooth"});
   revealCover(); renderInfo(s); renderPips();
 }
 function fillRes(p,ok,right,you){
