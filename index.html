@@ -86,6 +86,26 @@ header{display:flex;align-items:center;justify-content:space-between;padding:6px
 #play.answered .quickres .mark{font-size:1.05rem}
 #play.answered .kind{margin-bottom:8px}
 #play.answered .controls .play,#play.answered .controls .secondary{padding:10px 12px}
+.sec h2{font-family:var(--display);font-weight:800;font-size:1.25rem;margin:36px 0 12px}
+.dec{display:grid;grid-template-columns:62px 1fr 64px;gap:10px;align-items:center;margin-bottom:10px;font-size:.92rem}
+.dec .lab{font-weight:600}
+.dec .bar{height:14px;border-radius:7px;background:var(--surf2);overflow:hidden;display:flex}
+.dec .bar span{display:block;height:100%;background:var(--ok)}
+.dec .num{text-align:right;color:var(--muted);font-variant-numeric:tabular-nums}
+.dec .num b{color:var(--ink)}
+.declegend{display:flex;gap:16px;font-size:.82rem;color:var(--muted);margin-top:4px}
+.declegend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.toplist{list-style:none;padding:0;margin:0}
+.toplist li{display:flex;gap:12px;align-items:center;padding:9px 0;border-bottom:1px solid var(--surf2)}
+.toplist img,.toplist .ph{width:44px;height:44px;border-radius:4px;object-fit:cover;flex:none;background:var(--surf)}
+.toplist .t{flex:1;min-width:0}
+.toplist .t b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.toplist .t span{font-size:.86rem;color:var(--muted)}
+.toplist .cnt{text-align:right;flex:none;font-size:.86rem;color:var(--muted)}
+.toplist .cnt b{display:block;font-family:var(--display);font-size:1.15rem;color:var(--ink)}
+.toplist .st{display:inline-block;margin-top:2px;font-size:.72rem;font-weight:700;padding:1px 7px;border-radius:999px}
+.toplist .st.k{background:rgba(123,211,137,.18);color:var(--ok)}
+.toplist .st.l{background:rgba(255,179,71,.16);color:var(--amber)}
 .knowbtn{width:100%;margin:0 0 10px;border:1.5px solid rgba(123,211,137,.6);background:rgba(123,211,137,.12);color:var(--ok);border-radius:14px;padding:13px;font-weight:700}
 
 /* The record */
@@ -178,6 +198,14 @@ header{display:flex;align-items:center;justify-content:space-between;padding:6px
     <div class="meter" id="meter" aria-hidden="true"></div>
     <div class="legend" id="legend"></div>
     <button class="primary" id="startBtn">Starta runda</button>
+    <div id="decadeSec" class="sec hidden">
+      <h2>Per årtionde</h2>
+      <div id="decades"></div>
+    </div>
+    <div id="topSec" class="sec hidden">
+      <h2>Mest repeterade</h2>
+      <ol class="toplist" id="topList"></ol>
+    </div>
     <div class="note hidden" id="demoNote">Du övar på en demolista. Lägg in dina låtar i songs.txt så dyker de upp här.</div>
   </section>
 
@@ -409,6 +437,56 @@ function renderHome(){
   parts.forEach(([label,n,c])=>{ const d=document.createElement("div"),b=document.createElement("b"),i=document.createElement("i"); b.textContent=n; i.style.background=c; d.append(b,i,label); lg.append(d); });
   $("startBtn").disabled = st.total===0;
   $("demoNote").classList.toggle("hidden",!usingDemo);
+  renderDecades(); renderTopList();
+}
+function yearOf(s){ const e=INFO[s.key]; const m=e && e.ar && String(e.ar).match(/\d{4}/); return m ? Number(m[0]) : null; }
+function renderDecades(){
+  const groups=new Map();
+  for(const s of SONGS){
+    if(P.skip[s.key]) continue;
+    const y=yearOf(s), k=y ? Math.floor(y/10)*10 : 0;
+    const g=groups.get(k)||{total:0,known:0}; g.total++;
+    const c=P.cards[s.key]; if(c && c.b>=KNOWN_LEVEL) g.known++;
+    groups.set(k,g);
+  }
+  const box=$("decades"); box.textContent="";
+  const keys=[...groups.keys()].filter(k=>k).sort((a,b)=>a-b);
+  if(groups.has(0)) keys.push(0);
+  if(!keys.length || (keys.length===1 && keys[0]===0)){ $("decadeSec").classList.add("hidden"); return; }
+  for(const k of keys){
+    const g=groups.get(k), row=document.createElement("div"); row.className="dec";
+    const lab=document.createElement("div"); lab.className="lab"; lab.textContent = k ? `${String(k).slice(2)}-tal` : "Okänt";
+    const bar=document.createElement("div"); bar.className="bar";
+    const fill=document.createElement("span"); fill.style.width=(g.known/g.total*100)+"%"; bar.append(fill);
+    const num=document.createElement("div"); num.className="num";
+    const b=document.createElement("b"); b.textContent=g.known; num.append(b, ` / ${g.total}`);
+    row.title=`${g.known} kan, ${g.total-g.known} kvar`;
+    row.append(lab,bar,num); box.append(row);
+  }
+  const lg=document.createElement("div"); lg.className="declegend";
+  [["var(--ok)","Kan"],["var(--surf2)","Kvar"]].forEach(([c,t])=>{ const d=document.createElement("span"), i=document.createElement("i"); i.style.background=c; d.append(i,t); lg.append(d); });
+  box.append(lg);
+  $("decadeSec").classList.remove("hidden");
+}
+function renderTopList(){
+  const list=SONGS.filter(s=>P.cards[s.key] && P.cards[s.key].n>=2)
+    .sort((a,b)=>P.cards[b.key].n-P.cards[a.key].n || P.cards[a.key].ok/P.cards[a.key].n-P.cards[b.key].ok/P.cards[b.key].n)
+    .slice(0,10);
+  const ol=$("topList"); ol.textContent="";
+  if(!list.length){ $("topSec").classList.add("hidden"); return; }
+  for(const s of list){
+    const c=P.cards[s.key], li=document.createElement("li");
+    const art=(R[s.key]&&R[s.key].art)||s.art;
+    let pic; if(art){ pic=document.createElement("img"); pic.src=art; pic.alt=""; } else { pic=document.createElement("div"); pic.className="ph"; }
+    const t=document.createElement("div"); t.className="t";
+    const b=document.createElement("b"); b.textContent=s.title; const sp=document.createElement("span"); sp.textContent=s.artist; t.append(b,sp);
+    const cnt=document.createElement("div"); cnt.className="cnt";
+    const n=document.createElement("b"); n.textContent=`${c.n} ggr`;
+    const st=document.createElement("span"); const known=c.b>=KNOWN_LEVEL; st.className="st "+(known?"k":"l"); st.textContent=known?"Kan":"Lär mig";
+    cnt.append(n, `${c.ok} rätt`, document.createElement("br"), st);
+    li.append(pic,t,cnt); ol.append(li);
+  }
+  $("topSec").classList.remove("hidden");
 }
 
 let round=null, current=null, answered=false, acA, acT;
@@ -540,7 +618,7 @@ function parseInfo(text){
 }
 async function loadInfo(){
   if(!location.protocol.startsWith("http")) return;
-  try{ const r=await fetch("info.txt",{cache:"no-store"}); if(!r.ok) return; INFO=parseInfo(await r.text()); save("latplugg_info_cache",INFO); }catch(e){}
+  try{ const r=await fetch("info.txt",{cache:"no-store"}); if(!r.ok) return; INFO=parseInfo(await r.text()); save("latplugg_info_cache",INFO); if(!$("home").classList.contains("hidden")) renderHome(); }catch(e){}
 }
 function sameArtist(a,b){
   const ka=[norm(a),...artistParts(a).slice(1).map(norm).filter(x=>x.length>=4)];
