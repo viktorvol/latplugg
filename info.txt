@@ -3397,3 +3397,580 @@ land: 🇺🇸 USA
 sångare: Brad Delp
 titel: Sjungs i refrängen.
 krok: Tom Scholz spelade in demon i sin källare medan han jobbade på Polaroid. Kurt Cobain har medgett att riffet i Smells Like Teen Spirit liknar den.
+
+# ---- Tillägg från Rolling Stones lista 2021 ----
+
+Missy Elliott - Get Ur Freak On
+land: 🇺🇸 USA
+år: 2001
+titel: Ropas i refrängen.
+krok: Producerad av Timbaland, med en studsande slinga på ett indiskt stränginstrument. Missy börjar låten med en fras på japanska.
+
+Fleetwood Mac - Dreams
+land: 🇬🇧🇺🇸 Storbritannien/USA
+år: 1977
+sångare: Stevie Nicks
+titel: Sjungs inte i refrängen, som handlar om att åskan bara kommer när det regnar.
+krok: Stevie Nicks skrev den på tio minuter. Bandets enda etta i USA. 2020 blev den viral igen när en man skateboardade med tranbärsjuice till den på TikTok.
+
+Beyoncé feat. Jay-Z - Crazy in Love
+land: 🇺🇸 USA
+år: 2003
+titel: Sjungs i refrängen.
+krok: Beyoncés första solosingel. Blåset kommer från en sampling av The Chi-Lites. Hon och Jay-Z gifte sig fem år senare.
+
+Robyn - Dancing on My Own
+land: 🇸🇪 Sverige
+år: 2010
+titel: Sjungs i refrängen.
+krok: Hon dansar ensam i hörnet medan hennes ex kysser någon annan. Den högst placerade låten från 2010-talet i hela listan, på plats 20.
+
+Billie Holiday - Strange Fruit
+land: 🇺🇸 USA
+år: 1939
+titel: Sjungs i texten. Den märkliga frukten är kroppar av lynchade svarta män i träden.
+krok: Skrevs som en dikt av läraren Abel Meeropol. Hennes skivbolag vågade inte ge ut den, så den släpptes på ett annat bolag.
+
+Kanye West feat. Pusha T - Runaway
+land: 🇺🇸 USA
+år: 2010
+titel: Sjungs i refrängen.
+krok: Börjar med en enda pianoton som upprepas. Kanye gjorde en halvtimmeslång film till låten, där han driver med sig själv.
+
+Joni Mitchell - A Case of You
+land: 🇨🇦 Kanada
+år: 1971
+titel: Sjungs i refrängen, där hon kan dricka en hel låda av sin älskade.
+krok: Från albumet Blue. Hon spelar appalachisk dulcimer. Prince gjorde en känd cover.
+
+Talking Heads - Once in a Lifetime
+land: 🇺🇸 USA
+år: 1980
+sångare: David Byrne
+titel: Sjungs i refrängen.
+krok: David Byrne predikar som en tv-pastor om livet i ett vackert hus med en vacker fru. I videon gör han ryckiga danssteg. Producerad av Brian Eno.
+
+Lorde - Royals
+land: 🇳🇿 Nya Zeeland
+år: 2013
+titel: Sjungs i refrängen.
+krok: Lorde var 16 år. Ordet kom från en bild på en basebollspelare i tröjan Royals. Bara fingerknäppningar och bas i kompet.
+
+The Notorious B.I.G. - Juicy
+land: 🇺🇸 USA
+år: 1994
+titel: Hörs i refrängen. Låten är mest känd för första raden om att allt var en dröm.
+krok: Biggies resa från fattigdom i Brooklyn till rikedom. Samplar funklåten Juicy Fruit med Mtume.
+
+The White Stripes - Seven Nation Army
+land: 🇺🇸 USA
+år: 2003
+sångare: Jack White
+titel: Sjungs i texten.
+krok: Riffet låter som en bas men spelas på gitarr genom en effektpedal. Det sjungs på fotbollsarenor över hela världen.
+
+OutKast - B.O.B.
+land: 🇺🇸 USA
+år: 2000
+titel: Förkortningen står för Bombs Over Baghdad, som ropas i refrängen.
+krok: Rasande snabbt tempo, med gospelkör och elgitarrsolo.
+
+Kendrick Lamar - Alright
+land: 🇺🇸 USA
+år: 2015
+titel: Sjungs i refrängen, om att det ska bli bra.
+krok: Blev en hymn för Black Lives Matter-rörelsen och sjöngs på demonstrationer. Produceras av Pharrell Williams.
+
+M.I.A. - Paper Planes
+land: 🇬🇧 Storbritannien
+år: 2007
+film: Slumdog Millionaire (2008)
+titel: Sjungs i texten.
+krok: Refrängen har ljud av skott och en kassaapparat. Samplar The Clash. M.I.A. har lankesiska rötter.
+
+Radiohead - Idioteque
+land: 🇬🇧 Storbritannien
+år: 2000
+sångare: Thom Yorke
+titel: Sjungs inte i texten.
+krok: Från albumet Kid A, när bandet gick över till elektronisk musik. Byggd på en sampling av datormusik från 1970-talet.
+
+Lauryn Hill - Doo Wop (That Thing)
+land: 🇺🇸 USA
+år: 1998
+titel: "That thing" sjungs i refrängen.
+krok: Hennes enda solo-etta i USA, från albumet The Miseducation of Lauryn Hill. Hon var med i Fugees, vars Killing Me Softly finns i listan.
+
+Daddy Yankee - Gasolina
+land: 🇵🇷 Puerto Rico
+år: 2004
+titel: Ropas i refrängen.
+krok: Reggaetonens stora genombrott i världen. Sjungs på spanska.
+
+Missy Elliott - Work It
+land: 🇺🇸 USA
+år: 2002
+titel: Sjungs i refrängen.
+krok: En rad i refrängen spelas baklänges. Producerad av Timbaland, med ljudet av en elefant.
+
+Kate Bush - Running Up That Hill
+land: 🇬🇧 Storbritannien
+år: 1985
+titel: Sjungs i refrängen.
+krok: Handlar om att byta plats med sin partner genom en pakt med Gud. Blev en enorm hit igen 2022 tack vare tv-serien Stranger Things.
+
+Earth, Wind & Fire - September
+land: 🇺🇸 USA
+år: 1978
+sångare: Maurice White
+titel: Låtens första rad, som frågar om man minns den 21:a september.
+krok: Det glada "ba-dee-ya" i refrängen betyder ingenting. Den 21 september firas av fans världen över.
+
+Taylor Swift - All Too Well
+land: 🇺🇸 USA
+år: 2012
+titel: Sjungs i refrängen.
+krok: Handlar om en halsduk hon glömde hos ett ex. En tio minuter lång version från 2021 blev den längsta låten som toppat den amerikanska listan.
+
+Beyoncé - Formation
+land: 🇺🇸 USA
+år: 2016
+titel: Sjungs i refrängen.
+krok: Släpptes dagen före Super Bowl, där hon framförde den. Videon utspelar sig i New Orleans efter orkanen Katrina.
+
+Leonard Cohen - Hallelujah
+land: 🇨🇦 Kanada
+år: 1984
+titel: Upprepas i refrängen.
+krok: Skivbolaget ville först inte ge ut albumet. Cohen skrev omkring 80 verser. Jeff Buckleys version finns också i listan, och John Cales version är med i Shrek.
+
+Pulp - Common People
+land: 🇬🇧 Storbritannien
+år: 1995
+sångare: Jarvis Cocker
+titel: Sjungs i refrängen.
+krok: Handlar om en rik grekisk konststudent som ville leva som vanligt folk. Britpopens stora hymn.
+
+Amy Winehouse - Back to Black
+land: 🇬🇧 Storbritannien
+år: 2006
+titel: Sjungs i refrängen.
+krok: Producerad av Mark Ronson, vars Uptown Funk finns i listan. Låter som 60-talets tjejgrupper. Amy dog 2011, bara 27 år gammal.
+
+Adele - Rolling in the Deep
+land: 🇬🇧 Storbritannien
+år: 2010
+titel: Sjungs i refrängen.
+krok: Skrevs dagen efter ett uppbrott. Från albumet 21, ett av 2000-talets mest sålda.
+
+LCD Soundsystem - All My Friends
+land: 🇺🇸 USA
+år: 2007
+sångare: James Murphy
+titel: Sjungs mot slutet, när han frågar var vännerna är i kväll.
+krok: Samma pianoackord hamras i över sju minuter. Om att bli för gammal för att festa.
+
+Aretha Franklin - (You Make Me Feel Like) A Natural Woman
+land: 🇺🇸 USA
+år: 1967
+titel: Sjungs i refrängen.
+krok: Skriven av Carole King och Gerry Goffin. När Aretha sjöng den för Carole King på en gala 2015 grät president Obama i publiken.
+
+UGK feat. OutKast - Int'l Players Anthem (I Choose You)
+land: 🇺🇸 USA
+år: 2007
+sångare: Pimp C, Bun B, André 3000 och Big Boi (rappare)
+titel: André säger "I choose you" i sin vers.
+krok: Samplar Willie Hutchs I Choose You. Videon är en bröllopsfest. Pimp C dog några månader senare.
+
+Kelly Clarkson - Since U Been Gone
+land: 🇺🇸 USA
+år: 2004
+titel: Sjungs i refrängen.
+krok: Kelly vann den första säsongen av American Idol. Låten skrevs av svenske Max Martin och Dr. Luke.
+
+Whitney Houston - I Will Always Love You
+land: 🇺🇸 USA
+år: 1992
+original: Dolly Parton (1974)
+film: The Bodyguard (1992)
+titel: Sjungs i refrängen.
+krok: Börjar helt utan musik, vilket var Kevin Costners idé. Tonartsbytet efter pausen är ett av popens mest kända.
+
+Oasis - Wonderwall
+land: 🇬🇧 Storbritannien
+år: 1995
+sångare: Liam Gallagher
+titel: Sjungs i refrängen.
+krok: Skriven av storebror Noel Gallagher. Titeln kommer från ett album av George Harrison.
+
+Jay-Z - 99 Problems
+land: 🇺🇸 USA
+år: 2004
+titel: Sjungs i refrängen.
+krok: Producerad av Rick Rubin med rockgitarr. En vers handlar om att bli stoppad av polisen. Refrängen lånades från Ice-T.
+
+Patti Smith - Gloria
+land: 🇺🇸 USA
+år: 1975
+original: Them (1964), som också finns i listan
+titel: Namnet bokstaveras i refrängen.
+krok: Börjar med en provocerande rad om att Jesus inte dog för hennes synder. Omslaget till albumet Horses fotograferades av Robert Mapplethorpe.
+
+Yeah Yeah Yeahs - Maps
+land: 🇺🇸 USA
+år: 2003
+sångare: Karen O
+titel: Sjungs inte i texten.
+krok: Titeln sägs stå för "My Angus Please Stay", till hennes pojkvän. Karen O grät på riktigt i videon eftersom han var sen till inspelningen.
+
+Alanis Morissette - You Oughta Know
+land: 🇨🇦 Kanada
+år: 1995
+titel: Sjungs i refrängen.
+krok: En rasande låt till ett ex. Flea och Dave Navarro från Red Hot Chili Peppers spelar på inspelningen.
+
+David Bowie - Life on Mars?
+land: 🇬🇧 Storbritannien
+år: 1971
+titel: Sjungs i refrängen som en fråga.
+krok: Bowie skrev den som en parodi på My Way, efter att han förlorat chansen att skriva engelsk text till samma franska melodi. Rick Wakeman spelar piano.
+
+Wu-Tang Clan - C.R.E.A.M.
+land: 🇺🇸 USA
+år: 1993
+sångare: Raekwon och Inspectah Deck (rappare)
+titel: Förkortningen, Cash Rules Everything Around Me, ropas i refrängen.
+krok: Samplar en soulballad med The Charmels. Om att växa upp fattig i New York.
+
+Britney Spears - Toxic
+land: 🇺🇸 USA
+år: 2003
+titel: Sjungs i refrängen.
+krok: Stråkarna är inspirerade av en Bollywoodlåt. Skriven av det svenska producentparet Bloodshy & Avant, och gav Britney hennes första Grammy.
+
+Etta James - At Last
+land: 🇺🇸 USA
+år: 1960
+original: Glenn Miller Orchestra (1941)
+titel: Låtens första ord.
+krok: En av världens vanligaste bröllopslåtar. Beyoncé sjöng den på Barack Obamas installationsbal 2009.
+
+Rob Base and DJ E-Z Rock - It Takes Two
+land: 🇺🇸 USA
+år: 1988
+titel: Sjungs i refrängen.
+krok: Bygger på ett "woo! yeah!"-rop samplat från Lyn Collins låt Think.
+
+Aretha Franklin - I Say a Little Prayer
+land: 🇺🇸 USA
+år: 1968
+original: Dionne Warwick (1967)
+film: Min bästa väns bröllop (1997)
+titel: Sjungs i refrängen.
+krok: Skriven av Burt Bacharach och Hal David. Aretha spelade in den som B-sida, men den blev en av hennes största hits.
+
+Radiohead - Creep
+land: 🇬🇧 Storbritannien
+år: 1992
+sångare: Thom Yorke
+titel: Sjungs i refrängen.
+krok: Jonny Greenwood försökte förstöra låten med de skrapande gitarrslagen före refrängen. Likheten med The Hollies The Air That I Breathe gjorde att dess låtskrivare fick stå med.
+
+X-Ray Spex - Oh Bondage Up Yours!
+land: 🇬🇧 Storbritannien
+år: 1977
+sångare: Poly Styrene
+titel: Ropas i refrängen.
+krok: Börjar med att hon säger att små flickor ska synas men inte höras, och skriker sedan titeln. Poly Styrene var 19 år och hade tandställning.
+
+Talking Heads - This Must Be the Place (Naive Melody)
+land: 🇺🇸 USA
+år: 1983
+sångare: David Byrne
+titel: Sjungs inte i texten.
+krok: Bandmedlemmarna bytte instrument med varandra, därav den naiva melodin. En av David Byrnes få raka kärlekslåtar.
+
+George Michael - Freedom! '90
+land: 🇬🇧 Storbritannien
+år: 1990
+titel: Ropas i refrängen.
+krok: George vägrade vara med i videon, så supermodeller som Naomi Campbell och Cindy Crawford mimar i stället. Läderjackan från hans tidigare image brinner upp.
+
+TLC - Waterfalls
+land: 🇺🇸 USA
+år: 1995
+sångare: T-Boz, Chilli och Left Eye
+titel: Sjungs i refrängen, om att inte jaga vattenfall.
+krok: Handlar om droghandel och hiv, ovanligt allvarligt för en stor pophit.
+
+Drake - Hold On, We're Going Home
+land: 🇨🇦 Kanada
+år: 2013
+titel: Sjungs i refrängen.
+krok: Låter som mjuk 80-talspop. Gjord med duon Majid Jordan.
+
+Eric B. and Rakim - Paid in Full
+land: 🇺🇸 USA
+år: 1987
+sångare: Rakim (rappare)
+titel: Sägs i texten.
+krok: En remix av Coldcut med israeliska sångerskan Ofra Haza blev den stora hiten i Europa.
+
+Journey - Don't Stop Believin'
+land: 🇺🇸 USA
+år: 1981
+sångare: Steve Perry
+titel: Refrängen kommer först i slutet av låten.
+krok: Om en småstadsflicka och en stadskille som tar nattåget. Spelades i sista scenen av tv-serien Sopranos.
+
+Ariana Grande - thank u, next
+land: 🇺🇸 USA
+år: 2018
+titel: Sjungs i refrängen.
+krok: Hon räknar upp sina ex vid namn och tackar dem. Videon hyllar filmer som Mean Girls och Legally Blonde.
+
+Madonna - Vogue
+land: 🇺🇸 USA
+år: 1990
+titel: Sjungs i refrängen.
+krok: Mitt i låten räknar hon upp gamla Hollywoodstjärnor. Dansen kommer från New Yorks ballroom-scen, och den svartvita videon regisserades av David Fincher.
+
+OutKast - Ms. Jackson
+land: 🇺🇸 USA
+år: 2000
+titel: Sjungs i refrängen, som en ursäkt.
+krok: André 3000 ber om ursäkt till mamman till sitt ex Erykah Badu, vars Tyrone finns i listan.
+
+Green Day - Basket Case
+land: 🇺🇸 USA
+år: 1994
+sångare: Billie Joe Armstrong
+titel: Sjungs i texten.
+krok: Billie Joe skrev den om sina panikattacker. Videon spelades in på ett nedlagt mentalsjukhus.
+
+The Strokes - Last Nite
+land: 🇺🇸 USA
+år: 2001
+sångare: Julian Casablancas
+titel: Sjungs i texten.
+krok: Riffet liknar Tom Pettys American Girl, som också finns i listan, och Petty skämtade om det.
+
+Sonic Youth - Teen Age Riot
+land: 🇺🇸 USA
+år: 1988
+sångare: Thurston Moore och Kim Gordon
+titel: Sjungs inte i texten.
+krok: Föreställer sig gitarristen J Mascis från Dinosaur Jr. som president.
+
+The Meters - Cissy Strut
+land: 🇺🇸 USA
+år: 1969
+titel: Instrumental, ingen text.
+krok: Funk från New Orleans som har samplats otaliga gånger. The Meters var husband åt låtskrivaren Allen Toussaint.
+
+R.E.M. - Nightswimming
+land: 🇺🇸 USA
+år: 1992
+sångare: Michael Stipe
+titel: Låtens första ord.
+krok: Pianot spelas av basisten Mike Mills, och en oboe hörs. Minnen av att bada naken om natten som ung.
+
+Madonna - Into the Groove
+land: 🇺🇸 USA
+år: 1985
+film: Desperately Seeking Susan (1985)
+titel: Sjungs i refrängen.
+krok: Blev etta i Storbritannien men släpptes aldrig som egen singel i USA.
+
+Nick Drake - Pink Moon
+land: 🇬🇧 Storbritannien
+år: 1972
+titel: Sjungs i texten.
+krok: Blev känd först 1999, 25 år efter hans död, när den användes i en reklamfilm för Volkswagen.
+
+Fleetwood Mac - Landslide
+land: 🇬🇧🇺🇸 Storbritannien/USA
+år: 1975
+sångare: Stevie Nicks
+titel: Sjungs i texten.
+krok: Stevie skrev den i Aspen när hon funderade på att ge upp musiken. Smashing Pumpkins och Dixie Chicks gjorde covers.
+
+Tom Petty and the Heartbreakers - American Girl
+land: 🇺🇸 USA
+år: 1976
+film: När lammen tystnar (1991), när offret sjunger med i bilen
+titel: Sjungs i refrängen.
+krok: Klingande gitarrer som påminner om The Byrds. The Strokes Last Nite har ett liknande riff.
+
+Louis Armstrong - What a Wonderful World
+land: 🇺🇸 USA
+år: 1967
+film: Good Morning, Vietnam (1987)
+titel: Avslutar verserna.
+krok: Floppade först i USA men blev etta i Storbritannien. Se upp, det är inte Sam Cookes Wonderful World.
+
+Nina Simone - Mississippi Goddam
+land: 🇺🇸 USA
+år: 1964
+titel: Sjungs i refrängen.
+krok: Skrevs på en timme efter mordet på medborgarrättsaktivisten Medgar Evers och bombdådet mot en kyrka i Alabama. Låter som en glad musikallåt men är en arg protest.
+
+Van Halen - Jump
+land: 🇺🇸 USA
+år: 1983
+sångare: David Lee Roth
+titel: Ropas i refrängen.
+krok: Eddie Van Halen spelar riffet på synt i stället för gitarr. Bandets enda etta i USA.
+
+Billie Eilish - bad guy
+land: 🇺🇸 USA
+år: 2019
+titel: Sjungs i refrängen.
+krok: Gjord med brodern Finneas i hans sovrum. Petade Old Town Road, som också finns i listan, från förstaplatsen efter 19 veckor.
+
+David Bowie - Space Oddity
+land: 🇬🇧 Storbritannien
+år: 1969
+titel: Sjungs inte i texten. Låten handlar om astronauten Major Tom.
+krok: Släpptes dagar före den första månlandningen. Astronauten Chris Hadfield spelade in den på rymdstationen ISS 2013.
+
+Geto Boys - Mind Playing Tricks on Me
+land: 🇺🇸 USA
+år: 1991
+sångare: Scarface, Willie D och Bushwick Bill (rappare)
+titel: Sjungs i refrängen.
+krok: En paranoid skräckskildring i rapform, byggd på en sampling av Isaac Hayes.
+
+PJ Harvey - Rid of Me
+land: 🇬🇧 Storbritannien
+år: 1993
+titel: Sjungs i texten.
+krok: Börjar viskande och slutar i skrik. Producerad av Steve Albini, som också producerade Nirvana.
+
+Ann Peebles - I Can't Stand the Rain
+land: 🇺🇸 USA
+år: 1973
+titel: Låtens första ord.
+krok: John Lennon kallade den en av de bästa låtarna någonsin. Det som låter som regndroppar är elektroniska trummor. Tina Turner gjorde en cover.
+
+Stevie Wonder - Signed, Sealed, Delivered I'm Yours
+land: 🇺🇸 USA
+år: 1970
+titel: Sjungs i refrängen.
+krok: Den första låten Stevie producerade själv. Barack Obama använde den som kampanjlåt 2008.
+
+Britney Spears - ...Baby One More Time
+land: 🇺🇸 USA
+år: 1998
+titel: Sjungs i refrängen.
+krok: Skrevs av svenske Max Martin och spelades in i Stockholm. Erbjöds först till TLC. Videon med skoluniformen blev ikonisk.
+
+Rage Against the Machine - Killing in the Name
+land: 🇺🇸 USA
+år: 1992
+sångare: Zack de la Rocha
+titel: Sjungs i texten.
+krok: Slutar med en upprepad svordom. En kampanj 2009 gjorde den till julsingeletta i Storbritannien, före vinnaren av X Factor.
+
+Hole - Doll Parts
+land: 🇺🇸 USA
+år: 1994
+sångare: Courtney Love
+titel: Sjungs i texten.
+krok: Courtney Love skrev den om när hon träffade Kurt Cobain. Albumet släpptes veckan efter hans död.
+
+Steely Dan - Deacon Blues
+land: 🇺🇸 USA
+år: 1977
+sångare: Donald Fagen
+titel: Sjungs i refrängen.
+krok: Från albumet Aja, med jazzig och perfekt polerad studiorock. Om en förlorare som drömmer om att bli saxofonist.
+
+Mobb Deep - Shook Ones, Part II
+land: 🇺🇸 USA
+år: 1995
+sångare: Prodigy och Havoc (rappare)
+film: 8 Mile (2002), i den sista rapbattlen
+titel: Sjungs i refrängen.
+krok: Känns igen på den kusliga pianoslingan.
+
+Stevie Nicks - Edge of Seventeen
+land: 🇺🇸 USA
+år: 1981
+titel: Sjungs inte i texten.
+krok: Titeln kom från Tom Pettys fru, som sa "age of seventeen" med så tjock sydstatsaccent att det lät som edge. Känns igen på det malande gitarriffet. Stevie var också sångerska i Fleetwood Mac.
+
+The Smiths - There Is a Light That Never Goes Out
+land: 🇬🇧 Storbritannien
+år: 1986
+sångare: Morrissey
+titel: Upprepas i slutet av låten.
+krok: En romantisk låt om att det vore underbart att dö tillsammans, krossad av en dubbeldäckare.
+
+Beyoncé - Single Ladies (Put a Ring on It)
+land: 🇺🇸 USA
+år: 2008
+titel: Sjungs i refrängen.
+krok: Den svartvita videons dans blev en världsfluga. Kanye West avbröt Taylor Swifts tacktal på MTV-galan 2009 för att hylla videon.
+
+Woody Guthrie - This Land Is Your Land
+land: 🇺🇸 USA
+år: 1944
+titel: Låtens första ord.
+krok: Skrevs som ett svar på Irving Berlins God Bless America. På Woody Guthries gitarr stod det att maskinen dödar fascister.
+
+Whitney Houston - I Wanna Dance with Somebody (Who Loves Me)
+land: 🇺🇸 USA
+år: 1987
+film: I Wanna Dance with Somebody (2022), filmen om hennes liv
+titel: Sjungs i refrängen.
+krok: En glad danslåt om ensamhet. Den gav henne en av hennes elva ettor i USA.
+
+Deee-Lite - Groove Is in the Heart
+land: 🇺🇸 USA
+år: 1990
+sångare: Lady Miss Kier
+titel: Sjungs i refrängen.
+krok: Bootsy Collins och Q-Tip från A Tribe Called Quest gästar. En färgsprakande videoklassiker.
+
+New Order - Blue Monday
+land: 🇬🇧 Storbritannien
+år: 1983
+sångare: Bernard Sumner
+titel: Sjungs inte i texten.
+krok: Världens mest sålda maxisingel. Det utstansade omslaget var så dyrt att bandet förlorade pengar på varje såld skiva.
+
+Aaliyah - Are You That Somebody?
+land: 🇺🇸 USA
+år: 1998
+film: Dr. Dolittle (1998)
+titel: Sjungs i refrängen som en fråga.
+krok: Timbalands takt innehåller ljudet av ett jollrande barn. Aaliyah dog i en flygolycka 2001, 22 år gammal.
+
+Backstreet Boys - I Want It That Way
+land: 🇺🇸 USA
+år: 1999
+titel: Sjungs i refrängen.
+krok: Skriven av svenskarna Max Martin och Andreas Carlsson och inspelad i Stockholm. Texten är känd för att inte riktigt gå ihop.
+
+Digital Underground - The Humpty Dance
+land: 🇺🇸 USA
+år: 1990
+sångare: Shock G som Humpty Hump
+titel: Sägs i texten.
+krok: Humpty Hump var Shock G:s alter ego med lösnäsa. Tupac Shakur började som roddare och dansare i gruppen.
+
+Faces - Ooh La La
+land: 🇬🇧 Storbritannien
+år: 1973
+sångare: Ronnie Wood
+film: Rushmore (1998), i slutscenen
+titel: Sjungs i refrängen.
+krok: Sjungs av gitarristen Ronnie Wood, inte av bandets sångare Rod Stewart. Om att man önskar att man vetat det man vet nu när man var ung.
+
+Joni Mitchell - River
+land: 🇨🇦 Kanada
+år: 1971
+titel: Sjungs i refrängen, där hon önskar en flod att åka skridskor bort på.
+krok: Börjar med Bjällerklang spelat på piano i moll, och har blivit en sorgsen julklassiker.
